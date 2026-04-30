@@ -39,7 +39,7 @@ For EACH matching entry:
 | **Min. Investment** | [minInvestment] |
 | **Min. Presence** | [minimumPresence] |
 | **Time to Citizenship** | [timeToCitizenship] |
-| **Visa-Free Access** | [visaFreeAccess] countries |
+| **Visa-Free Travel** | [visaFreeAccess — verbatim; field already reads like \"N countries\"] |
 
 ### Requirements
 [list each item from requirements array as bullet point]
