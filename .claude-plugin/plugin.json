@@ -1,0 +1,22 @@
+{
+  "name": "polystate",
+  "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Instant visa checks, crypto-tax comparisons, residency programs, and jurisdiction scoring — powered by Polystate.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Polystate",
+    "url": "https://polystate.io"
+  },
+  "homepage": "https://polystate.io",
+  "repository": "https://github.com/Spider333/polystate-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "immigration",
+    "visa",
+    "tax",
+    "crypto-tax",
+    "residency",
+    "nomad",
+    "jurisdiction",
+    "sovereignty"
+  ]
+}

@@ -1,0 +1,684 @@
+[
+  {
+    "country": "Paraguay - Temporary Residency",
+    "minInvestment": "None",
+    "timeToCitizenship": "2 years temporary + 3 years permanent (Constitution requires 3 years 'radicación' in national territory — no published day-count threshold; adviser heuristic of '9 months/year' is not codified)",
+    "minimumPresence": "1 day per year",
+    "requirements": [
+      "Be in Paraguay to obtain residency",
+      "File tax return monthly to keep tax residency",
+      "Criminal record 5 years apostilled and translated to Spanish",
+      "Birth certificate apostilled and translated to Spanish"
+    ],
+    "benefits": [
+      "Path to permanent residency in 2 years",
+      "Path to citizenship after 5 years total",
+      "Low presence needed - 1 visit a year",
+      "Access to Driver Licence",
+      "Access to local banks",
+      "0% tax on foreign income (territorial tax system — only local income taxed at 10%)",
+      "Non-CRS reporting country (OECD lists Paraguay for first CRS exchanges by 2027 — some commentary suggests data exchange may begin 2028; status transitional)"
+    ],
+    "visaFreeAccess": "140 countries",
+    "sources": [
+      "https://www.migraciones.gov.py — Paraguayan Directorate General of Migration",
+      "https://www.set.gov.py — Paraguayan Tax Authority (SET)",
+      "https://www.oecd.org/en/networks/global-forum-tax-transparency/resources/aeoi-implementation-portal/crs-by-jurisdiction.html — OECD CRS implementation status"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Paraguay - Permanent Residency",
+    "minInvestment": "None (via 2-year TR path) or PYG 300,000,000 (~USD 70,000) via SUACE investor route in real estate/business/agriculture",
+    "timeToCitizenship": "3 years of PR (Constitution requires 'radicación' — no published day-count; adviser shorthand of '9 months/year' is not in legal text)",
+    "minimumPresence": "1 day every 3 years",
+    "requirements": [
+      "Be temporary resident for at least two years OR invest PYG 300,000,000 (~USD 70,000) via SUACE in real estate, business, or agriculture (SUACE manual — Law 6984/22)",
+      "A sworn statement outlining the investment plan over 10 years, showing job creation or economic benefits (if investment route)",
+      "File tax return monthly to keep tax residency",
+      "Criminal record 5 years apostilled and translated to Spanish",
+      "Birth certificate apostilled and translated to Spanish"
+    ],
+    "benefits": [
+      "Low presence needed - 1 visit in 3 years",
+      "Citizenship after 3 years of PR",
+      "Access to Driver Licence",
+      "Access to local banks",
+      "Non-CRS reporting country (OECD lists Paraguay for first CRS exchanges by 2027; status transitional)",
+      "0% tax on foreign income or crypto (territorial tax system)"
+    ],
+    "visaFreeAccess": "140 countries",
+    "sources": [
+      "https://www.migraciones.gov.py — Paraguayan Directorate General of Migration",
+      "https://www.set.gov.py — Paraguayan Tax Authority (SET)",
+      "https://www.suace.gov.py — SUACE (one-stop shop for business/investment registration, Law 6984/22)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Panama",
+    "minInvestment": "$0 via company route (Friendly Nations). Alternatives: $200k property/deposit (Friendly Nations), or $300k-$500k+ Qualified Investor (separate programme, higher thresholds).",
+    "timeToCitizenship": "~7 years (2 years provisional + 5 years residence per Constitution). Panama's Constitution requires express renunciation of original nationality for naturalisation — in practice hostile to dual citizenship, though enforcement varies.",
+    "minimumPresence": "1 day every 2 years",
+    "requirements": [
+      "Valid passport and apostilled criminal record",
+      "Panama bank account (≥$5k balance with references)",
+      "5 passport photos",
+      "One qualifying basis: company incorporation OR property ≥$200k OR bank deposit ≥$200k (3-year term) OR pension ≥$1,000/month",
+      "Apostilled marriage/birth certificates for dependents",
+      "Must be from one of 50 designated 'Friendly Nations'"
+    ],
+    "benefits": [
+      "Territorial tax (0% on foreign income)",
+      "Strong banking and asset protection",
+      "Low physical presence requirement",
+      "Access to Panamanian ID and driver's license",
+      "Clear path to permanent residency and citizenship",
+      "Regional business hub"
+    ],
+    "visaFreeAccess": "143 countries",
+    "sources": [
+      "https://www.migracion.gob.pa — Panamanian National Immigration Service",
+      "https://www.mire.gob.pa — Panamanian Ministry of Foreign Affairs",
+      "https://www.tribunal-electoral.gob.pa — Panama Electoral Tribunal (citizenship/nationality)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Uruguay - Mercosur",
+    "minInvestment": "None",
+    "timeToCitizenship": "3 years (with family in the Republic) or 5 years (without family) per Constitution — clock starts from application date, not approval. NB: 'family' is broader than 'married'; includes children.",
+    "minimumPresence": "6 months per year",
+    "requirements": [
+      "Valid passport or national ID from a Mercosur country",
+      "Proof of Income (A minimum of 2k USD a month is recommended)",
+      "Birth certificate",
+      "Criminal record certificate for the last 5 years apostilled and translated"
+    ],
+    "benefits": [
+      "Tax Holiday: DGI describes regime as '10 + 1' fiscal years (year of residency change + 10 following years) — effectively 11 fiscal years of exemption on foreign dividends, interest, and capital gains",
+      "Fast track to second citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gub.uy/tramites — Uruguayan Government services portal",
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
+      "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Uruguay - Investor Visa",
+    "minInvestment": "525k USD",
+    "timeToCitizenship": "3 years (with family in the Republic) or 5 years (without family) per Constitution — clock starts from application date",
+    "minimumPresence": "6 months per year",
+    "requirements": [
+      "Certified documentation of investment",
+      "Business plan",
+      "Criminal record certificate for the last 5 years apostilled and translated"
+    ],
+    "benefits": [
+      "Tax Holiday: DGI '10 + 1' regime — year of residency change + 10 following fiscal years exempt on foreign dividends, interest, capital gains",
+      "Fast track to second citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gub.uy/tramites — Uruguayan Government services portal",
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
+      "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Uruguay - Independent Means Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "3 years (with family in the Republic) or 5 years (without family) per Constitution — clock starts from application date",
+    "minimumPresence": "6 months per year",
+    "requirements": [
+      "Proof of at least USD 1,500/month in passive income from abroad",
+      "Bank statements for the last 3 months",
+      "Criminal record certificate for the last 5 years apostilled and translated"
+    ],
+    "benefits": [
+      "Tax Holiday: DGI '10 + 1' regime — year of residency change + 10 following fiscal years exempt on foreign dividends, interest, capital gains",
+      "Fast track to second citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gub.uy/tramites — Uruguayan Government services portal",
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
+      "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Uruguay - Retirement Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "3 years (with family in the Republic) or 5 years (without family) per Constitution — clock starts from application date",
+    "minimumPresence": "6 months per year",
+    "requirements": [
+      "Proof of steady income from retirement (typically USD 1,500/month or more)",
+      "Health certificate and proof of pension",
+      "Criminal record certificate for the last 5 years apostilled and translated"
+    ],
+    "benefits": [
+      "Tax Holiday: DGI '10 + 1' regime — year of residency change + 10 following fiscal years exempt on foreign dividends, interest, capital gains",
+      "Fast track to second citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gub.uy/tramites — Uruguayan Government services portal",
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
+      "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Uruguay - Digital Nomad Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "DN visa is 6 months + 6 months renewal (Decree 238/022), then can transition to TR/PR. Citizenship: 3 years (with family) or 5 years (without family) from application date.",
+    "minimumPresence": "6 months per year",
+    "requirements": [
+      "Proof of steady income from abroad (minimum USD 1,500/month)",
+      "Sworn statement confirming remote work",
+      "Criminal record certificate for the last 5 years apostilled and translated"
+    ],
+    "benefits": [
+      "Tax Holiday: DGI '10 + 1' regime applies if you become tax resident — year of residency change + 10 following fiscal years exempt on foreign dividends, interest, capital gains",
+      "Foreign-source income generally not subject to tax while on DN visa (under 183 days)",
+      "Can transition to temporary or permanent residency"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gub.uy/tramites — Uruguayan Government services portal",
+      "https://www.liveinuruguay.uy/digitalnomadpermit — Official DN permit info (Decree 238/022)",
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Argentina - Rentista",
+    "minInvestment": "None",
+    "timeToCitizenship": "2 years of continuous legal residence (must be present 183+ days/year)",
+    "minimumPresence": "6 months per year on TR, 1 day every 2 years on PR",
+    "requirements": [
+      "Proof of regular passive income from abroad (e.g., pension, rental, investments) — official portal says 'ingreso regular' without publishing a numeric monthly minimum; adviser heuristic is ~USD 2,000/mo but this is NOT an official threshold",
+      "Bank statements for the last 3 months",
+      "Sworn statement confirming legality and continuity of income",
+      "Criminal record certificate",
+      "Health certificate"
+    ],
+    "benefits": [
+      "Fast track to second citizenship (2 years — one of the fastest in the world)",
+      "Citizenship by Investment framework exists (Decree 524/2025) — but Ministry of Economy has not yet published the 'relevant investment' criteria or numeric minimum; $500k figure is industry speculation"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.argentina.gob.ar/interior/migraciones — Argentine National Migration Directorate",
+      "https://www.argentina.gob.ar/afip — Argentine Federal Tax Administration (AFIP)",
+      "https://www.cancilleria.gob.ar — Argentine Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Argentina - Investor",
+    "minInvestment": "ARS 1,500,000 (~USD 1,500-2,000 — highly volatile with ARS exchange rate, verify at time of application)",
+    "timeToCitizenship": "2 years",
+    "minimumPresence": "6 months per year on TR, 1 day every 2 years on PR",
+    "requirements": [
+      "Minimum investment of ARS 1,500,000 in a local business, project, or property",
+      "Certified documentation of investment (notary/public accountant)",
+      "Business plan",
+      "Criminal record certificate",
+      "Health certificate"
+    ],
+    "benefits": [
+      "Fast track to second citizenship (2 years)",
+      "Very low investment threshold in USD terms due to exchange rate",
+      "Citizenship by Investment framework exists (Decree 524/2025) — Ministry of Economy has not yet published the minimum investment criteria"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.argentina.gob.ar/interior/migraciones — Argentine National Migration Directorate",
+      "https://www.argentina.gob.ar/afip — Argentine Federal Tax Administration (AFIP)",
+      "https://www.cancilleria.gob.ar — Argentine Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Colombia - Business Partner",
+    "minInvestment": "100 SMLMV (COP 175,090,500 in 2026 / ~USD 47,300 — per Resolution 5477/2022; USD equivalent depends on COP/USD rate). CAUTION: 2026 SMLMV decree under Council of State legal challenge; treat as temporally unstable.",
+    "timeToCitizenship": "2-5 years",
+    "minimumPresence": "1 day every 180 days on TR",
+    "requirements": [
+      "Minimum investment of 100 SMLMV in a Colombian company - Name, address, NIT, business activity, proof of shareholding signed by a public accountant (Resolution 5477/2022)",
+      "No Criminal Record Certificate - past 3 years apostilled/legalized and translated if needed",
+      "Health insurance valid in Colombia"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "133 countries",
+    "sources": [
+      "https://www.cancilleria.gov.co — Colombian Ministry of Foreign Affairs (visa authority, Resolution 5477/2022)",
+      "https://www.migracioncolombia.gov.co — Colombian Migration Authority",
+      "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Colombia - Real Estate Investor",
+    "minInvestment": "350 SMLMV (COP 612,816,750 in 2026 / ~USD 161,300 — per Resolution 5477/2022; USD equivalent depends on COP/USD rate). CAUTION: 2026 SMLMV decree under legal challenge.",
+    "timeToCitizenship": "2-5 years",
+    "minimumPresence": "1 day every 180 days on TR",
+    "requirements": [
+      "Minimum property investment of 350 SMLMV as registered foreign direct investment, Proof of ownership - Certificate of Tradition and Freedom (Resolution 5477/2022)",
+      "Bank statements - Last 3 months showing solvency (USD 1,000/month)",
+      "No Criminal Record Certificate - past 3 years apostilled/legalized and translated if needed",
+      "Health insurance valid in Colombia"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "133 countries",
+    "sources": [
+      "https://www.cancilleria.gov.co — Colombian Ministry of Foreign Affairs (visa authority, Resolution 5477/2022)",
+      "https://www.migracioncolombia.gov.co — Colombian Migration Authority",
+      "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Colombia - Digital Nomad Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "2-5 years",
+    "minimumPresence": "1 day every 180 days on TR",
+    "requirements": [
+      "Remote work contract with a foreign (non-Colombian) company",
+      "Minimum income of 3 SMLMV (COP 5,252,715 / ~USD 1,400/month in 2026 — per Resolution 5477/2022; recalculated annually with SMLMV). CAUTION: 2026 SMLMV decree under legal challenge; COP/USD conversion approximate.",
+      "Proof of income 3 months of bank statements or payslips",
+      "No Criminal Record Certificate - past 3 years apostilled/legalized and translated if needed",
+      "Health insurance valid in Colombia"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Simple path to citizenship",
+      "NOTE: 2026 SMLMV increase of 23% significantly raised all visa thresholds"
+    ],
+    "visaFreeAccess": "133 countries",
+    "sources": [
+      "https://www.cancilleria.gov.co — Colombian Ministry of Foreign Affairs (visa authority, Resolution 5477/2022)",
+      "https://www.migracioncolombia.gov.co — Colombian Migration Authority",
+      "https://colombiavisas.com — Colombia visa news and updates"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Colombia - Mercosur Residency",
+    "minInvestment": "None",
+    "timeToCitizenship": "2-5 years",
+    "minimumPresence": "1 day every 180 days on TR",
+    "requirements": [
+      "Nationality from a Mercosur or associate country, Proof of citizenship a valid ID or passport, Birth certificate apostilled/legalized and translated if needed",
+      "No Criminal Record Certificate - past 3 years apostilled/legalized and translated if needed",
+      "Health insurance valid in Colombia"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "133 countries",
+    "sources": [
+      "https://www.cancilleria.gov.co — Colombian Ministry of Foreign Affairs (visa authority)",
+      "https://www.migracioncolombia.gov.co — Colombian Migration Authority",
+      "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Chile - Retirement Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "5 years total (retirement visa + permanent residency). Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022): the old 180-day figure was tied to tax residency, not an immigration minimum. Official sources do not publish a clear immigration presence rule. 1 day a year on PR.",
+    "requirements": [
+      "Proof of stable recurring income from pensions, rentals, or investments — Chile does not publish an official numeric minimum; adviser shorthand is ~USD 1,000-1,500/month but this is not codified. Lump sums no longer qualifying under 2022 law.",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest (183-day tax residency threshold applies)",
+      "Simple path to citizenship",
+      "Entire application process is online — no initial visit required"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Investor Visa",
+    "minInvestment": "100k USD (adviser recommendation — verify official threshold; no single official USD figure published)",
+    "timeToCitizenship": "5 years total. Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022). 1 day a year on PR.",
+    "requirements": [
+      "Recommended investment of USD 100,000+ in a Chilean business, property, or project, business plan or investment outline, proof of economic contribution (job creation, tax generation, etc.)",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Work Contract Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "5 years total. Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022). 1 day a year on PR.",
+    "requirements": [
+      "Signed and notarized job contract with a Chilean employer, letter from the employer justifying the role and salary (must meet minimum wage: ~USD 520/month), proof of qualifications (degree or experience)",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Student Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "5 years total. Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022). 1 day a year on PR.",
+    "requirements": [
+      "Acceptance letter from a recognized Chilean institution",
+      "Proof of funds (recommended: USD 800/month — adviser heuristic, not official threshold)",
+      "Private health insurance valid in Chile",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Temporary Residency Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "5 years total. Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022). 1 day a year on PR.",
+    "requirements": [
+      "Proof of family ties, investment, or professional value to Chile, supporting documents (marriage, birth certificates, business registration, etc.), bank statements showing ~USD 1,000/month in available funds (adviser heuristic)",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Mercosur Residency Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "5 years total. Chile recognizes dual citizenship.",
+    "minimumPresence": "Unclear after Law 21.325 (2022). 1 day a year on PR.",
+    "requirements": [
+      "Passport or ID from a Mercosur or associate country, Apostilled birth certificate (if not in Spanish/Portuguese, translation required)",
+      "Criminal background check from your country of residence",
+      "Medical certificate showing good health (issued within 90 days)"
+    ],
+    "benefits": [
+      "3-year tax exemption on foreign dividends and interest",
+      "Simple path to citizenship"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.extranjeria.gob.cl — Chilean Department of Immigration and Migration",
+      "https://www.sii.cl — Chilean Internal Revenue Service (SII)",
+      "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Brazil - Investor Visa",
+    "minInvestment": "BRL 500,000 minimum for business investment in a Brazilian legal entity (per RN 13/2017 consular guidance). Regional real estate thresholds differ: BRL 700k North/Northeast, BRL 1M elsewhere. Tech/R&D: BRL 150k.",
+    "timeToCitizenship": "4 years",
+    "minimumPresence": "1 day per year on TR, 1 day every 2 years on PR",
+    "requirements": [
+      "Investment Options: BRL 700,000 (USD ~127,000) in North/Northeast (Real Estate), BRL 1,000,000 (USD ~182,000) in other regions (Real Estate), BRL 500,000 (USD ~90,500) individually or BRL 600,000 (USD ~108,000) through a legal entity (Business), BRL 150,000 (USD ~27,000) in technology or R&D",
+      "Investment registered with the Central Bank of Brazil",
+      "Company incorporation papers or property deeds",
+      "Proof of economic benefit (e.g., job creation, sector relevance)",
+      "Criminal record certificate from your country of residence (past 5 years)",
+      "Health insurance valid in Brazil"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Bring your family - most residency categories allow you to include your spouse and dependents"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/migracao — Brazilian Ministry of Justice, Migration",
+      "https://www.gov.br/mre/pt-br — Brazilian Ministry of Foreign Affairs (Itamaraty, consular guidance RN 13/2017)",
+      "https://www.gov.br/pf/pt-br — Brazilian Federal Police (registration)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Brazil - Digital Nomad Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "DN visa (VITEM XIV) is temporary by design — 1 year + 1 year renewal (max 2 years). It is not a built-in PR pipeline, though status change to other visa grounds is possible. Standard PR/citizenship path: 4 years continuous residency via a qualifying visa type.",
+    "minimumPresence": "1 day per year on TR, 1 day every 2 years on PR",
+    "requirements": [
+      "Proof of remote work with a foreign company or client",
+      "Minimum USD 1,500/month income or USD 18,000 in savings",
+      "Private health insurance",
+      "Registration with the Federal Police within 90 days of arrival",
+      "Criminal record certificate from your country of residence (past 5 years)",
+      "Health insurance valid in Brazil"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Bring your family - most residency categories allow you to include your spouse and dependents",
+      "Valid for 1 year + 1 year renewal (max 2 years total)",
+      "Growing program — 3,800+ applications processed in Q3 2025 alone (up 47%)"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/migracao — Brazilian Ministry of Justice, Migration",
+      "https://visitbrasil.com/en/location/digitalnomads/ — Official Brazil DN visa info",
+      "https://www.gov.br/pf/pt-br — Brazilian Federal Police (registration)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Brazil - CPLP Residency",
+    "minInvestment": "None",
+    "timeToCitizenship": "4 years",
+    "minimumPresence": "1 day per year on TR, 1 day every 2 years on PR",
+    "requirements": [
+      "Citizenship from a Portuguese-speaking country (Portugal, Angola, Mozambique, etc.)",
+      "Valid passport or national ID",
+      "Sworn statement of intent to reside in Brazil",
+      "Proof of funds (~USD 1,000/month) may be requested",
+      "Criminal record certificate from your country of residence (past 5 years)",
+      "Health insurance valid in Brazil"
+    ],
+    "benefits": [
+      "Reduced cost of living",
+      "Bring your family - most residency categories allow you to include your spouse and dependents",
+      "Very fast processing (days to weeks — minimal vetting beyond criminal check)"
+    ],
+    "visaFreeAccess": "170 countries",
+    "sources": [
+      "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/migracao — Brazilian Ministry of Justice, Migration",
+      "https://www.gov.br/mre/pt-br — Brazilian Ministry of Foreign Affairs (Itamaraty)",
+      "https://www.cplp.org — Community of Portuguese Language Countries"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Peru - Rentista Visa",
+    "minInvestment": "None",
+    "timeToCitizenship": "2 years (must prove ties to Peru — property, club membership, etc. + Spanish language proficiency)",
+    "minimumPresence": "Must not be absent more than 6 months cumulatively per calendar year",
+    "requirements": [
+      "Proof of permanent foreign-source income of at least USD 1,000/month plus USD 500 per dependant (codified in law — pension, royalties, dividends, lifetime annuities)",
+      "Income must be deposited into a recognized Peruvian financial institution",
+      "Statement confirming you won't work locally",
+      "Criminal Record Certificate from your country of residence for the past 5 years",
+      "Medical Certificate issued within the last 90 days"
+    ],
+    "benefits": [
+      "Fast track to second citizenship (2 years)",
+      "Bring your family - most residency categories allow you to include your spouse and dependents",
+      "Visa valid indefinitely (not classified as permanent residency but no expiry)"
+    ],
+    "visaFreeAccess": "134 countries",
+    "sources": [
+      "https://www.migraciones.gob.pe — Peruvian Superintendency of Migration",
+      "https://www.gob.pe/sunat — Peruvian National Tax Authority (SUNAT)",
+      "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Peru - Investor Visa",
+    "minInvestment": "~PEN 500,000 (~USD 125,000) — plausible from adviser/government portal extracts but exact statutory amount not independently verified from primary legal text in this review. Treat as approximate.",
+    "timeToCitizenship": "2 years",
+    "minimumPresence": "183 days per year (required for investor visa renewal)",
+    "requirements": [
+      "Proof of investment in a Peruvian company or new company (reported minimum ~PEN 500,000 — verify with immigration attorney)",
+      "Must hire at least 5 local employees",
+      "Notarized documents (e.g., business incorporation papers, property deed)",
+      "Business plan",
+      "Criminal Record Certificate from your country of residence for the past 5 years",
+      "Medical Certificate issued within the last 90 days"
+    ],
+    "benefits": [
+      "Fast track to second citizenship",
+      "Bring your family - most residency categories allow you to include your spouse and dependents"
+    ],
+    "visaFreeAccess": "134 countries",
+    "sources": [
+      "https://www.migraciones.gob.pe — Peruvian Superintendency of Migration",
+      "https://www.gob.pe/sunat — Peruvian National Tax Authority (SUNAT)",
+      "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  },
+  {
+    "country": "Peru - Mercosur Residency",
+    "minInvestment": "None",
+    "timeToCitizenship": "2 years",
+    "minimumPresence": "183 days",
+    "requirements": [
+      "Valid national ID or passport from a Mercosur country",
+      "Apostilled birth certificate (translated into Spanish if needed)",
+      "Criminal Record Certificate from your country of residence for the past 5 years",
+      "Medical Certificate issued within the last 90 days"
+    ],
+    "benefits": [
+      "Fast track to second citizenship",
+      "Bring your family - most residency categories allow you to include your spouse and dependents"
+    ],
+    "visaFreeAccess": "134 countries",
+    "sources": [
+      "https://www.migraciones.gob.pe — Peruvian Superintendency of Migration",
+      "https://www.gob.pe/sunat — Peruvian National Tax Authority (SUNAT)",
+      "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "high"
+  },
+  {
+    "country": "Mexico",
+    "minInvestment": "$0 via consulate income/savings. Alt: Real estate ≥$450k or Investment ≥$225k.",
+    "timeToCitizenship": "5 years (standard). 2 years with Mexican family or if Latin American/Spanish.",
+    "minimumPresence": "No fixed annual days. Must be in Mexico ~4 weeks for card issuance and return for renewals.",
+    "requirements": [
+      "Consulate visa sticker (valid 6 months, single entry) → INM card in Mexico within 30 days",
+      "TR via income: UMA-based formula (consulates adopted UMA from July 2025). Approximate ~USD 4,100-4,400/mo in 2025-2026 — BUT varies by consulate, exchange rate, and UMA value (recalculated each January). Not a single national rule.",
+      "TR via savings: approximately ~USD 70,000 avg over 12 months (UMA-based, same caveats)",
+      "Real estate ≥$450k MX OR investment ≥$225k MX",
+      "PR via income: approximately ~USD 7,100/mo for 6 months (UMA-based) OR savings ~USD 280,000 avg over 12 months — PR only for retirees at consulates. Same UMA/FX caveats.",
+      "After 4 years TR, or 2 years TR if married to Mexican citizen/PR",
+      "Standard docs: passport, photo, application, fee, supporting statements",
+      "Minors need birth certificate and parents' IDs"
+    ],
+    "benefits": [
+      "Fast: card in ≤4 weeks",
+      "Low cost and maintenance (renew every 1-4 years)",
+      "Banking/ID access",
+      "RESICO tax regime: ~1-2.5% on gross up to ~$200k for contractors/rents",
+      "Large expat ecosystem, high quality of life, major air connectivity",
+      "PR non-expiring with clear path to citizenship"
+    ],
+    "visaFreeAccess": "159 countries",
+    "sources": [
+      "https://www.gob.mx/inm — Mexican National Institute of Migration (INM)",
+      "https://www.sat.gob.mx — Mexican Tax Administration Service (SAT / RESICO)",
+      "https://www.gob.mx/sre — Mexican Ministry of Foreign Affairs (consular services)"
+    ],
+    "lastVerified": "2026-02-19",
+    "confidence": "medium"
+  }
+]
