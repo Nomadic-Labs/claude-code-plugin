@@ -1,6 +1,22 @@
 # Polystate — Claude Code Plugin
 
-> Immigration & tax intelligence: **171 jurisdictions** for crypto-tax and scoring, **100+** visa-program entries, and **curated** residency-program data — ready in your terminal.
+**Version 2.0+** — Live **MCP** connection to `https://mcp.polystate.io/mcp` plus **offline JSON fallbacks** (no API key required for fallback).
+
+> Immigration & tax intelligence: **171** jurisdictions for crypto-tax and scoring, **100+** visa-program rows, curated residency and **company formation** catalogs.
+
+## MCP setup (live data)
+
+1. Obtain a Polystate **API key** (same key as for the MCP product / `api_keys` in Supabase).
+2. Export it before starting Claude Code:
+
+```bash
+export POLYSTATE_API_KEY='your-key-here'
+```
+
+3. Install the plugin (or use `--plugin-dir`). The plugin ships **`.mcp.json`**: HTTP transport + `Authorization: Bearer ${POLYSTATE_API_KEY}`.
+4. Run `/reload-plugins`, then `/mcp` and confirm the **`polystate`** server is connected.
+
+Without a key, skills still work using bundled `data/*.json` (older snapshot).
 
 ## Install
 
@@ -8,9 +24,10 @@
 /plugin install github:Spider333/polystate-claude-plugin
 ```
 
-Or test locally:
+Test locally:
 
 ```bash
+export POLYSTATE_API_KEY='…'   # optional for live MCP
 claude --plugin-dir ./polystate-claude-plugin
 ```
 
@@ -18,72 +35,56 @@ claude --plugin-dir ./polystate-claude-plugin
 
 All skills are namespaced under `/polystate:`.
 
-### `/polystate:visa-check [passport] [destination]`
+| Skill | Command | Notes |
+|-------|---------|--------|
+| Overview | `/polystate:polystate` | Setup, list commands |
+| Visa | `/polystate:visa-check [passport] [dest]` | MCP: `visa_check` (ISO) |
+| Tax | `/polystate:tax-compare [c1] [c2?]` | MCP: `tax_compare` (2 ISOs) or `get_crypto_tax_treatment` (1) |
+| Jurisdiction | `/polystate:jurisdiction [country]` | MCP: `compare_jurisdictions`, `get_crypto_tax_treatment`, … |
+| Residency | `/polystate:residency [country]` | MCP: `get_residency_programs` |
+| LLC / formation | `/polystate:llc-setup [country] [type?]` | MCP: `get_company_formation` |
+| Services / apply | `/polystate:polystate-apply [country?]` | MCP resource `polystate://services/{ISO}` when available; else **https://polystate.io** |
 
-Visa requirements, fees, processing time, and official application link.
-
-```
-/polystate:visa-check Slovakia Thailand
-/polystate:visa-check Germany Portugal
-```
-
-### `/polystate:tax-compare [country1] [country2]`
-
-Crypto-tax tier (Heaven → Hell), capital gains, income tax, staking/mining treatment.
-
-```
-/polystate:tax-compare Paraguay
-/polystate:tax-compare UAE Portugal
-```
-
-### `/polystate:jurisdiction [country]`
-
-Quality-of-life scores: safety, healthcare, business ease, privacy, banking, citizenship path.
+Examples:
 
 ```
-/polystate:jurisdiction Panama
-/polystate:jurisdiction Paraguay vs Georgia
+/polystate:visa-check SK TH
+/polystate:tax-compare PT DE
+/polystate:llc-setup US llc
+/polystate:polystate-apply PA
 ```
 
-### `/polystate:residency [country]`
+## Topic hint hook
 
-Residency programs: investment, presence, requirements, benefits, path to citizenship.
+When the plugin is enabled, **`hooks/UserPromptSubmit`** runs `hooks/polystate-topic-hint.py` on each prompt. If the text looks immigration/tax related, it injects a short reminder to use Polystate MCP or slash skills.
 
-```
-/polystate:residency Panama
-/polystate:residency Paraguay
-```
-
-### `/polystate:polystate`
-
-Overview and help.
-
-## Jurisdiction Advisor Agent
-
-For complex multi-factor questions (tax + residency + lifestyle), use the built-in agent:
+## Jurisdiction Advisor agent
 
 ```
 /agents → select "jurisdiction-advisor"
 ```
 
-Ask it things like:
+Uses MCP tools when connected, otherwise reads `${CLAUDE_PLUGIN_ROOT}/data/`.
 
-- *"I'm a Slovak crypto investor wanting to minimize taxes with minimal travel. Top 3 options?"*
-- *"Best low-presence residency for someone with a UK passport and $50K/year remote income?"*
+## Data (offline bundle)
 
-## Data
+| File | Role |
+|------|------|
+| `data/crypto-tax.json` | 171 jurisdictions |
+| `data/jurisdiction-scoring.json` | Scoring / QoL |
+| `data/visa-programs.json` | 104 program rows |
+| `data/residency-compare.json` | 27 curated entries |
+| `data/company-formation.json` | Company / LLC catalog |
 
-- **Crypto-tax + jurisdiction scoring:** `countries` arrays cover **171** ISO jurisdictions (bundled dataset).
-- **Visa programs:** **104** program rows in `visa-programs.json` (multiple programs per destination where applicable).
-- **Residency programs:** **27** curated entries in `residency-compare.json`.
-- Sources: Polystate MCP server data snapshots (visa, crypto-tax, residency compare, jurisdiction scoring).
-- Embedded in the plugin (**no internet** required). Refresh by bumping the plugin version after copying newer JSON from `polystate-mcp-server/data/`.
+Refresh by copying newer JSON from `polystate-mcp-server/data/` on branch **`chore/mcp-phase-2-v2`** (or current main) and bumping the plugin version.
+
+## MCP server branch
+
+The canonical MCP feature branch used for this phase is **`origin/chore/mcp-phase-2-v2`** on [`polystate-mcp-server`](https://github.com/Nomadic-Labs/polystate-mcp-server) (tools include `get_company_formation`, country services resource, auth via Bearer).
 
 ## About Polystate
 
-Polystate helps global citizens navigate immigration, residency, and tax optimization.
-
-👉 **https://polystate.io** — Book a consultation or explore our services.
+👉 **https://polystate.io** — Consultations, applications, services.
 
 ## License
 

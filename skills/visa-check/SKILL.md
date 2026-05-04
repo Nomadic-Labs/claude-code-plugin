@@ -6,6 +6,18 @@ description: Look up visa requirements, application fees, processing time, and o
 
 The user provided: `$ARGUMENTS`
 
+## Live Polystate MCP (preferred)
+
+When the **`polystate`** MCP server is connected (`/mcp`) and **`POLYSTATE_API_KEY`** is configured, resolve **ISO-3166** alpha-2 or alpha-3 codes for passport and destination countries, then call **`visa_check`** with:
+
+```json
+{ "passport_country": "<ISO>", "destination_country": "<ISO>" }
+```
+
+Use the tool result as the primary answer (it includes recommendations and alternatives from the live stack). If the tool errors or MCP is offline, fall through to embedded data below.
+
+---
+
 Parse `$ARGUMENTS` as: `[passport_country] [destination_country]`
 - If two words/countries are given: passport_country = first, destination_country = second.
 - If only one country is given: treat it as destination_country, ask for passport country if unclear.

@@ -1,0 +1,2533 @@
+[
+  {
+    "country": "United States - Wyoming LLC",
+    "entityType": "llc",
+    "minInvestment": "$0 (no minimum capital)",
+    "annualCost": "$60 license tax + ~$100-150 registered agent",
+    "timeToFormation": "3-7 business days (1-2 days expedited)",
+    "requirements": [
+      "Registered agent with Wyoming address",
+      "Articles of Organization filed with WY Secretary of State",
+      "EIN application via IRS Form SS-4 (foreign owners use ITIN or apply by fax/mail)",
+      "Operating agreement (recommended, not legally required)"
+    ],
+    "benefits": [
+      "No state income tax",
+      "Strong asset protection — charging order is sole remedy for single-member LLCs",
+      "Anonymous LLC permitted (member/manager names not in public filings)",
+      "No franchise tax",
+      "Series LLC permitted for asset segregation"
+    ],
+    "taxImplications": "Pass-through by default (disregarded entity for single-member, partnership for multi-member). Foreign-owned single-member LLC must file IRS Form 5472 + pro-forma 1120 annually (informational, no tax owed if no US-source income).",
+    "sources": [
+      "https://wyobiz.wyo.gov — Wyoming Secretary of State",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United States - Delaware LLC",
+    "entityType": "llc",
+    "minInvestment": "$0 (no minimum capital)",
+    "annualCost": "$300 franchise tax + ~$100-200 registered agent",
+    "timeToFormation": "1-2 business days (same-day expedited available)",
+    "requirements": [
+      "Registered agent with Delaware address",
+      "Certificate of Formation filed with DE Division of Corporations",
+      "EIN application via IRS Form SS-4",
+      "Operating agreement (recommended)"
+    ],
+    "benefits": [
+      "Court of Chancery — specialized business court with deep case law",
+      "Privacy — members and managers not disclosed in public filings",
+      "Flexible operating agreement provisions",
+      "Preferred jurisdiction for VC-backed startups (familiar to investors)"
+    ],
+    "taxImplications": "Pass-through by default. $300 annual franchise tax flat fee. Foreign-owned single-member LLC must file Form 5472 + 1120. No state income tax on Delaware LLCs not doing business in Delaware.",
+    "sources": [
+      "https://corp.delaware.gov — Delaware Division of Corporations",
+      "https://revenue.delaware.gov — Delaware Division of Revenue"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United States - Delaware C-Corporation",
+    "entityType": "corporation",
+    "minInvestment": "$0 (no minimum capital; typical authorized shares 10M at $0.0001 par)",
+    "annualCost": "$400+ franchise tax (depends on shares/assets) + ~$100-200 registered agent",
+    "timeToFormation": "1-2 business days",
+    "requirements": [
+      "Registered agent with Delaware address",
+      "Certificate of Incorporation filed with DE Division of Corporations",
+      "Bylaws and initial board resolutions",
+      "EIN application via IRS Form SS-4",
+      "Stock issuance to founders"
+    ],
+    "benefits": [
+      "Standard for VC fundraising (preferred stock, 83(b) elections, QSBS eligibility)",
+      "Court of Chancery jurisdiction",
+      "Flexible capitalization (multiple share classes, options, warrants)",
+      "QSBS Section 1202 — up to $10M federal capital gains exclusion if held 5+ years"
+    ],
+    "taxImplications": "21% federal corporate income tax. Double taxation on dividends. Delaware franchise tax based on authorized shares method or assumed par value capital method (whichever is lower). No DE state corporate income tax if no DE operations.",
+    "sources": [
+      "https://corp.delaware.gov — Delaware Division of Corporations",
+      "https://www.irs.gov/forms-pubs/about-form-1120"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United States - New Mexico LLC",
+    "entityType": "llc",
+    "minInvestment": "$0",
+    "annualCost": "$0 (no annual report required)",
+    "timeToFormation": "1-3 business days online",
+    "requirements": [
+      "Registered agent with NM address",
+      "Articles of Organization filed with NM Secretary of State",
+      "EIN application"
+    ],
+    "benefits": [
+      "No annual report and no annual fee — lowest ongoing cost in US",
+      "Anonymous LLC permitted",
+      "Simple compliance"
+    ],
+    "taxImplications": "Pass-through. NM gross receipts tax applies only if doing business in NM. Foreign-owned SMLLC must file Form 5472 + 1120.",
+    "sources": [
+      "https://www.sos.nm.gov — New Mexico Secretary of State",
+      "https://www.tax.newmexico.gov"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United Kingdom - Private Limited Company (Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "£1 share capital (no functional minimum)",
+    "annualCost": "£34 confirmation statement + accounting/filing costs",
+    "timeToFormation": "24 hours online via Companies House",
+    "requirements": [
+      "1+ director (16+, no residency requirement)",
+      "1+ shareholder",
+      "UK registered office address",
+      "Memorandum and Articles of Association",
+      "PSC (Persons with Significant Control) register"
+    ],
+    "benefits": [
+      "Fast online formation",
+      "Reputable jurisdiction with strong rule of law",
+      "Access to UK banking",
+      "EU/UK trade access (subject to post-Brexit terms)"
+    ],
+    "taxImplications": "25% main rate corporation tax (19% small profits rate up to £50k, marginal relief £50k-£250k). No CFC issues for non-UK-resident owners on foreign income. UK-source income taxable.",
+    "sources": [
+      "https://www.gov.uk/government/organisations/companies-house",
+      "https://www.gov.uk/corporation-tax"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Ireland - Private Company Limited by Shares (LTD)",
+    "entityType": "corporation",
+    "minInvestment": "€1 issued share capital",
+    "annualCost": "€20 annual return filing + accounting costs",
+    "timeToFormation": "5-10 business days (CRO online)",
+    "requirements": [
+      "1+ director (1 must be EEA resident, or non-EEA bond €25k)",
+      "Company secretary",
+      "Irish registered office",
+      "Constitution document"
+    ],
+    "benefits": [
+      "12.5% corporate tax on trading income (one of EU's lowest)",
+      "EU member — single market access",
+      "Extensive tax treaty network (~75 treaties)",
+      "English-speaking common law jurisdiction"
+    ],
+    "taxImplications": "12.5% CIT on trading income, 25% on passive/non-trading income. R&D tax credit. Knowledge Development Box 6.25% for qualifying IP. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.cro.ie — Companies Registration Office",
+      "https://www.revenue.ie"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Estonia - Osaühing (OÜ)",
+    "entityType": "corporation",
+    "minInvestment": "€0.01 (since Feb 2023; previously €2,500)",
+    "annualCost": "~€0 state filing + ~€200-500 accounting",
+    "timeToFormation": "Same day via e-Residency (1-2 hours online)",
+    "requirements": [
+      "1+ shareholder",
+      "1+ board member",
+      "Estonian contact person if no Estonian-resident board member",
+      "Estonian registered address"
+    ],
+    "benefits": [
+      "0% corporate tax on retained/reinvested profits — only taxed on distribution",
+      "e-Residency program enables fully digital management",
+      "EU member — single market access",
+      "Reputable jurisdiction with low compliance overhead"
+    ],
+    "taxImplications": "Distributed profits taxed at 22% (2025+, up from 20%). Retained profits 0%. Regular dividends to non-residents 22% (treaty relief available). VAT registration required above €40k turnover.",
+    "sources": [
+      "https://www.e-resident.gov.ee",
+      "https://www.emta.ee — Estonian Tax and Customs Board"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Netherlands - Besloten Vennootschap (BV)",
+    "entityType": "corporation",
+    "minInvestment": "€0.01 (Flex BV, since 2012)",
+    "annualCost": "~€500-1,500 (filing, accounting, audit if required)",
+    "timeToFormation": "1-5 business days via civil-law notary",
+    "requirements": [
+      "Notarial deed of incorporation (civil-law notary)",
+      "1+ director and 1+ shareholder",
+      "Dutch registered office",
+      "KvK Chamber of Commerce registration",
+      "UBO register filing"
+    ],
+    "benefits": [
+      "Participation exemption — 100% exemption on qualifying dividends and capital gains from subsidiaries",
+      "Extensive tax treaty network (~95 treaties)",
+      "Innovation Box — 9% effective rate on qualifying IP income",
+      "Strategic EU location for holding companies"
+    ],
+    "taxImplications": "25.8% CIT (19% on first €200k). Participation exemption for qualifying holdings. Innovation Box 9% for IP. Dividend WHT 15% (treaty/exemption may reduce). Pillar Two 15% applies to large MNEs.",
+    "sources": [
+      "https://www.kvk.nl — Chamber of Commerce",
+      "https://www.belastingdienst.nl"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Czechia - Společnost s ručením omezeným (s.r.o.)",
+    "entityType": "corporation",
+    "minInvestment": "CZK 1 (since 2014; previously CZK 200,000)",
+    "annualCost": "~CZK 5,000-15,000 (filing + accounting)",
+    "timeToFormation": "2-4 weeks (notarial deed required)",
+    "requirements": [
+      "Notarial deed of foundation",
+      "1+ executive director",
+      "Czech registered office",
+      "Trade license (živnostenské oprávnění) for relevant activities",
+      "Commercial register filing"
+    ],
+    "benefits": [
+      "21% corporate tax (raised from 19% in 2024)",
+      "EU member — single market access",
+      "Low formation cost since CZK 1 minimum",
+      "Strong banking and Schengen location"
+    ],
+    "taxImplications": "21% CIT (raised from 19% effective 2024). 15% dividend WHT (treaty/EU parent-subsidiary directive may reduce). VAT registration above CZK 2M turnover.",
+    "sources": [
+      "https://or.justice.cz — Czech commercial register",
+      "https://www.financnisprava.cz"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Germany - Gesellschaft mit beschränkter Haftung (GmbH)",
+    "entityType": "corporation",
+    "minInvestment": "€25,000 (€12,500 paid-up at incorporation)",
+    "annualCost": "~€1,500-3,000 (filing, audit if required, accounting)",
+    "timeToFormation": "2-6 weeks (notarial process)",
+    "requirements": [
+      "Notarial deed of formation",
+      "1+ managing director (Geschäftsführer)",
+      "German registered office",
+      "Commercial register (Handelsregister) filing",
+      "Trade office registration"
+    ],
+    "benefits": [
+      "Reputable EU jurisdiction with strong rule of law",
+      "Access to German market and banking",
+      "Limited liability with established case law",
+      "UG (Unternehmergesellschaft) variant available with €1 minimum"
+    ],
+    "taxImplications": "~30% combined rate: 15% federal corporate tax + 5.5% solidarity surcharge + ~14-17% trade tax (varies by municipality). 26.375% withholding on dividends to non-residents (treaty relief available).",
+    "sources": [
+      "https://www.handelsregister.de",
+      "https://www.bzst.de"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Switzerland - Aktiengesellschaft (AG)",
+    "entityType": "corporation",
+    "minInvestment": "CHF 100,000 (CHF 50,000 paid-up minimum)",
+    "annualCost": "CHF 2,000-5,000+ (filing, audit, accounting)",
+    "timeToFormation": "2-4 weeks (notarial process)",
+    "requirements": [
+      "Notarial public deed of formation",
+      "1+ director (at least one with Swiss residency or signing authority)",
+      "Swiss registered office",
+      "Commercial register filing",
+      "Bank confirmation of paid-up capital"
+    ],
+    "benefits": [
+      "Premier reputation for banking and wealth management",
+      "Cantonal tax competition — effective rates as low as ~12%",
+      "Strong privacy and asset protection",
+      "Stable currency and rule of law"
+    ],
+    "taxImplications": "Combined federal + cantonal + communal CIT 11.9%-21% depending on canton (Zug ~11.9%, Geneva ~14%, Zurich ~19.7%). 35% withholding tax on dividends (treaty relief and refund available).",
+    "sources": [
+      "https://www.zefix.ch — Swiss commercial register",
+      "https://www.estv.admin.ch"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Cyprus - Private Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "€1 share capital (no functional minimum)",
+    "annualCost": "€350 annual levy + ~€800-1,500 filing/accounting",
+    "timeToFormation": "5-10 business days via Registrar of Companies",
+    "requirements": [
+      "1+ director (Cyprus tax residency recommended for management and control)",
+      "Company secretary",
+      "Cyprus registered office",
+      "Memorandum and Articles of Association",
+      "UBO register filing"
+    ],
+    "benefits": [
+      "12.5% corporate tax (one of EU's lowest)",
+      "Non-Dom regime — 17 years exemption on dividend/interest income",
+      "EU member — single market and parent-subsidiary directive access",
+      "Extensive tax treaty network (~65 treaties)",
+      "IP Box — effective ~2.5% on qualifying IP"
+    ],
+    "taxImplications": "12.5% CIT. Dividends from subsidiaries generally exempt. No WHT on outbound dividends to non-residents. Capital gains exempt except on Cyprus immovable property. IP Box for qualifying R&D.",
+    "sources": [
+      "https://www.companies.gov.cy — Registrar of Companies",
+      "https://www.mof.gov.cy/tax"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Malta - Private Limited Liability Company",
+    "entityType": "corporation",
+    "minInvestment": "€1,165 (20% paid-up = €233)",
+    "annualCost": "€100 annual return + accounting/audit costs",
+    "timeToFormation": "3-5 business days via MBR",
+    "requirements": [
+      "2+ shareholders (or single-member with restrictions)",
+      "1+ director",
+      "Company secretary",
+      "Malta registered office",
+      "Memorandum and Articles"
+    ],
+    "benefits": [
+      "Effective 5% rate via 6/7ths refund system on trading profits",
+      "EU member with full participation exemption regime",
+      "Extensive treaty network (~80 treaties)",
+      "English-speaking common law jurisdiction"
+    ],
+    "taxImplications": "35% headline CIT, but non-resident shareholders receive 6/7ths refund on trading profits (effective ~5%) and 5/7ths on passive (effective ~10%). Participation exemption for qualifying holdings.",
+    "sources": [
+      "https://mbr.mt — Malta Business Registry",
+      "https://cfr.gov.mt"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United Arab Emirates - Mainland LLC",
+    "entityType": "llc",
+    "minInvestment": "AED 0 (no minimum capital in most emirates since 2021)",
+    "annualCost": "AED 15,000-30,000+ (license renewal, office, immigration)",
+    "timeToFormation": "2-4 weeks (DED license + visa process)",
+    "requirements": [
+      "Trade license from Department of Economic Development (DED)",
+      "Physical office space (Ejari registered)",
+      "Memorandum of Association (notarized)",
+      "100% foreign ownership permitted in most activities (since 2021)",
+      "Local service agent for certain regulated activities"
+    ],
+    "benefits": [
+      "100% foreign ownership in most sectors (post-2021 reform)",
+      "Onshore — can trade directly in UAE market",
+      "0% personal income tax for residents",
+      "Strategic Middle East / South Asia hub"
+    ],
+    "taxImplications": "9% corporate tax on profits above AED 375,000 (since June 2023). Small business relief for revenue under AED 3M (until end of 2026). 0% on qualifying free zone income (with conditions). 5% VAT.",
+    "sources": [
+      "https://www.dubaided.gov.ae — Dubai DED",
+      "https://tax.gov.ae — UAE Federal Tax Authority"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United Arab Emirates - IFZA Free Zone Company",
+    "entityType": "free_zone",
+    "minInvestment": "AED 0 (no minimum capital)",
+    "annualCost": "AED 12,000-20,000+ (license + flexi-desk)",
+    "timeToFormation": "1-2 weeks",
+    "requirements": [
+      "IFZA license application",
+      "Flexi-desk or office package",
+      "1+ shareholder, 1+ director (no residency required)",
+      "UBO declaration",
+      "Economic Substance Regulations compliance for relevant activities"
+    ],
+    "benefits": [
+      "100% foreign ownership",
+      "Cost-effective free zone setup",
+      "Multiple activities permitted on single license",
+      "Eligibility for UAE residence visa"
+    ],
+    "taxImplications": "0% corporate tax on Qualifying Free Zone Income (subject to substance and de minimis tests); 9% on non-qualifying income above AED 375k. 5% VAT. 0% personal income tax.",
+    "sources": [
+      "https://ifza.com",
+      "https://tax.gov.ae"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "United Arab Emirates - DIFC Company",
+    "entityType": "free_zone",
+    "minInvestment": "USD 0 base; varies by DIFC license category (financial firms higher)",
+    "annualCost": "USD 12,000-25,000+ (license, office, regulator if regulated)",
+    "timeToFormation": "4-8 weeks for non-regulated; 3-6 months for regulated firms",
+    "requirements": [
+      "DIFC Authority application",
+      "Physical office in DIFC (or co-working agreement)",
+      "DFSA authorization for financial services activities",
+      "Common law framework with DIFC Courts jurisdiction"
+    ],
+    "benefits": [
+      "Common law jurisdiction with English-language DIFC Courts",
+      "Premier Middle East financial center",
+      "100% foreign ownership",
+      "Robust regulatory framework (DFSA)"
+    ],
+    "taxImplications": "0% on Qualifying Free Zone Income; 9% UAE federal CIT applies above AED 375k on non-qualifying income. 0% personal income tax.",
+    "sources": [
+      "https://www.difc.ae",
+      "https://www.dfsa.ae"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Singapore - Private Limited Company (Pte Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "SGD 1 paid-up capital",
+    "annualCost": "SGD 800-2,500 (corp secretary, filing, audit if required)",
+    "timeToFormation": "1-3 business days via ACRA BizFile+",
+    "requirements": [
+      "1+ resident director (Singapore citizen, PR, or EntrePass/employment pass holder)",
+      "Local registered office address",
+      "Resident company secretary appointed within 6 months",
+      "ACRA BizFile+ registration",
+      "Annual filings and AGM (private exempt companies may dispense with AGM)"
+    ],
+    "benefits": [
+      "17% headline CIT with partial exemptions (effective ~8.5% on first SGD 200k for first 3 years)",
+      "Territorial tax — foreign-source income exempt unless remitted",
+      "Extensive DTA network (~90 treaties)",
+      "Reputable jurisdiction for banking, fundraising, and IP holding"
+    ],
+    "taxImplications": "17% CIT. Partial tax exemption: 75% on first SGD 10k, 50% on next SGD 190k. Foreign-source income exempt if not remitted, or if remitted from jurisdiction with headline rate ≥15% with substantive activity. No capital gains tax. No dividend WHT.",
+    "sources": [
+      "https://www.acra.gov.sg",
+      "https://www.iras.gov.sg"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Hong Kong - Private Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "HKD 1 issued share capital",
+    "annualCost": "HKD 2,000-5,000 business registration + accounting/audit",
+    "timeToFormation": "1-7 business days via Companies Registry e-filing",
+    "requirements": [
+      "1+ director (any nationality, no residency requirement)",
+      "1+ shareholder",
+      "Company secretary (HK resident individual or HK-based corporation)",
+      "HK registered office address",
+      "Significant Controllers Register"
+    ],
+    "benefits": [
+      "Territorial tax — only HK-source income taxed",
+      "16.5% CIT (8.25% on first HKD 2M under two-tiered regime)",
+      "No VAT, no capital gains tax, no dividend WHT",
+      "Gateway to Greater China market"
+    ],
+    "taxImplications": "16.5% profits tax on HK-source income only (8.25% on first HKD 2M). Foreign-source income generally exempt (subject to Foreign-Sourced Income Exemption rules from 2023 — economic substance required for passive income). No VAT, no CGT, no dividend WHT.",
+    "sources": [
+      "https://www.cr.gov.hk — Companies Registry",
+      "https://www.ird.gov.hk"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Malaysia - Sendirian Berhad (Sdn Bhd)",
+    "entityType": "corporation",
+    "minInvestment": "MYR 1 paid-up capital (recommended MYR 1,000+ for credibility)",
+    "annualCost": "MYR 1,500-5,000 (secretary, audit, filing)",
+    "timeToFormation": "5-10 business days via SSM MyCoID",
+    "requirements": [
+      "1+ resident director (Malaysian or foreigner with employment pass)",
+      "Company secretary licensed by SSM",
+      "Malaysia registered office",
+      "Constitution (optional since 2017 Companies Act)"
+    ],
+    "benefits": [
+      "24% CIT (17% on first MYR 600k for SMEs meeting conditions)",
+      "Extensive DTA network (~75 treaties)",
+      "MM2H residency program pairs well",
+      "Lower cost than Singapore with English-language administration"
+    ],
+    "taxImplications": "24% CIT. SME rate 17% on first MYR 600k taxable income (paid-up capital ≤ MYR 2.5M and gross income ≤ MYR 50M). Foreign-source income remittance — exemption for individuals through 2026; companies generally taxable. No CGT except real property gains tax.",
+    "sources": [
+      "https://www.ssm.com.my",
+      "https://www.hasil.gov.my — Inland Revenue Board"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Malaysia - Labuan International Company",
+    "entityType": "ibc",
+    "minInvestment": "USD 1 (no functional minimum)",
+    "annualCost": "USD 1,500-3,000 (license + trust company services)",
+    "timeToFormation": "2-4 weeks via Labuan FSA-licensed trust company",
+    "requirements": [
+      "Mandatory engagement of Labuan-licensed trust company",
+      "Labuan registered office",
+      "Economic substance: minimum employees and operating expenditure depending on activity",
+      "Annual return and audited accounts"
+    ],
+    "benefits": [
+      "3% on net audited profits for trading activities (or flat MYR 20,000)",
+      "0% on non-trading (investment holding) activities subject to substance",
+      "70+ DTA access via Malaysia (with limitations)",
+      "English common law influence"
+    ],
+    "taxImplications": "3% on Labuan trading activity audited profits OR flat MYR 20,000. 0% on non-trading activity (subject to substance requirements: minimum 2-4 employees and MYR 50k-200k OPEX depending on category). Strict economic substance regulations since 2019.",
+    "sources": [
+      "https://www.labuanibfc.com",
+      "https://www.labuanfsa.gov.my"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "British Virgin Islands - Business Company (BC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 450 government fee + USD 500-1,500 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "BVI-licensed registered agent",
+      "BVI registered office",
+      "1+ director, 1+ shareholder (any nationality, no residency)",
+      "Economic Substance compliance for relevant activities",
+      "Beneficial Ownership Secure Search (BOSS) filing"
+    ],
+    "benefits": [
+      "0% corporate tax",
+      "No capital gains, no dividend WHT, no VAT",
+      "English common law jurisdiction (Privy Council appeals)",
+      "Established case law for holding structures"
+    ],
+    "taxImplications": "0% direct taxation. Economic Substance Act 2018 requires relevant activities (banking, insurance, fund management, financing/leasing, headquarters, shipping, holding business, IP, distribution/service centre) to have substance in BVI. Pure holding companies have reduced substance test.",
+    "sources": [
+      "https://www.bvifsc.vg",
+      "https://bvi.gov.vg"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Cayman Islands - Exempted Company",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 850-3,500+ (depending on authorized capital tier) + registered office",
+    "timeToFormation": "3-7 business days",
+    "requirements": [
+      "Cayman registered office (typically corporate services provider)",
+      "1+ director, 1+ shareholder",
+      "Memorandum and Articles of Association",
+      "Economic Substance compliance for relevant activities",
+      "Beneficial Ownership Register"
+    ],
+    "benefits": [
+      "0% corporate tax, 0% capital gains, 0% dividend WHT",
+      "Tax exemption undertaking — government guarantee against future taxation (20 years renewable)",
+      "Premier jurisdiction for hedge funds and private equity",
+      "English common law (Privy Council appeals)"
+    ],
+    "taxImplications": "0% direct taxation. Economic Substance Law requirements for relevant activities. Cayman is on EU AML grey list periodically — check current status. CRS and FATCA reporting in place.",
+    "sources": [
+      "https://www.cima.ky — Cayman Islands Monetary Authority",
+      "https://www.gov.ky"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Panama - Sociedad Anónima (S.A.)",
+    "entityType": "corporation",
+    "minInvestment": "USD 0 (typical authorized capital USD 10,000)",
+    "annualCost": "USD 300 franchise tax + USD 250-500 resident agent",
+    "timeToFormation": "5-10 business days",
+    "requirements": [
+      "Panama-licensed resident agent (lawyer/law firm)",
+      "3+ directors (can be any nationality)",
+      "Public deed of incorporation",
+      "Public Registry filing",
+      "UBO registration"
+    ],
+    "benefits": [
+      "Territorial tax — 0% on foreign-source income",
+      "Established offshore jurisdiction with extensive case law",
+      "Bearer shares abolished (now nominative) — improved reputation",
+      "Pairs with Panama residency programs"
+    ],
+    "taxImplications": "25% CIT on Panama-source income only. 0% on foreign-source income (territorial). USD 300 annual franchise tax. 10% dividend tax on Panama-source profits distributed.",
+    "sources": [
+      "https://www.rp.gob.pa — Public Registry of Panama",
+      "https://dgi.mef.gob.pa"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Mauritius - Global Business Company (GBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 1 share capital",
+    "annualCost": "USD 1,950 FSC fee + USD 2,000-5,000 management company",
+    "timeToFormation": "2-4 weeks via FSC and management company",
+    "requirements": [
+      "Mauritius-licensed management company",
+      "2+ Mauritius-resident directors",
+      "Local registered office and bank account",
+      "Substance: core income-generating activities in Mauritius, qualifying expenditure, qualifying employees",
+      "Annual audited financial statements"
+    ],
+    "benefits": [
+      "15% headline CIT with partial exemption — effective 3% on qualifying foreign-source income",
+      "DTA network (~45 treaties), historically used for India-bound investment",
+      "Africa investment hub",
+      "Hybrid civil/common law"
+    ],
+    "taxImplications": "15% CIT with 80% partial exemption on qualifying foreign-source dividends, interest, and certain other income (effective 3% subject to substance). No CGT. Substance requirements strictly enforced post-2019 reforms.",
+    "sources": [
+      "https://www.fscmauritius.org",
+      "https://www.mra.mu"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Seychelles - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum)",
+    "annualCost": "USD 100 government fee + USD 400-800 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Seychelles-licensed registered agent",
+      "Seychelles registered office",
+      "1+ director, 1+ shareholder",
+      "UBO register filing",
+      "Accounting records kept (not filed publicly)"
+    ],
+    "benefits": [
+      "0% tax on foreign-source income (territorial since 2021 reform)",
+      "Low formation and maintenance costs",
+      "Quick formation",
+      "No public register of directors/shareholders"
+    ],
+    "taxImplications": "0% on foreign-source income (since 2021 reform brought Seychelles off EU blacklist). Seychelles-source income taxed at standard rates (15-33%). Economic Substance applies to relevant activities.",
+    "sources": [
+      "https://www.fsaseychelles.sc",
+      "https://www.src.gov.sc"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "medium"
+  },
+  {
+    "country": "Belize - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0",
+    "annualCost": "USD 200-400 government fee + USD 500-1,000 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Belize-licensed registered agent",
+      "Belize registered office",
+      "1+ director, 1+ shareholder",
+      "UBO register",
+      "Accounting records (kept, not publicly filed)"
+    ],
+    "benefits": [
+      "Territorial tax — 0% on foreign-source income",
+      "Fast formation",
+      "Low costs",
+      "English common law jurisdiction"
+    ],
+    "taxImplications": "Territorial system since 2019 reforms. IBCs with foreign-source income only — 0%. Belize-source income — standard business tax rates (1.75%-19% turnover-based). Economic Substance compliance for relevant activities.",
+    "sources": [
+      "https://www.belizecompaniesregistry.gov.bz",
+      "https://www.ifsc.gov.bz"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "medium"
+  },
+  {
+    "country": "Bahamas - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0",
+    "annualCost": "USD 350 government fee + USD 750-1,500 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Bahamas-licensed registered agent",
+      "Bahamas registered office",
+      "1+ director, 1+ shareholder",
+      "Beneficial ownership register",
+      "Economic Substance compliance for relevant activities"
+    ],
+    "benefits": [
+      "0% corporate tax, 0% income tax, 0% capital gains",
+      "No exchange controls for non-residents",
+      "Established Caribbean financial center",
+      "English common law"
+    ],
+    "taxImplications": "0% direct taxation. Business license fee based on turnover (0.5%-1.25%) for Bahamas-resident businesses; non-resident IBCs not subject. VAT 10% on local consumption. Economic Substance Act 2018 in force.",
+    "sources": [
+      "https://www.scb.gov.bs",
+      "https://inlandrevenue.finance.gov.bs"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "medium"
+  },
+  {
+    "country": "Gibraltar - Private Company Limited by Shares",
+    "entityType": "corporation",
+    "minInvestment": "£100 (typical; no statutory minimum since 2014)",
+    "annualCost": "£300 annual return + accounting/audit",
+    "timeToFormation": "5-10 business days",
+    "requirements": [
+      "1+ director, 1+ shareholder",
+      "Company secretary",
+      "Gibraltar registered office",
+      "Companies House Gibraltar filing",
+      "UBO register"
+    ],
+    "benefits": [
+      "12.5% CIT (raised from 10% in 2024)",
+      "Territorial system — only Gibraltar-accrued/derived income taxed",
+      "English common law jurisdiction",
+      "EU/UK trade access (post-Brexit framework agreement)"
+    ],
+    "taxImplications": "12.5% CIT on Gibraltar-source income. Foreign-source income generally not taxed (subject to anti-avoidance). 0% capital gains. 0% VAT. No dividend WHT.",
+    "sources": [
+      "https://www.companieshouse.gi",
+      "https://www.gibraltar.gov.gi/finance"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Honduras - Próspera ZEDE LLC",
+    "entityType": "llc",
+    "minInvestment": "USD 0 base capital",
+    "annualCost": "USD 260+ via DAZ Platform (typical)",
+    "timeToFormation": "1-3 business days via eProspera platform",
+    "requirements": [
+      "Registration via eProspera digital platform",
+      "Common law jurisdiction within ZEDE charter",
+      "Beneficial ownership disclosure",
+      "Compliance with ZEDE legal framework"
+    ],
+    "benefits": [
+      "ZEDE special economic regime with reduced corporate tax",
+      "Common-law contract law inside the ZEDE",
+      "Fully digital incorporation and management",
+      "Pairs with Próspera residency"
+    ],
+    "taxImplications": "ZEDE-specific tax regime with rates substantially below mainland Honduras. Foreign-source income generally outside scope of ZEDE taxation. Note: ZEDE legal status under political/legal challenge in Honduras as of 2024-2026 — verify current status.",
+    "sources": [
+      "https://eprospera.hn",
+      "https://prospera.hn"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "medium"
+  },
+  {
+    "country": "Paraguay - Sociedad Anónima (S.A.)",
+    "entityType": "corporation",
+    "minInvestment": "PYG 5,000,000 (~USD 700)",
+    "annualCost": "USD 800-1,500 (accounting + filings)",
+    "timeToFormation": "4-8 weeks",
+    "requirements": [
+      "2+ shareholders, 1+ director",
+      "Paraguay registered office",
+      "Notarized articles of incorporation in Spanish",
+      "RUC tax registration with SET",
+      "Public Registry of Commerce filing"
+    ],
+    "benefits": [
+      "Territorial tax — 0% on foreign-source income",
+      "10% IRE on local profits (one of region's lowest)",
+      "No exchange controls",
+      "Pairs with Paraguay residency program"
+    ],
+    "taxImplications": "10% IRE corporate tax on Paraguay-source profits. 0% on foreign-source income (territorial). 8% dividend WHT to non-residents. 10% standard VAT. Monthly filing obligations.",
+    "sources": [
+      "https://www.suace.gov.py — SUACE one-stop shop",
+      "https://www.set.gov.py — Tax Authority"
+    ],
+    "lastVerified": "2026-04-27",
+    "confidence": "high"
+  },
+  {
+    "country": "Spain - Sociedad Limitada (SL)",
+    "entityType": "corporation",
+    "minInvestment": "€1 (since Crea y Crece Law, Oct 2022; previously €3,000)",
+    "annualCost": "€300-1,000 (filing + accounting)",
+    "timeToFormation": "1-2 weeks (CIRCE express system can issue same-week)",
+    "requirements": [
+      "1+ shareholder, 1+ administrator",
+      "Spanish registered office",
+      "Notarial public deed of incorporation",
+      "Registration with Registro Mercantil",
+      "NIE/NIF for foreign founders"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "Newly-created companies pay 15% CIT for first two profitable years",
+      "ETVE holding regime — participation exemption for foreign-subsidiary income",
+      "Canary Islands ZEC special economic zone — 4% effective CIT for qualifying activities"
+    ],
+    "taxImplications": "25% standard CIT. 15% reduced rate for new companies in first 2 profitable tax years. 21% standard VAT. ETVE participation exemption available for qualifying foreign-subsidiary holdings. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://sede.agenciatributaria.gob.es — Spanish Tax Agency (AEAT)",
+      "https://www.registradores.org — Registradores de España"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "France - Société à Responsabilité Limitée (SARL)",
+    "entityType": "corporation",
+    "minInvestment": "€1 (no statutory minimum)",
+    "annualCost": "€500-1,500 (filing + accounting)",
+    "timeToFormation": "1-3 weeks via Guichet Unique INPI",
+    "requirements": [
+      "1+ associate (EURL) or 2+ for standard SARL",
+      "1+ gérant (manager)",
+      "French registered office",
+      "Notarial or private incorporation deed",
+      "INPI Guichet Unique filing"
+    ],
+    "benefits": [
+      "EU member — single market and parent-subsidiary directive access",
+      "Reduced 15% CIT on first €42,500 of profits for SMEs",
+      "Extensive treaty network (~120 treaties)",
+      "R&D tax credit (CIR) and innovation tax credits"
+    ],
+    "taxImplications": "25% standard CIT. 15% reduced rate on first €42,500 for SMEs (turnover ≤ €10M, ≥75% individual ownership). 20% standard VAT. CFC rules (Article 209 B) apply. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.impots.gouv.fr — Direction Générale des Finances Publiques",
+      "https://www.inpi.fr — Institut National de la Propriété Industrielle (Guichet Unique)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Italy - Società a Responsabilità Limitata (SRL)",
+    "entityType": "corporation",
+    "minInvestment": "€1 (SRLS simplified) / €10,000 standard SRL",
+    "annualCost": "€700-2,000 (Camera di Commercio fee + filing + accounting)",
+    "timeToFormation": "2-4 weeks (notarial deed required for standard SRL)",
+    "requirements": [
+      "Notarial public deed (atto costitutivo)",
+      "1+ shareholder, 1+ administrator",
+      "Italian registered office",
+      "Registro Imprese filing via Camera di Commercio",
+      "Italian tax code (codice fiscale) and VAT number (Partita IVA)"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "SRLS streamlined incorporation with €1 minimum capital",
+      "Patent Box regime for qualifying IP (110% super-deduction)",
+      "Strong industrial base and treaty network"
+    ],
+    "taxImplications": "24% IRES (corporate income tax) + 3.9% IRAP (regional production tax) — effective combined ~27.9%. 22% standard VAT. Pillar Two 15% minimum applies. CFC rules apply to low-taxed foreign subsidiaries.",
+    "sources": [
+      "https://www.agenziaentrate.gov.it — Agenzia delle Entrate",
+      "https://www.registroimprese.it — Italian Business Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Portugal - Sociedade por Quotas (Lda)",
+    "entityType": "corporation",
+    "minInvestment": "€1 per shareholder (no statutory minimum since 2011)",
+    "annualCost": "€400-1,000 (filing + accounting)",
+    "timeToFormation": "1-2 days via Empresa na Hora (same-day) or 1-2 weeks standard",
+    "requirements": [
+      "1+ shareholder (sole quotaholder allowed via Sociedade Unipessoal)",
+      "1+ manager (gerente)",
+      "Portuguese registered office",
+      "Articles of association (pacto social)",
+      "Registro Comercial filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "Madeira International Business Centre — 5% CIT on qualifying activities (until 2027)",
+      "21% mainland CIT, with reduced 17% on first €50k for SMEs",
+      "NHR program for individual founders (now NHR 2.0 from 2024)"
+    ],
+    "taxImplications": "21% mainland CIT (17% reduced rate on first €50k for SMEs). Madeira IBC: 5% CIT on qualifying foreign-source activities until end of 2027. Municipal surtax up to 1.5% and state surtax up to 9% on profits >€1.5M. 23% standard VAT. Participation exemption for qualifying holdings.",
+    "sources": [
+      "https://www.portaldasfinancas.gov.pt — Autoridade Tributária e Aduaneira",
+      "https://www.empresanahora.justica.gov.pt — Empresa na Hora"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Poland - Spółka z ograniczoną odpowiedzialnością (Sp. z o.o.)",
+    "entityType": "corporation",
+    "minInvestment": "PLN 5,000 (~€1,150) minimum share capital",
+    "annualCost": "PLN 600-2,000 (KRS filing + accounting)",
+    "timeToFormation": "1 day via S24 online system; 2-4 weeks for traditional notarial route",
+    "requirements": [
+      "1+ shareholder (cannot be a single-member company as sole owner of another single-member)",
+      "1+ board member",
+      "Polish registered office",
+      "Articles of association (notarial for traditional, template for S24)",
+      "KRS National Court Register filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "9% reduced CIT for small taxpayers (revenue ≤ €2M / ~PLN 8.5M for 2026)",
+      "Estonian-style CIT option — 0% on retained earnings until distribution",
+      "Strategic central European location, large domestic market"
+    ],
+    "taxImplications": "19% standard CIT. 9% reduced rate for small taxpayers (gross sales including VAT in prior year ≤ €2M / PLN 8,517,000 for 2026) and for first-year companies. Estonian CIT option available. 23% standard VAT. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.podatki.gov.pl — Polish Ministry of Finance Tax Portal",
+      "https://ekrs.ms.gov.pl — KRS National Court Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Sweden - Aktiebolag (AB)",
+    "entityType": "corporation",
+    "minInvestment": "SEK 25,000 (~€2,200) — reduced from SEK 50,000 in 2020",
+    "annualCost": "SEK 2,500-5,000 (Bolagsverket fee + accounting)",
+    "timeToFormation": "1-3 weeks via Bolagsverket online",
+    "requirements": [
+      "1+ shareholder, 1+ board member (at least one EEA-resident or permission from Bolagsverket)",
+      "Swedish registered office",
+      "Articles of association (bolagsordning)",
+      "Bolagsverket Companies Registration Office filing",
+      "Auditor for larger companies (revenue > SEK 3M, employees > 3, balance sheet > SEK 1.5M)"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "20.6% CIT — among lowest in Western Europe",
+      "Participation exemption for qualifying foreign holdings",
+      "Strong reputation, robust IP protection",
+      "Extensive treaty network (~85 treaties)"
+    ],
+    "taxImplications": "20.6% CIT. Participation exemption for unlisted shares held >12 months in qualifying companies. 25% standard VAT. Interest deduction limitations under EBITDA rule (30%). Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.bolagsverket.se — Swedish Companies Registration Office",
+      "https://www.skatteverket.se — Swedish Tax Agency"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Denmark - Anpartsselskab (ApS)",
+    "entityType": "corporation",
+    "minInvestment": "DKK 20,000 (~€2,680)",
+    "annualCost": "DKK 670 registration + DKK 3,000-8,000 accounting",
+    "timeToFormation": "1-2 weeks via Erhvervsstyrelsen online",
+    "requirements": [
+      "1+ shareholder",
+      "1+ director (board for IVS conversions)",
+      "Danish registered office",
+      "Articles of association (vedtægter)",
+      "Erhvervsstyrelsen (Business Authority) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "22% CIT",
+      "Participation exemption for qualifying holdings ≥10%",
+      "Reputable jurisdiction, strong IP and contract enforcement",
+      "Tonnage tax regime for shipping"
+    ],
+    "taxImplications": "22% CIT. Participation exemption: 100% exempt on dividends/capital gains from subsidiary shares (≥10% ownership) and group shares. 25% standard VAT. CFC rules apply. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://erhvervsstyrelsen.dk — Danish Business Authority",
+      "https://skat.dk — Danish Tax Agency"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Finland - Osakeyhtiö (Oy)",
+    "entityType": "corporation",
+    "minInvestment": "€0 (minimum abolished in 2019; previously €2,500)",
+    "annualCost": "€275 PRH registration + €1,500-3,000 accounting",
+    "timeToFormation": "1-3 weeks via PRH online",
+    "requirements": [
+      "1+ shareholder, 1+ board member (at least one EEA-resident or permission)",
+      "Finnish registered office",
+      "Articles of association (yhtiöjärjestys)",
+      "Patentti- ja rekisterihallitus (PRH) filing",
+      "Tax administration registration"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "20% CIT — competitive within EU",
+      "Participation exemption for qualifying holdings",
+      "Strong R&D environment and IP protection",
+      "Stable Nordic business environment"
+    ],
+    "taxImplications": "20% CIT. Participation exemption for shares held in qualifying subsidiaries (10%+ ownership, >1 year holding period). 25.5% standard VAT (raised from 24% in Sep 2024). Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.prh.fi — Finnish Patent and Registration Office",
+      "https://www.vero.fi — Finnish Tax Administration"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Norway - Aksjeselskap (AS)",
+    "entityType": "corporation",
+    "minInvestment": "NOK 30,000 (~€2,600)",
+    "annualCost": "NOK 5,570 Brønnøysund registration + accounting",
+    "timeToFormation": "1-2 weeks via Brønnøysund Register Centre online",
+    "requirements": [
+      "1+ shareholder, 1+ board member",
+      "At least one director with EEA residency (or permission from Brønnøysund)",
+      "Norwegian registered office",
+      "Articles of association (vedtekter)",
+      "Brønnøysund Register Centre filing"
+    ],
+    "benefits": [
+      "Non-EU but EEA member — single market access",
+      "22% CIT",
+      "Participation exemption for qualifying EEA holdings (3% inclusion rule)",
+      "Strong oil/energy sector",
+      "Reputable jurisdiction"
+    ],
+    "taxImplications": "22% CIT (financial sector 25%). Participation exemption for qualifying shares in EEA companies — 97% exempt on dividends and 100% on capital gains. 25% standard VAT. CFC (NOKUS) rules apply to low-taxed foreign subsidiaries.",
+    "sources": [
+      "https://www.brreg.no — Brønnøysund Register Centre",
+      "https://www.skatteetaten.no — Norwegian Tax Administration"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Belgium - Société à Responsabilité Limitée / Besloten Vennootschap (SRL/BV)",
+    "entityType": "corporation",
+    "minInvestment": "€1 (minimum abolished in 2019)",
+    "annualCost": "€100-300 BCE/KBO + accounting/filing",
+    "timeToFormation": "1-3 weeks (notarial deed required)",
+    "requirements": [
+      "Notarial deed of incorporation",
+      "1+ shareholder, 1+ director",
+      "Belgian registered office",
+      "Banque-Carrefour des Entreprises (BCE/KBO) registration",
+      "Financial plan (plan financier) at incorporation"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "25% CIT, with 20% reduced rate on first €100k for qualifying SMEs",
+      "Innovation Income Deduction — 85% exemption on qualifying IP income",
+      "Notional Interest Deduction (limited regime)",
+      "Reputable EU headquarters jurisdiction"
+    ],
+    "taxImplications": "25% standard CIT. 20% reduced rate on first €100k for SMEs meeting conditions (≥1 director receives ≥€45,000 salary, no listed shares, etc.). 21% standard VAT. Innovation Income Deduction. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://finances.belgium.be — Service Public Fédéral Finances",
+      "https://economie.fgov.be — Banque-Carrefour des Entreprises (BCE/KBO)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Austria - Gesellschaft mit beschränkter Haftung (GmbH)",
+    "entityType": "corporation",
+    "minInvestment": "€10,000 (€5,000 paid-up; reduced from €35,000 in 2024)",
+    "annualCost": "€500-1,500 (Firmenbuch + accounting)",
+    "timeToFormation": "2-4 weeks (notarial deed required)",
+    "requirements": [
+      "Notarial deed of formation",
+      "1+ managing director (Geschäftsführer)",
+      "Austrian registered office",
+      "Firmenbuch (commercial register) filing",
+      "Trade office (Gewerbeamt) registration if applicable"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "23% CIT (lowered from 24% in 2024)",
+      "Participation exemption for qualifying international holdings",
+      "Strategic Central European location",
+      "FlexKap variant available with simplified rules"
+    ],
+    "taxImplications": "23% CIT (lowered from 24% in 2024). Minimum CIT €500/year for newer GmbHs in early years. International participation exemption for ≥10% holdings >1 year. 20% standard VAT. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.bmf.gv.at — Austrian Federal Ministry of Finance",
+      "https://www.justiz.gv.at — Austrian Ministry of Justice (Firmenbuch)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Luxembourg - Société à Responsabilité Limitée (SARL)",
+    "entityType": "corporation",
+    "minInvestment": "€12,000 (fully paid-up at incorporation)",
+    "annualCost": "€500-2,000 (RCS filing + accounting)",
+    "timeToFormation": "2-3 weeks (notarial deed required)",
+    "requirements": [
+      "Notarial deed of incorporation",
+      "1-100 shareholders",
+      "1+ manager (gérant)",
+      "Luxembourg registered office",
+      "Registre de Commerce et des Sociétés (RCS) filing"
+    ],
+    "benefits": [
+      "EU member — premier holding-company jurisdiction",
+      "Participation exemption regime — 100% exemption on qualifying dividends/capital gains",
+      "Extensive DTA network (~85 treaties)",
+      "SOPARFI (financial holding) regime widely used",
+      "Strong banking and fund-administration infrastructure"
+    ],
+    "taxImplications": "Combined CIT + municipal business tax 24.94% (Luxembourg City) — composed of 17% CIT + 7% solidarity surtax on CIT + ~6.75% municipal business tax. Reduced rate on first €175k. Participation exemption: 100% on qualifying dividends and capital gains. 17% standard VAT. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://impotsdirects.public.lu — Administration des Contributions Directes",
+      "https://www.lbr.lu — Luxembourg Business Registers (RCS)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Liechtenstein - Aktiengesellschaft (AG)",
+    "entityType": "corporation",
+    "minInvestment": "CHF 50,000 (fully paid-up)",
+    "annualCost": "CHF 1,800 minimum CIT + ~CHF 3,000-8,000 admin/audit",
+    "timeToFormation": "2-4 weeks via Office of Justice",
+    "requirements": [
+      "Notarial deed of incorporation",
+      "1+ shareholder",
+      "1+ director (at least one with EEA residency)",
+      "Liechtenstein registered office and represented by Liechtenstein-licensed trustee/director",
+      "Office of Justice (Amt für Justiz) commercial register filing"
+    ],
+    "benefits": [
+      "EEA member — EU single market access (non-EU)",
+      "12.5% flat CIT — among Europe's lowest",
+      "Strong asset-protection and private-banking environment",
+      "IP Box regime for qualifying activities",
+      "Highly reputable jurisdiction with strict regulatory framework"
+    ],
+    "taxImplications": "12.5% flat CIT with minimum €1,800 (CHF) per year. Private Asset Structures (PVS) eligible for minimum tax only. Holding companies generally tax-exempt on qualifying dividend/capital-gain income. 8.1% VAT (Swiss-aligned). EEA participation exemption rules apply.",
+    "sources": [
+      "https://www.llv.li — Liechtenstein National Administration",
+      "https://www.fma-li.li — Financial Market Authority Liechtenstein"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Greece - Idiotiki Kefalaiouchiki Etaireia (IKE)",
+    "entityType": "corporation",
+    "minInvestment": "€1 (no statutory minimum)",
+    "annualCost": "€500-1,500 (GEMI filing + accounting)",
+    "timeToFormation": "1-3 days via Yperetia Mias Stasis (One-Stop Shop)",
+    "requirements": [
+      "1+ partner (any nationality)",
+      "1+ administrator",
+      "Greek registered office",
+      "Articles of association",
+      "GEMI (General Commercial Registry) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "22% standard CIT (lowered from 24% in 2021)",
+      "IKE is the most popular new SME entity in Greece (replaced EPE in practice)",
+      "Fast One-Stop Shop incorporation",
+      "Investment incentives via Strategic Investments Law"
+    ],
+    "taxImplications": "22% CIT. Participation exemption for qualifying EU holdings under parent-subsidiary directive. 24% standard VAT. Solidarity surtax suspended for individuals; corporate dividend WHT 5%. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.aade.gr — Independent Authority for Public Revenue (AADE)",
+      "https://www.businessportal.gr — Greek Business Portal / GEMI"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Romania - Societate cu Răspundere Limitată (SRL)",
+    "entityType": "corporation",
+    "minInvestment": "RON 1 (~€0.20; no functional minimum since 2020)",
+    "annualCost": "RON 200-500 ONRC + accounting",
+    "timeToFormation": "1-3 days via ONRC (Trade Register) online",
+    "requirements": [
+      "1-50 associates",
+      "1+ administrator",
+      "Romanian registered office",
+      "Articles of association (act constitutiv)",
+      "ONRC (Oficiul Naţional al Registrului Comerţului) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "16% standard CIT — competitive within EU",
+      "Micro-enterprise regime: 1% on revenue (turnover ≤ €100,000 from 2026)",
+      "Low formation costs and quick setup",
+      "Strategic location for Eastern European market access"
+    ],
+    "taxImplications": "16% standard CIT. Micro-enterprise regime (effective 2026): 1% flat tax on revenues for companies with annual turnover ≤ €100,000 (threshold reduced from prior years; the previous 1%/3% split was eliminated). Companies exceeding the threshold move to standard 16% CIT. 19% standard VAT. Pillar Two 15% applies to large MNEs.",
+    "sources": [
+      "https://www.anaf.ro — Agenţia Naţională de Administrare Fiscală (ANAF)",
+      "https://www.onrc.ro — Romanian National Trade Register Office"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Bulgaria - Druzhestvo s Ogranichena Otgovornost (EOOD/OOD)",
+    "entityType": "corporation",
+    "minInvestment": "BGN 2 (~€1)",
+    "annualCost": "BGN 100-500 + accounting",
+    "timeToFormation": "1-2 weeks via Commercial Register",
+    "requirements": [
+      "1 (EOOD) or 2+ (OOD) shareholders",
+      "1+ manager",
+      "Bulgarian registered office",
+      "Articles of association",
+      "Commercial Register (Targovski Registar) filing"
+    ],
+    "benefits": [
+      "EU member — single market access (eurozone from Jan 2026)",
+      "10% flat CIT — lowest standard rate in EU",
+      "10% flat personal income tax (one of lowest in EU)",
+      "Strategic Black Sea location",
+      "Low cost of living and operations"
+    ],
+    "taxImplications": "10% flat CIT. 10% dividend WHT (5% for EU parent-subsidiary directive recipients; treaty relief available). 20% standard VAT. Bulgaria adopted the euro effective 1 January 2026 — BGN amounts being converted; check whether filings require EUR or BGN. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.nra.bg — National Revenue Agency",
+      "https://portal.registryagency.bg — Bulgarian Commercial Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Hungary - Korlátolt Felelősségű Társaság (Kft.)",
+    "entityType": "corporation",
+    "minInvestment": "HUF 3,000,000 (~€7,500)",
+    "annualCost": "HUF 50,000-200,000 + accounting",
+    "timeToFormation": "1-2 weeks via Cégkapu electronic system",
+    "requirements": [
+      "1+ shareholder (member)",
+      "1+ managing director (ügyvezető)",
+      "Hungarian registered office",
+      "Articles of association (társasági szerződés)",
+      "Court of Registration (cégbíróság) filing via electronic system"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "9% flat CIT — lowest in EU",
+      "Local business tax max 2% (varies by municipality)",
+      "Extensive treaty network",
+      "Strategic Central European hub"
+    ],
+    "taxImplications": "9% flat CIT — lowest standard rate in EU. Local business tax up to 2% on net revenue (varies by municipality). 27% standard VAT (highest in EU). Innovation contribution 0.3% for medium/large companies. Pillar Two 15% minimum applies to large MNEs (with QDMTT top-up tax).",
+    "sources": [
+      "https://nav.gov.hu — National Tax and Customs Administration (NAV)",
+      "https://e-cegjegyzek.hu — Hungarian Company Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Slovakia - Spoločnosť s ručením obmedzeným (s.r.o.)",
+    "entityType": "corporation",
+    "minInvestment": "€5,000 (fully paid-up at incorporation)",
+    "annualCost": "€100-500 ORSR filing + accounting",
+    "timeToFormation": "1-2 weeks via ORSR online (faster with notarial route)",
+    "requirements": [
+      "1-50 partners",
+      "1+ executive (konateľ)",
+      "Slovak registered office",
+      "Articles of association (spoločenská zmluva)",
+      "Commercial Register (Obchodný register / ORSR) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "21% standard CIT (raised from 15%/21% structure in 2025)",
+      "Reduced 10-15% rate for very small companies / lowest taxable bases",
+      "Eurozone member — no FX risk on EUR transactions",
+      "Strategic Central European location"
+    ],
+    "taxImplications": "21% standard CIT (effective 2025-2026). Reduced rates apply for small taxpayers (10-15% band on lower taxable bases). Higher 24% band for very large taxpayers (revenues above thresholds). 23% standard VAT (raised from 20% in 2025). Pillar Two 15% minimum applies.",
+    "sources": [
+      "https://www.financnasprava.sk — Slovak Financial Administration",
+      "https://www.orsr.sk — Slovak Commercial Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Slovenia - Družba z omejeno odgovornostjo (d.o.o.)",
+    "entityType": "corporation",
+    "minInvestment": "€7,500 (fully paid-up at incorporation)",
+    "annualCost": "€200-700 AJPES + accounting",
+    "timeToFormation": "1-2 weeks via AJPES VEM/SPOT one-stop shop",
+    "requirements": [
+      "1+ shareholder",
+      "1+ director",
+      "Slovenian registered office",
+      "Articles of association (akt o ustanovitvi)",
+      "AJPES Business Register filing via SPOT/VEM portal"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "22% CIT (temporary increase from 19% for 2024-2028)",
+      "Eurozone member",
+      "Strategic Central European location with Adriatic access",
+      "Strong banking and EU regulatory framework"
+    ],
+    "taxImplications": "22% CIT (temporary increase from 19% for tax periods 2024-2028 per medium-term fiscal plan; statutory rate reverts to 19% thereafter). Participation exemption for qualifying EU/EEA holdings. 22% standard VAT. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.fu.gov.si — Slovenian Financial Administration (FURS)",
+      "https://www.ajpes.si — Slovenian Business Register (AJPES)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Croatia - Društvo s ograničenom odgovornošću (d.o.o.)",
+    "entityType": "corporation",
+    "minInvestment": "€2,655 (HRK 20,000) for d.o.o.; €1 for j.d.o.o. (simplified)",
+    "annualCost": "€200-600 + accounting",
+    "timeToFormation": "1-3 weeks via HITRO.HR one-stop shop or notarial route",
+    "requirements": [
+      "1+ founder/member",
+      "1+ director",
+      "Croatian registered office",
+      "Articles of association (notarial)",
+      "Court Register (Sudski registar) filing"
+    ],
+    "benefits": [
+      "EU member — single market access (joined 2013)",
+      "Eurozone member (joined 2023)",
+      "Two-tier CIT: 10% (revenue ≤ €1M) / 18% (revenue > €1M) effective Jan 2026",
+      "j.d.o.o. simple form available with €1 capital",
+      "Schengen member"
+    ],
+    "taxImplications": "Two-tier CIT effective 1 January 2026: 10% for companies with annual revenues up to €1,000,000; 18% for companies whose annual revenues exceed €1,000,000. Withholding tax on dividends 12% (treaty/EU directive may reduce). 25% standard VAT. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.porezna-uprava.hr — Croatian Tax Administration",
+      "https://sudreg.pravosudje.hr — Croatian Court Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Lithuania - Uždaroji akcinė bendrovė (UAB)",
+    "entityType": "corporation",
+    "minInvestment": "€2,500 (fully paid-up at incorporation)",
+    "annualCost": "€200-500 Registry + accounting",
+    "timeToFormation": "1-2 weeks via Centre of Registers e-services",
+    "requirements": [
+      "1-249 shareholders",
+      "1+ director",
+      "Lithuanian registered office",
+      "Articles of association (įstatai)",
+      "Centre of Registers (Registrų centras) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "17% standard CIT (raised from 16% in 2026)",
+      "7% reduced rate for small companies (raised from 6% in 2026)",
+      "Eurozone member",
+      "Fintech-friendly regulatory framework"
+    ],
+    "taxImplications": "17% standard CIT (raised from 16% effective 1 January 2026). 7% reduced rate for small companies (raised from 6% effective 2026; eligibility based on turnover and employee thresholds). Temporary 0% rate for qualifying first-year very small companies. 21% standard VAT. Pillar Two 15% minimum applies.",
+    "sources": [
+      "https://www.vmi.lt — State Tax Inspectorate of Lithuania",
+      "https://www.registrucentras.lt — Centre of Registers Lithuania"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Latvia - Sabiedrība ar ierobežotu atbildību (SIA)",
+    "entityType": "corporation",
+    "minInvestment": "€2,800 standard SIA; €1 for micro-SIA (specific conditions)",
+    "annualCost": "€150-500 Registry + accounting",
+    "timeToFormation": "1-3 business days via Enterprise Register e-services",
+    "requirements": [
+      "1+ shareholder",
+      "1+ board member",
+      "Latvian registered office",
+      "Articles of association",
+      "Enterprise Register (Uzņēmumu reģistrs) filing"
+    ],
+    "benefits": [
+      "EU member — single market access",
+      "Estonian-style CIT — 0% on retained earnings, only distributed profits taxed",
+      "Eurozone member",
+      "Strong digital government and e-services",
+      "Fintech-friendly regulatory environment"
+    ],
+    "taxImplications": "20% CIT applied only on distributed profits (not retained earnings) — Estonian-style model since 2018. Distribution computed on gross-up basis (effective 25% on net distribution). 0% on reinvested profits. 21% standard VAT. Pillar Two 15% minimum applies to large MNEs.",
+    "sources": [
+      "https://www.vid.gov.lv — State Revenue Service of Latvia",
+      "https://www.ur.gov.lv — Enterprise Register of the Republic of Latvia"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Australia - Proprietary Limited Company (Pty Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "AUD 0 (no minimum capital)",
+    "annualCost": "AUD 310 ASIC annual review fee + accounting",
+    "timeToFormation": "1-2 business days via ASIC online",
+    "requirements": [
+      "1+ director (at least one Australian-resident director)",
+      "1+ shareholder",
+      "Australian registered office",
+      "Australian Business Number (ABN) and Tax File Number (TFN)",
+      "ASIC online registration"
+    ],
+    "benefits": [
+      "Reputable common-law jurisdiction with strong rule of law",
+      "Two-tier CIT: 25% Base Rate Entity / 30% standard",
+      "Extensive DTA network (~45 treaties)",
+      "Asia-Pacific gateway, English-speaking",
+      "Imputation (franking) system avoids double-taxation on Australian-sourced profits"
+    ],
+    "taxImplications": "25% Base Rate Entity rate for companies with aggregated turnover < AUD 50M and ≤80% passive income; 30% standard rate otherwise. 10% GST. Imputation system avoids double-tax on franked dividends to Australian shareholders. CFC rules apply. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://asic.gov.au — Australian Securities and Investments Commission",
+      "https://www.ato.gov.au — Australian Taxation Office"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "New Zealand - Limited Company (Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "NZD 0 (no minimum capital)",
+    "annualCost": "NZD 50 Companies Office annual return + accounting",
+    "timeToFormation": "1-2 business days via Companies Office online",
+    "requirements": [
+      "1+ director (at least one director resident in NZ or in an enforcement-country, currently Australia)",
+      "1+ shareholder",
+      "NZ registered office and address for service",
+      "Constitution (optional)",
+      "Companies Office registration + IRD number"
+    ],
+    "benefits": [
+      "Reputable common-law jurisdiction, top-ranked for ease of doing business",
+      "28% CIT",
+      "Imputation system for NZ-source profits",
+      "Look-through company (LTC) option for SMEs (pass-through)",
+      "Transparent and fast registration"
+    ],
+    "taxImplications": "28% CIT. Imputation system avoids double-tax on dividends to NZ shareholders. 15% GST. Foreign Investment Fund (FIF) rules and CFC rules apply to NZ-resident shareholders of foreign companies. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.companiesoffice.govt.nz — New Zealand Companies Office",
+      "https://www.ird.govt.nz — Inland Revenue New Zealand"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Canada - Federal Corporation",
+    "entityType": "corporation",
+    "minInvestment": "CAD 0 (no minimum capital)",
+    "annualCost": "CAD 200-500 federal annual return + provincial registration costs + accounting",
+    "timeToFormation": "1-3 business days via Corporations Canada online",
+    "requirements": [
+      "1+ director (at least 25% Canadian-resident directors required for federal corporation; varies by province)",
+      "1+ shareholder",
+      "Canadian registered office",
+      "Articles of Incorporation",
+      "Corporations Canada filing + CRA Business Number"
+    ],
+    "benefits": [
+      "Reputable common-law (or civil-law in Quebec) jurisdiction",
+      "Federal corporation provides nationwide name protection",
+      "15% federal CIT + provincial 8-16%",
+      "Small Business Deduction — 9% federal rate on first CAD 500k for CCPCs",
+      "Extensive DTA network (~95 treaties)"
+    ],
+    "taxImplications": "15% federal CIT + 8-16% provincial CIT (combined ~23-31% depending on province). Small Business Deduction: 9% federal rate on first CAD 500k of active business income for Canadian-Controlled Private Corporations (CCPCs). 5-15% GST/HST depending on province. CFC (FAPI) rules apply. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.ic.gc.ca — Corporations Canada (Innovation, Science and Economic Development)",
+      "https://www.canada.ca/en/revenue-agency.html — Canada Revenue Agency"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Japan - Kabushiki Kaisha (KK)",
+    "entityType": "corporation",
+    "minInvestment": "¥1 (no statutory minimum since 2006; typical ¥1M-3M for credibility)",
+    "annualCost": "¥70,000+ Legal Affairs Bureau registration tax + ~¥200,000-500,000 accounting/audit",
+    "timeToFormation": "2-3 weeks (notarial articles + Legal Affairs Bureau)",
+    "requirements": [
+      "Notarized articles of incorporation",
+      "1+ director (no residency requirement since 2015)",
+      "Japanese registered office",
+      "Capital deposit confirmation from Japanese bank",
+      "Legal Affairs Bureau (Houmukyoku) registration"
+    ],
+    "benefits": [
+      "Premier APAC reputation; preferred for Japan market entry",
+      "Combined effective CIT ~30% (national + local)",
+      "Extensive DTA network (~75 treaties)",
+      "Access to large domestic market and capital",
+      "GK (Godo Kaisha) alternative — simpler/cheaper LLC-style structure"
+    ],
+    "taxImplications": "Combined effective CIT approximately 30% (23.2% national CIT + local inhabitant tax + enterprise tax). Reduced rate ~15% on first ¥8M for SMEs (paid-in capital ≤ ¥100M). 10% standard consumption tax. CFC rules apply to low-taxed foreign subsidiaries. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.nta.go.jp — Japan National Tax Agency",
+      "https://houmukyoku.moj.go.jp — Legal Affairs Bureau (Ministry of Justice)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "South Korea - Yuhan Hoesa (Limited Company)",
+    "entityType": "corporation",
+    "minInvestment": "KRW 100 (no functional minimum)",
+    "annualCost": "KRW 500,000-2,000,000 + accounting",
+    "timeToFormation": "1-2 weeks via court registration",
+    "requirements": [
+      "1+ shareholder, 1+ director",
+      "Korean registered office",
+      "Articles of incorporation",
+      "Court (Bub-won) registration",
+      "Tax Office and FSS registration"
+    ],
+    "benefits": [
+      "Sophisticated legal/financial system",
+      "Progressive CIT 9-24%",
+      "R&D and tax credits for qualifying activities",
+      "Strategic East Asia hub",
+      "Access to chaebol-anchored supply chains"
+    ],
+    "taxImplications": "Progressive CIT: 9% on first KRW 200M; 19% on KRW 200M-20bn; 21% on KRW 20bn-300bn; 24% above KRW 300bn. 10% standard VAT. Local CIT 1-2.5% additional. CFC rules apply. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.nts.go.kr — Korean National Tax Service",
+      "https://www.scourt.go.kr — Supreme Court of Korea (court registration)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Taiwan - Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "TWD 1 (no statutory minimum)",
+    "annualCost": "TWD 30,000-100,000 + accounting",
+    "timeToFormation": "2-4 weeks via MOEA",
+    "requirements": [
+      "1+ shareholder",
+      "1+ director (Foreign Investment Approval needed for FDI)",
+      "Taiwanese registered office",
+      "Articles of incorporation",
+      "Ministry of Economic Affairs (MOEA) registration"
+    ],
+    "benefits": [
+      "20% CIT — competitive in APAC",
+      "Strong tech-manufacturing supply chain (semiconductors)",
+      "10% undistributed retained earnings tax (rather than dividend WHT)",
+      "Strategic East Asia location",
+      "Access to USMCA via separate trade agreements"
+    ],
+    "taxImplications": "20% CIT. Additional 10% surtax on undistributed retained earnings. 5% standard VAT. 21% withholding on dividends paid to non-residents (treaty relief available). CFC rules effective from 2023. Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.dot.gov.tw — Taxation Administration, Ministry of Finance Taiwan",
+      "https://gcis.nat.gov.tw — Ministry of Economic Affairs (Department of Commerce)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Thailand - Limited Company (Co Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "THB 15 (THB 5 par × 3 shareholders); FBA may require higher for foreign-majority companies",
+    "annualCost": "THB 5,000-30,000 + accounting/audit",
+    "timeToFormation": "1-3 weeks via DBD",
+    "requirements": [
+      "Minimum 2 shareholders (reduced from 3 in 2023)",
+      "1+ director",
+      "Thai registered office",
+      "Memorandum of Association (MOA) and bylaws",
+      "Department of Business Development (DBD) registration"
+    ],
+    "benefits": [
+      "20% standard CIT, with progressive SME rates from 0%",
+      "Thailand BOI investment incentives — up to 8 years CIT exemption for qualifying activities",
+      "Strategic ASEAN hub",
+      "Extensive DTA network (~60 treaties)",
+      "Eastern Economic Corridor (EEC) special incentives"
+    ],
+    "taxImplications": "20% standard CIT. SME progressive rates: 0% on first THB 300k, 15% on THB 300k-3M, 20% above (paid-up capital ≤ THB 5M, revenue ≤ THB 30M). 7% standard VAT. Foreign Business Act restricts foreign majority ownership in many sectors (BOI promotion or treaty rights can override). Pillar Two 15% minimum for large MNEs.",
+    "sources": [
+      "https://www.rd.go.th — Thailand Revenue Department",
+      "https://www.dbd.go.th — Department of Business Development"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Vietnam - Limited Liability Company (LLC)",
+    "entityType": "llc",
+    "minInvestment": "No universal minimum (sector-specific minimums for regulated activities)",
+    "annualCost": "VND 5-30 million + accounting",
+    "timeToFormation": "2-4 weeks (Investment Registration Certificate + Enterprise Registration Certificate)",
+    "requirements": [
+      "Investment Registration Certificate (IRC) for foreign investors",
+      "Enterprise Registration Certificate (ERC)",
+      "1+ legal representative (must reside in Vietnam if sole representative)",
+      "Vietnamese registered office",
+      "Charter capital contribution within 90 days of ERC issuance"
+    ],
+    "benefits": [
+      "20% standard CIT — competitive in ASEAN",
+      "Foreign-owned LLCs (single-member or multi-member) widely used",
+      "Investment incentives: reduced CIT rates 10-17% for qualifying sectors/locations, tax holidays",
+      "Strategic Southeast Asia manufacturing hub",
+      "Extensive DTA network (~80 treaties)"
+    ],
+    "taxImplications": "20% standard CIT. Reduced 10% for high-tech, education, healthcare, social housing; 15% and 17% for SMEs subject to conditions (revised CIT rules effective 2025-2026). Tax holidays up to 4 years exempt + 9 years 50% reduction for qualifying investments. 10% standard VAT. Foreign contractor tax applies to non-resident services. Pillar Two QDMTT effective 2024.",
+    "sources": [
+      "https://gdt.gov.vn — General Department of Taxation Vietnam",
+      "https://dangkykinhdoanh.gov.vn — National Business Registration Portal"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Indonesia - Perseroan Terbatas Penanaman Modal Asing (PT PMA)",
+    "entityType": "corporation",
+    "minInvestment": "IDR 10 billion (~USD 650k) total investment plan; IDR 2.5 billion (~USD 165k) paid-up capital",
+    "annualCost": "IDR 20-50 million + accounting",
+    "timeToFormation": "4-8 weeks (BKPM/OSS approval + notarial deed + Ministry of Law & Human Rights)",
+    "requirements": [
+      "BKPM/OSS principal license",
+      "Notarial deed of establishment",
+      "2+ shareholders, 1+ director, 1+ commissioner",
+      "Indonesian registered office (in city/regency aligned with business activity)",
+      "Ministry of Law and Human Rights (MOLHR) approval"
+    ],
+    "benefits": [
+      "22% standard CIT",
+      "100% foreign ownership allowed in many sectors (under Positive Investment List 2021)",
+      "Strategic ASEAN — largest economy in Southeast Asia",
+      "Tax holidays up to 20 years for pioneer industries",
+      "Tax allowances and super-deductions for qualifying investments"
+    ],
+    "taxImplications": "22% standard CIT (lowered from 25% in 2022). 19% reduced rate for public listed companies meeting conditions. 11% standard VAT (raised from 10% in 2022; further increase to 12% planned). Branch profits tax 20% on repatriated profits. Pillar Two QDMTT effective 2025. Tax holidays for pioneer industries.",
+    "sources": [
+      "https://www.pajak.go.id — Indonesian Directorate General of Taxes",
+      "https://oss.go.id — Online Single Submission (OSS)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Philippines - Domestic Corporation",
+    "entityType": "corporation",
+    "minInvestment": "PHP 5,000 minimum subscribed capital (foreign-owned often higher; PHP 200,000+ paid-up for retail/import)",
+    "annualCost": "PHP 5,000-30,000 SEC + accounting",
+    "timeToFormation": "2-4 weeks via SEC eSPARC online",
+    "requirements": [
+      "1+ shareholder (One Person Corporation allowed since RA 11232)",
+      "1+ director",
+      "Philippine registered office",
+      "Articles of Incorporation and Bylaws",
+      "Securities and Exchange Commission (SEC) registration + BIR + LGU"
+    ],
+    "benefits": [
+      "20% reduced CIT for SMEs (taxable income ≤ PHP 5M and assets ≤ PHP 100M); 25% standard",
+      "PEZA-registered companies: 5% on gross income (post-incentive) or 4-7 year ITH",
+      "Strategic ASEAN location, English-speaking workforce",
+      "Foreign Investments Act allows 100% foreign ownership in non-Negative-List industries"
+    ],
+    "taxImplications": "25% standard CIT (lowered from 30% via CREATE Act 2021). 20% reduced rate for domestic SMEs (taxable income ≤ PHP 5M and total assets ≤ PHP 100M excluding land). 12% standard VAT. CREATE Act incentives: 4-7 year Income Tax Holiday + 10 years SCIT (5%) for qualifying registered enterprises. Pillar Two 15% applies to large MNEs.",
+    "sources": [
+      "https://www.bir.gov.ph — Bureau of Internal Revenue",
+      "https://www.sec.gov.ph — Philippine Securities and Exchange Commission"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "India - Private Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "INR 1 (no statutory minimum; typical INR 100,000+ authorized capital)",
+    "annualCost": "INR 15,000-50,000 ROC + accounting/audit",
+    "timeToFormation": "2-3 weeks via MCA SPICe+ integrated form",
+    "requirements": [
+      "2+ shareholders (200 max)",
+      "2+ directors (1 must be Indian resident)",
+      "Indian registered office",
+      "Memorandum and Articles of Association",
+      "Ministry of Corporate Affairs (MCA) SPICe+ filing + DIN + DSC"
+    ],
+    "benefits": [
+      "Section 115BAA — 22% concessional CIT rate (effective ~25.17% with surcharge/cess)",
+      "Section 115BAB — 15% rate for new domestic manufacturing companies (subject to conditions)",
+      "Largest emerging market — 1.4bn population",
+      "Extensive DTA network (~95 treaties)",
+      "Startup India incentives — tax holiday for eligible startups"
+    ],
+    "taxImplications": "Two concessional regimes: Section 115BAA — 22% base CIT for domestic companies opting in (~25.17% effective with 10% surcharge + 4% cess); Section 115BAB — 15% base for new manufacturing companies that commenced production by 31 March 2024 (~17.16% effective). Old regime: 25-30% base. 18% standard GST. CFC rules apply via Place of Effective Management (POEM). Pillar Two QDMTT effective 2025.",
+    "sources": [
+      "https://www.incometax.gov.in — Income Tax Department of India",
+      "https://www.mca.gov.in — Ministry of Corporate Affairs"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Israel - Limited Company (Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "ILS 1 (no statutory minimum)",
+    "annualCost": "ILS 1,500-3,000 + accounting",
+    "timeToFormation": "1-2 weeks via Companies Registrar online",
+    "requirements": [
+      "1+ shareholder",
+      "1+ director",
+      "Israeli registered office",
+      "Articles of association (takanon)",
+      "Companies Registrar filing + Tax Authority registration"
+    ],
+    "benefits": [
+      "23% CIT — competitive for advanced economies",
+      "Preferred Enterprise / Special Preferred Enterprise: 7.5%-16% reduced rates for qualifying activities",
+      "Innovation Box / IP regime: 6%-12% on qualifying IP income",
+      "Major DTA network (~55 treaties)",
+      "Premier ecosystem for tech/R&D"
+    ],
+    "taxImplications": "23% CIT. Preferred Enterprise (in development zone A): 7.5% reduced rate. Special Preferred Enterprise: 5%-8%. IP Box: 6%-12% effective rate. 17% standard VAT. CFC rules apply. Pillar Two 15% minimum for large MNEs (with QDMTT consideration).",
+    "sources": [
+      "https://www.gov.il/en/departments/israel_tax_authority — Israel Tax Authority",
+      "https://www.gov.il/en/departments/corporations_authority — Israeli Corporations Authority"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Mexico - Sociedad de Responsabilidad Limitada (S de RL)",
+    "entityType": "llc",
+    "minInvestment": "MXN 0 (no minimum capital since 2014 reform; MXN 3,000 for S de RL by convention)",
+    "annualCost": "MXN 5,000-20,000 + accounting",
+    "timeToFormation": "2-4 weeks (notarial deed + Public Registry of Commerce)",
+    "requirements": [
+      "Notarial public deed of incorporation",
+      "2-50 partners (socios)",
+      "1+ administrator/manager",
+      "Mexican registered office",
+      "Public Registry of Commerce (RPC) + RFC tax registration + IMSS social security"
+    ],
+    "benefits": [
+      "30% CIT (federal corporate income tax / ISR)",
+      "USMCA market access — gateway for North American trade",
+      "Maquiladora/IMMEX programs offer customs/tax incentives",
+      "Extensive DTA network (~60 treaties)",
+      "S de RL classified as partnership for US tax purposes (check-the-box) — useful for US owners"
+    ],
+    "taxImplications": "30% federal CIT (ISR). Resident taxed on worldwide income; non-residents on Mexican-source. 16% standard VAT (IVA), 8% in border zones. 10% dividend WHT to non-residents (treaty relief common). CFC rules apply. Pillar Two QDMTT effective 2024. Maquiladora regime for export-oriented manufacturing.",
+    "sources": [
+      "https://www.sat.gob.mx — Servicio de Administración Tributaria (SAT)",
+      "https://rps.economia.gob.mx — Sistema Integral de Gestión Registral (SIGER) Public Registry"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Brazil - Sociedade Limitada (Ltda)",
+    "entityType": "llc",
+    "minInvestment": "BRL 0 (no statutory minimum capital)",
+    "annualCost": "BRL 2,000-10,000 + accounting",
+    "timeToFormation": "2-6 weeks via Junta Comercial + federal CNPJ + state/municipal registrations",
+    "requirements": [
+      "2+ partners (sócios) — single-member SLU available since 2019",
+      "1+ administrator",
+      "Brazilian registered office",
+      "Articles of association (contrato social)",
+      "Junta Comercial (state Board of Trade) filing + CNPJ + state/municipal tax registrations"
+    ],
+    "benefits": [
+      "Largest Latin American economy",
+      "Lucro Real or Lucro Presumido (presumptive) tax options",
+      "Free Trade Zone of Manaus offers significant tax incentives",
+      "Simples Nacional simplified tax regime for SMEs",
+      "Extensive DTA network (~35 treaties)"
+    ],
+    "taxImplications": "Combined 34% effective rate on worldwide income (15% IRPJ + 10% additional IRPJ on profits >BRL 240k/year + 9% CSLL). Lucro Presumido option for qualifying SMEs (presumptive profit method, simpler). Simples Nacional for revenue ≤ BRL 4.8M. 17-18% state VAT (ICMS) plus federal PIS/COFINS (~9.25%). CFC rules apply. Pillar Two QDMTT effective 2025.",
+    "sources": [
+      "https://www.gov.br/receitafederal — Receita Federal do Brasil",
+      "https://www.gov.br/empresas-e-negocios/pt-br/redesim — REDESIM business portal"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Argentina - Sociedad de Responsabilidad Limitada (SRL)",
+    "entityType": "llc",
+    "minInvestment": "ARS 100 (nominal; typically higher in practice)",
+    "annualCost": "ARS 200,000-500,000 + accounting",
+    "timeToFormation": "4-8 weeks via IGJ (Inspección General de Justicia)",
+    "requirements": [
+      "2-50 partners",
+      "1+ administrator/manager",
+      "Argentine registered office",
+      "Articles of incorporation",
+      "IGJ (Inspección General de Justicia) filing in Buenos Aires or provincial registry + AFIP tax registration"
+    ],
+    "benefits": [
+      "Progressive CIT 25%-35%",
+      "Mercosur market access",
+      "Extensive DTA network (~25 treaties)",
+      "RIGI (Régimen de Incentivo para Grandes Inversiones) — 25% CIT and other incentives for large investments since 2024",
+      "Sociedad por Acciones Simplificada (SAS) is a faster alternative — 24-hour formation"
+    ],
+    "taxImplications": "Progressive CIT: 25% on first ARS ~7M; 30% on ARS ~7M-70M; 35% above (thresholds adjusted annually). 21% standard VAT. 7% dividend WHT to non-residents. CFC rules apply. Foreign-exchange controls limit dividend repatriation in practice. Pillar Two implementation under consideration. RIGI for large investments.",
+    "sources": [
+      "https://www.afip.gob.ar — Administración Federal de Ingresos Públicos (AFIP)",
+      "https://www.argentina.gob.ar/justicia/igj — Inspección General de Justicia"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Chile - Sociedad por Acciones (SpA)",
+    "entityType": "corporation",
+    "minInvestment": "CLP 1 (no statutory minimum)",
+    "annualCost": "CLP 200,000-800,000 + accounting",
+    "timeToFormation": "1-3 days via Registro de Empresas y Sociedades (RES) — Tu Empresa en un Día",
+    "requirements": [
+      "1+ shareholder (sole shareholder allowed)",
+      "1+ administrator",
+      "Chilean registered office",
+      "Articles of incorporation",
+      "Registro de Empresas y Sociedades (RES) online filing + SII tax registration"
+    ],
+    "benefits": [
+      "27% CIT under Régimen Pro Pyme General; 25% Pro Pyme Transparente for SMEs",
+      "Same-day online incorporation via Tu Empresa en un Día",
+      "Extensive DTA network (~35 treaties)",
+      "Strong rule of law within Latin America",
+      "Foreign Investment Statute (Decree Law 600 successor) for FDI"
+    ],
+    "taxImplications": "27% CIT (Régimen Semi-Integrado / Régimen Pro Pyme General); 25% Pro Pyme Transparente (pass-through to owners) for SMEs with revenue < UF 75,000. Integrated/semi-integrated tax system: corporate tax credit available against personal tax on dividends. 19% standard VAT. CFC rules apply. Pillar Two QDMTT under consideration.",
+    "sources": [
+      "https://www.sii.cl — Servicio de Impuestos Internos (Chilean IRS)",
+      "https://www.registrodeempresasysociedades.cl — Registro de Empresas y Sociedades"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Colombia - Sociedad por Acciones Simplificada (SAS)",
+    "entityType": "corporation",
+    "minInvestment": "COP 1 (no statutory minimum)",
+    "annualCost": "COP 500,000-2,000,000 + accounting",
+    "timeToFormation": "1-3 business days via Cámara de Comercio online",
+    "requirements": [
+      "1+ shareholder (sole shareholder allowed)",
+      "1+ legal representative",
+      "Colombian registered office",
+      "Articles of incorporation (private document — no notary required)",
+      "Chamber of Commerce registration + DIAN tax registration (RUT)"
+    ],
+    "benefits": [
+      "35% CIT (one of higher in region but with various incentives)",
+      "Most popular entity since SAS Law 2008 — flexible governance",
+      "Free trade zones offer 20% reduced CIT for industrial users",
+      "Mega-investments regime for very large investors",
+      "Pacific Alliance market access"
+    ],
+    "taxImplications": "35% standard CIT. 20% reduced rate in qualifying free trade zones for industrial users. Surtax 3% for financial sector (35%+3%=38%). 19% standard VAT (IVA). 10% dividend tax to non-residents (treaty relief available). CFC rules apply. Pillar Two QDMTT effective 2025.",
+    "sources": [
+      "https://www.dian.gov.co — Dirección de Impuestos y Aduanas Nacionales (DIAN)",
+      "https://www.confecamaras.org.co — Confederación Colombiana de Cámaras de Comercio"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Peru - Sociedad Anónima Cerrada (SAC)",
+    "entityType": "corporation",
+    "minInvestment": "PEN 1 (no statutory minimum; convention is higher)",
+    "annualCost": "PEN 2,000-8,000 + accounting",
+    "timeToFormation": "2-4 weeks (notarial deed + Public Registry — SUNARP)",
+    "requirements": [
+      "Notarial public deed of incorporation",
+      "2-20 shareholders",
+      "1+ general manager",
+      "Peruvian registered office",
+      "SUNARP Public Registry filing + SUNAT tax registration (RUC)"
+    ],
+    "benefits": [
+      "29.5% CIT",
+      "MYPE Tributario (SME regime) — progressive rates 10%/29.5%",
+      "Pacific Alliance market access",
+      "Free Trade Zone (CETICOS, ZED) regimes available",
+      "Extensive DTA network (~10 treaties, expanding)"
+    ],
+    "taxImplications": "29.5% standard CIT. MYPE Tributario regime for SMEs (revenue < 1,700 UIT): progressive 10%/29.5%. Régimen MYPE (RG): simplified accounting. 18% standard VAT (IGV). 5% dividend tax to non-residents and individuals. CFC rules apply. Pillar Two implementation under consideration.",
+    "sources": [
+      "https://www.sunat.gob.pe — Superintendencia Nacional de Aduanas y de Administración Tributaria",
+      "https://www.sunarp.gob.pe — Superintendencia Nacional de los Registros Públicos"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Uruguay - Sociedad Anónima (SA)",
+    "entityType": "corporation",
+    "minInvestment": "UYU 0 (no minimum capital required for ordinary SA)",
+    "annualCost": "UYU 60,000-150,000 + accounting",
+    "timeToFormation": "4-8 weeks via Auditoría Interna de la Nación + Registro Nacional de Comercio",
+    "requirements": [
+      "Articles of incorporation (estatutos)",
+      "2+ shareholders",
+      "1+ administrator/director",
+      "Uruguayan registered office",
+      "AIN approval + Registro Nacional de Comercio + DGI tax registration"
+    ],
+    "benefits": [
+      "Territorial tax — 25% IRAE on Uruguay-source income; foreign-source generally exempt",
+      "Free Zone (Zona Franca) regime: 0% IRAE for qualifying users",
+      "Strong rule of law and political stability",
+      "Mercosur market access",
+      "SAU (single-member SA) also available"
+    ],
+    "taxImplications": "25% IRAE on Uruguay-source business income (territorial system — foreign-source income generally not taxed except certain passive categories under 'Free Source +' rules from 2023). Free Zone regime: 0% IRAE for qualifying users. 22% standard VAT. 7% dividend WHT to non-residents. CFC-like rules apply only to certain low-taxed jurisdictions. Pillar Two QDMTT under consideration.",
+    "sources": [
+      "https://www.dgi.gub.uy — Dirección General Impositiva",
+      "https://www.gub.uy/auditoria-interna-nacion — Auditoría Interna de la Nación"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Costa Rica - Sociedad de Responsabilidad Limitada (SRL)",
+    "entityType": "llc",
+    "minInvestment": "CRC 1,000 (~USD 2; nominal)",
+    "annualCost": "CRC 70,000-200,000 + accounting",
+    "timeToFormation": "1-2 weeks (notarial deed + Registro Nacional)",
+    "requirements": [
+      "Notarial public deed of incorporation",
+      "2+ partners (single-partner allowed via SRL Unipersonal)",
+      "1+ manager",
+      "Costa Rican registered office",
+      "Registro Nacional + Hacienda tax registration"
+    ],
+    "benefits": [
+      "Territorial tax — 30% on Costa Rica-source income; foreign-source generally exempt",
+      "Free Zone regime: significant tax incentives for qualifying export-oriented activities",
+      "Strong democratic institutions, rule of law",
+      "Strategic Central American hub",
+      "DTA network expanding (~10 treaties)"
+    ],
+    "taxImplications": "30% standard CIT on Costa Rica-source income (territorial system). Reduced rates for SMEs: 5% on first CRC 5.7M, 10% on next, 15% on next, scaling to 30% (revenue thresholds). Foreign-source income generally exempt. 13% standard VAT. Dividend WHT 15% to non-residents (treaty relief available). Free Zone Law (No. 7210) offers extensive incentives.",
+    "sources": [
+      "https://www.hacienda.go.cr — Ministerio de Hacienda",
+      "https://www.rnpdigital.com — Registro Nacional de Costa Rica"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Saudi Arabia - Limited Liability Company (LLC)",
+    "entityType": "llc",
+    "minInvestment": "SAR 0 (no statutory minimum for most activities; sector regulators may set higher)",
+    "annualCost": "SAR 10,000-30,000 + accounting",
+    "timeToFormation": "2-6 weeks via MISA investment license + Ministry of Commerce",
+    "requirements": [
+      "MISA (Ministry of Investment) license for foreign investors",
+      "2+ partners (single-partner LLC allowed since reforms)",
+      "Saudi registered office",
+      "Articles of association",
+      "Ministry of Commerce commercial registration + ZATCA tax registration"
+    ],
+    "benefits": [
+      "100% foreign ownership permitted in most sectors (since Vision 2030 reforms)",
+      "20% CIT for foreign owners (lower than many comparable jurisdictions)",
+      "Saudi/GCC owners pay 2.5% Zakat instead",
+      "Regional Headquarters program: 30-year tax incentives",
+      "Largest GCC economy"
+    ],
+    "taxImplications": "20% CIT on net taxable profits for non-Saudi/non-GCC owned portion (foreign companies, branches, PEs). 2.5% Zakat for Saudi/GCC-owned resident companies on zakatable base. Mixed-ownership companies are split: foreign portion → CIT; Saudi/GCC portion → Zakat. 5% withholding on dividends to non-residents (treaty relief). 15% standard VAT. Pillar Two QDMTT effective 2025.",
+    "sources": [
+      "https://zatca.gov.sa — Zakat, Tax and Customs Authority",
+      "https://misa.gov.sa — Ministry of Investment of Saudi Arabia"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Bahrain - With Limited Liability (WLL)",
+    "entityType": "llc",
+    "minInvestment": "BHD 50 (nominal; sector regulators may set higher for licensed activities)",
+    "annualCost": "BHD 500-2,000 commercial registration + accounting",
+    "timeToFormation": "2-4 weeks via Sijilat / Ministry of Industry and Commerce",
+    "requirements": [
+      "2+ partners (single-member WLL also available)",
+      "1+ manager",
+      "Bahraini registered office",
+      "Memorandum of Association",
+      "Sijilat commercial registration + sector-specific licenses"
+    ],
+    "benefits": [
+      "0% corporate tax for most activities (no broad CIT in 2026)",
+      "100% foreign ownership permitted in most sectors",
+      "GCC market access",
+      "Lowest cost of doing business in GCC for many sectors",
+      "Strong financial-services regulatory framework (CBB)"
+    ],
+    "taxImplications": "No general corporate income tax in 2026 for ordinary commercial companies. Exception: oil & gas / hydrocarbon activities taxed at 46%. Note: Draft law in 2026 proposed introducing 10% CIT effective 2027 — confirm current legislative status. 10% standard VAT. Domestic Minimum Top-up Tax (DMTT) of 15% effective 2025 for in-scope multinational groups (Pillar Two).",
+    "sources": [
+      "https://www.nbr.gov.bh — National Bureau for Revenue Bahrain",
+      "https://www.sijilat.bh — Sijilat Commercial Registration Portal"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Qatar - Qatar Financial Centre (QFC) Entity",
+    "entityType": "free_zone",
+    "minInvestment": "USD 0 base (regulated activities have higher capital requirements)",
+    "annualCost": "USD 5,000-25,000+ (license + office)",
+    "timeToFormation": "4-8 weeks via QFCA registration",
+    "requirements": [
+      "QFC Authority application",
+      "QFC registered office",
+      "1+ director, 1+ shareholder",
+      "Substance requirements: physical presence, employees, expenditure",
+      "QFC Regulatory Authority approval for regulated activities (financial services)"
+    ],
+    "benefits": [
+      "10% CIT on locally-sourced profits (lower than mainland Qatar 10%)",
+      "100% foreign ownership",
+      "100% repatriation of profits and capital",
+      "English common-law-influenced framework with QFC Court",
+      "Strategic GCC location with 2030+ economic development plans"
+    ],
+    "taxImplications": "10% CIT on locally-sourced profits for QFC entities (same headline as mainland Qatar). 0% on foreign-source income (territorial). No VAT in Qatar as of 2026 (though framework exists). Pillar Two DMTT effective 2025 for in-scope MNE groups. No personal income tax.",
+    "sources": [
+      "https://www.qfc.qa — Qatar Financial Centre",
+      "https://dhareeba.gov.qa — Qatar General Tax Authority"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Oman - Limited Liability Company (LLC)",
+    "entityType": "llc",
+    "minInvestment": "OMR 20,000 (~USD 52,000) for foreign-owned LLCs typically; OMR 0 for fully-Omani LLCs",
+    "annualCost": "OMR 1,000-3,000 + accounting",
+    "timeToFormation": "2-4 weeks via Invest Easy + Ministry of Commerce",
+    "requirements": [
+      "2+ partners (single-member LLC allowed)",
+      "1+ manager",
+      "Omani registered office",
+      "Memorandum of Association",
+      "MOCIIP commercial registration + sector-specific licenses"
+    ],
+    "benefits": [
+      "15% CIT — competitive within GCC",
+      "100% foreign ownership permitted in most sectors (Foreign Capital Investment Law 2020)",
+      "Free Zones (Sohar, Salalah, Duqm) offer 30-year tax holidays",
+      "Strategic location at Strait of Hormuz",
+      "GCC market access"
+    ],
+    "taxImplications": "15% CIT on Oman-source income. 3% reduced rate for SMEs meeting certain conditions (revenue < OMR 100k, capital < OMR 50k, no oil & gas/banking/insurance). 5% standard VAT. 10% withholding on certain payments to non-residents (royalties, management fees). Pillar Two DMTT effective 2025.",
+    "sources": [
+      "https://www.taxoman.gov.om — Tax Authority Oman",
+      "https://www.business.gov.om — Invest Easy / Ministry of Commerce, Industry and Investment Promotion"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Egypt - Limited Liability Company (LLC)",
+    "entityType": "llc",
+    "minInvestment": "EGP 1,000 (~USD 20)",
+    "annualCost": "EGP 5,000-20,000 + accounting",
+    "timeToFormation": "2-4 weeks via GAFI (General Authority for Investment)",
+    "requirements": [
+      "2+ partners (single-member LLC allowed)",
+      "1+ manager",
+      "Egyptian registered office",
+      "Articles of association",
+      "GAFI registration + Tax Authority registration"
+    ],
+    "benefits": [
+      "22.5% CIT — relatively competitive in MENA",
+      "Free Zones (public/private): exemption from CIT and other duties",
+      "Strategic North Africa / Middle East location",
+      "Access to AfCFTA, COMESA, GAFTA trade agreements",
+      "Investment Law 72/2017 incentives for qualifying projects"
+    ],
+    "taxImplications": "22.5% standard CIT (40.55% on oil & gas / Suez Canal companies). Free Zones offer extensive exemptions. 14% standard VAT. 10% dividend WHT to non-residents (5% if shareholding ≥25% for >2 years). Investment incentives under Investment Law 72/2017: tax credits up to 50% for investments in priority sectors/zones. Pillar Two implementation under consideration.",
+    "sources": [
+      "https://www.eta.gov.eg — Egyptian Tax Authority",
+      "https://www.gafi.gov.eg — General Authority for Investment and Free Zones"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "South Africa - Proprietary Limited Company (Pty Ltd)",
+    "entityType": "corporation",
+    "minInvestment": "ZAR 0 (no minimum capital)",
+    "annualCost": "ZAR 100-500 CIPC + accounting",
+    "timeToFormation": "1-2 weeks via CIPC online",
+    "requirements": [
+      "1+ director (CIPC requires verification)",
+      "1+ shareholder",
+      "South African registered office",
+      "Memorandum of Incorporation (MOI)",
+      "CIPC registration + SARS tax registration"
+    ],
+    "benefits": [
+      "27% CIT (lowered from 28% in April 2022)",
+      "Small Business Corporation regime: progressive 0-27%",
+      "Headquarter Company regime — exemption from dividends tax and CFC for qualifying holdings",
+      "Strategic gateway to sub-Saharan Africa",
+      "Extensive DTA network (~80 treaties)"
+    ],
+    "taxImplications": "27% CIT (lowered from 28% in 2022/23 fiscal year). Small Business Corporation (SBC) progressive rates: 0% on first ZAR 95,750; 7% to ZAR 365,000; 21% to ZAR 550,000; 27% above (annual revenue ≤ ZAR 20M and other conditions). 15% standard VAT. 20% dividend tax. CFC rules apply. Pillar Two QDMTT effective 2024. Headquarter Company regime for qualifying African holdings.",
+    "sources": [
+      "https://www.sars.gov.za — South African Revenue Service",
+      "https://www.cipc.co.za — Companies and Intellectual Property Commission"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Kenya - Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "KES 0 (no statutory minimum)",
+    "annualCost": "KES 10,000-30,000 + accounting",
+    "timeToFormation": "1-2 weeks via eCitizen Business Registration Service",
+    "requirements": [
+      "1+ director",
+      "1+ shareholder",
+      "Kenyan registered office",
+      "Memorandum and Articles of Association",
+      "Business Registration Service (BRS) via eCitizen + KRA tax registration (PIN)"
+    ],
+    "benefits": [
+      "30% CIT for resident companies (37.5% for branches of non-resident companies)",
+      "Special Economic Zones (SEZs): 10% CIT for first 10 years, 15% thereafter for SEZ enterprises",
+      "Strategic East Africa hub",
+      "EAC and AfCFTA market access",
+      "Investment incentives under Income Tax Act"
+    ],
+    "taxImplications": "30% CIT for resident companies. 37.5% for non-resident companies / branches. 16% standard VAT. SEZ enterprises: 10% CIT first 10 years, 15% thereafter. 15% withholding on dividends paid to non-residents (5% to EAC residents in some cases; treaty relief available). Digital Service Tax 1.5% on digital services to Kenyan users.",
+    "sources": [
+      "https://www.kra.go.ke — Kenya Revenue Authority",
+      "https://brs.go.ke — Business Registration Service"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Nigeria - Limited Liability Company",
+    "entityType": "corporation",
+    "minInvestment": "NGN 100,000 minimum issued share capital (~USD 65)",
+    "annualCost": "NGN 50,000-200,000 + accounting",
+    "timeToFormation": "1-3 weeks via CAC (Corporate Affairs Commission) online",
+    "requirements": [
+      "1+ shareholder, 1+ director (single-member company allowed since CAMA 2020)",
+      "Company secretary (mandatory for public companies; recommended for private)",
+      "Nigerian registered office",
+      "Memorandum and Articles of Association",
+      "CAC registration + FIRS tax registration (TIN)"
+    ],
+    "benefits": [
+      "30% CIT standard; 20% medium-sized companies",
+      "0% CIT for small companies (revenue ≤ NGN 25M)",
+      "Largest African economy and population",
+      "Free Trade Zones offer extensive tax exemptions",
+      "Pioneer Status Incentive: 3-5 year tax holiday for qualifying industries"
+    ],
+    "taxImplications": "30% standard CIT. 20% medium-sized companies (turnover NGN 25M-100M). 0% small companies (turnover ≤ NGN 25M). 7.5% standard VAT. 10% dividend WHT to non-residents (treaty relief available). Tertiary Education Tax 3% on assessable profits. CFC-like rules being introduced. Pillar Two implementation under consideration.",
+    "sources": [
+      "https://www.firs.gov.ng — Federal Inland Revenue Service",
+      "https://www.cac.gov.ng — Corporate Affairs Commission"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Turkey - Anonim Şirket (AŞ)",
+    "entityType": "corporation",
+    "minInvestment": "TRY 250,000 (~USD 7,800; raised from TRY 50,000 in 2024)",
+    "annualCost": "TRY 5,000-30,000 + accounting",
+    "timeToFormation": "1-3 weeks via MERSIS / Trade Registry",
+    "requirements": [
+      "1+ shareholder",
+      "1+ board member",
+      "Turkish registered office",
+      "Articles of association",
+      "Trade Registry (Ticaret Sicili) filing via MERSIS + Tax Office registration"
+    ],
+    "benefits": [
+      "25% CIT (raised from 20% in 2023)",
+      "Reduced 5-15% rates for export-oriented or qualifying activities",
+      "Free Zones offer CIT, VAT and customs exemptions",
+      "Strategic location bridging Europe and Asia",
+      "Customs Union with EU"
+    ],
+    "taxImplications": "25% standard CIT (raised from 20% effective 2023). Reduced 23% for AŞ companies that derive ≥80% of revenue from exports (export discount). Banking and financial sector 30%. 20% standard VAT (KDV). 15% dividend WHT to non-residents (treaty relief common). Pillar Two QDMTT effective 2025.",
+    "sources": [
+      "https://www.gib.gov.tr — Turkish Revenue Administration",
+      "https://www.ticaret.gov.tr — Ministry of Trade (Trade Registry)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Morocco - Société à Responsabilité Limitée (SARL)",
+    "entityType": "llc",
+    "minInvestment": "MAD 0 (statutory minimum abolished; previously MAD 10,000)",
+    "annualCost": "MAD 3,000-10,000 + accounting",
+    "timeToFormation": "1-3 weeks via Regional Investment Centres (CRI)",
+    "requirements": [
+      "1-50 partners",
+      "1+ manager (gérant)",
+      "Moroccan registered office",
+      "Articles of association",
+      "Regional Investment Centre (CRI) one-stop-shop + Tax Administration (DGI) registration"
+    ],
+    "benefits": [
+      "Progressive CIT 20-31% (lowered from previously higher rates)",
+      "Casablanca Finance City (CFC): 8.75% reduced rate for qualifying financial services",
+      "Free Zones (Tanger Med, etc.): 5-year tax exemption + 8.75% for 20 years",
+      "Strategic gateway between Europe and Africa",
+      "Free Trade Agreements with EU, US, Turkey, AfCFTA"
+    ],
+    "taxImplications": "Progressive CIT (effective 2026 schedule): 20% on first MAD 300,000; 25% on MAD 300,001-1,000,000; 31% above MAD 1,000,000 (rates being phased to 20%/25%/35% by 2026). CFC special rate 8.75% for qualifying activities. Free Zones: 0% first 5 years, 8.75% for 20 years. 20% standard VAT. 15% dividend WHT to non-residents (treaty relief available).",
+    "sources": [
+      "https://www.tax.gov.ma — Direction Générale des Impôts (DGI)",
+      "https://www.invest.gov.ma — Agence Marocaine de Développement des Investissements (AMDIE)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Anguilla - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 250 government fee + USD 500-1,500 registered agent",
+    "timeToFormation": "1-2 business days",
+    "requirements": [
+      "Anguilla-licensed registered agent",
+      "Anguilla registered office",
+      "1+ director, 1+ shareholder",
+      "Beneficial ownership register",
+      "Economic Substance compliance for relevant activities"
+    ],
+    "benefits": [
+      "0% direct taxation (no income, capital gains, or estate tax)",
+      "Online incorporation via ACORN system — same-day formation possible",
+      "English common law (Privy Council appeals)",
+      "Solid CRS compliance and removed from EU non-cooperative list",
+      "Confidentiality of beneficial ownership (limited public disclosure)"
+    ],
+    "taxImplications": "0% direct taxation on companies. Economic Substance Act 2018/2021 — relevant activities (banking, insurance, fund management, financing/leasing, headquarters, shipping, holding business, IP, distribution/service centre) must satisfy substance tests. Removed from EU Annex I but on Annex II. CRS reporting in force.",
+    "sources": [
+      "https://www.fsc.org.ai — Anguilla Financial Services Commission",
+      "https://www.gov.ai — Government of Anguilla"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Nevis - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (typical authorized capital USD 100,000)",
+    "annualCost": "USD 220 government fee + USD 500-1,500 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Nevis-licensed registered agent",
+      "Nevis registered office",
+      "1+ director (corporate directors permitted), 1+ shareholder",
+      "Annual minimal filing requirements",
+      "Economic Substance Act compliance for relevant activities (St. Kitts and Nevis)"
+    ],
+    "benefits": [
+      "Strong asset-protection statutes (Nevis LLC particularly notable)",
+      "0% direct taxation on foreign-source income",
+      "Charging order protection for LLC members",
+      "Privacy of beneficial ownership (limited public disclosure)",
+      "English common law influence"
+    ],
+    "taxImplications": "0% direct taxation on foreign-source income for IBCs/LLCs. Local-source income subject to standard CIT. Federation of Saint Kitts and Nevis Economic Substance Regulations require relevant activities to have substance. CRS reporting in force. Off the EU Annex I but historically on Annex II watch lists.",
+    "sources": [
+      "https://www.fsrc.kn — Saint Kitts and Nevis Financial Services Regulatory Commission",
+      "https://www.skbfinancialservices.com — Saint Kitts and Nevis Inland Revenue / FSU"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Marshall Islands - International Business Company (IBC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 450 government fee + USD 500-1,200 registered agent",
+    "timeToFormation": "1-2 business days",
+    "requirements": [
+      "Marshall Islands-licensed registered agent",
+      "Marshall Islands registered office (typically corporate services provider)",
+      "1+ director, 1+ shareholder",
+      "Beneficial ownership register",
+      "Economic Substance compliance for relevant activities"
+    ],
+    "benefits": [
+      "0% corporate tax for non-resident IBCs",
+      "Most popular flag-state jurisdiction for ship registration globally",
+      "US-influenced corporate law (modeled on Delaware)",
+      "Quick formation",
+      "Privacy of beneficial ownership"
+    ],
+    "taxImplications": "0% taxation on foreign-source income for non-resident IBCs. Companies doing business in Marshall Islands subject to local taxes. Economic Substance Regulations 2018 require relevant activities to have substance. CRS reporting in force. Has been on EU Annex II watch list periodically.",
+    "sources": [
+      "https://rmiparliament.org — Republic of the Marshall Islands government",
+      "https://www.register-iri.com — Marshall Islands Maritime and Corporate Administrators"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  },
+  {
+    "country": "Samoa - International Company (IC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 300 government fee + USD 500-1,200 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Samoa-licensed registered agent / Trustee Company",
+      "Samoa registered office",
+      "1+ director, 1+ shareholder (corporate directors permitted)",
+      "Beneficial ownership register",
+      "Economic Substance compliance under Samoa International Companies Act"
+    ],
+    "benefits": [
+      "0% direct taxation for ICs on foreign-source activities",
+      "Quick formation",
+      "Privacy of beneficial ownership",
+      "Unique 'segregated portfolio company' option",
+      "English common law influence"
+    ],
+    "taxImplications": "0% tax for International Companies on foreign-source activities. Local-source income subject to Samoan tax. Economic Substance regime applies to relevant activities. CRS reporting in force. Samoa has been on EU non-cooperative list — verify current status.",
+    "sources": [
+      "https://www.cbs.gov.ws — Central Bank of Samoa",
+      "https://www.sifa.ws — Samoa International Finance Authority"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "low"
+  },
+  {
+    "country": "Vanuatu - International Company (IC)",
+    "entityType": "ibc",
+    "minInvestment": "USD 0 (no minimum capital)",
+    "annualCost": "USD 300 government fee + USD 500-1,200 registered agent",
+    "timeToFormation": "1-3 business days",
+    "requirements": [
+      "Vanuatu-licensed registered agent",
+      "Vanuatu registered office",
+      "1+ director, 1+ shareholder",
+      "Beneficial ownership register",
+      "Economic Substance compliance"
+    ],
+    "benefits": [
+      "0% direct taxation for ICs (no income, capital gains, withholding, or inheritance tax)",
+      "Quick formation, low costs",
+      "English common law influence",
+      "Privacy of beneficial ownership",
+      "No CFC, transfer pricing rules historically (verify current)"
+    ],
+    "taxImplications": "0% direct taxation. No income tax, no capital gains tax, no estate/inheritance tax, no withholding. 15% VAT on local goods/services. International Companies subject to Economic Substance Regulations for relevant activities. CRS reporting since 2018. Vanuatu has been on EU Annex II — verify current status.",
+    "sources": [
+      "https://www.vfsc.vu — Vanuatu Financial Services Commission",
+      "https://www.customsinlandrevenue.gov.vu — Vanuatu Department of Customs and Inland Revenue"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "low"
+  },
+  {
+    "country": "Jersey - Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "£1 (no functional minimum)",
+    "annualCost": "£200 annual return + ~£1,000-3,000 administration",
+    "timeToFormation": "5-10 business days via Jersey Financial Services Commission",
+    "requirements": [
+      "1+ director, 1+ shareholder",
+      "Jersey registered office (typically with Jersey-licensed corporate services provider)",
+      "Memorandum and Articles of Association",
+      "JFSC registration",
+      "Beneficial ownership register and Economic Substance compliance"
+    ],
+    "benefits": [
+      "0/10/20 corporate tax regime — 0% standard rate on most company profits",
+      "Crown Dependency with strong rule of law and EU regulatory equivalence",
+      "Premier jurisdiction for trusts, funds, and holding structures",
+      "Modern company law (Companies (Jersey) Law 1991)",
+      "Extensive treaty network (Jersey-specific TIEAs and limited DTAs)"
+    ],
+    "taxImplications": "Standard 0% corporate income tax rate for most Jersey companies (0/10/20 regime). 10% rate applies to certain regulated financial services companies (banks, fund managers, trust companies) with Jersey PE. 20% rate applies to specific Jersey-source activities (certain utilities, large retailers, profits from Jersey land/property). 5% standard GST. Economic Substance Law in force since 2019.",
+    "sources": [
+      "https://www.gov.je — Government of Jersey",
+      "https://www.jerseyfsc.org — Jersey Financial Services Commission"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Guernsey - Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "£1 (no functional minimum)",
+    "annualCost": "£250 annual validation + ~£1,000-3,000 administration",
+    "timeToFormation": "5-10 business days via Guernsey Registry",
+    "requirements": [
+      "1+ director, 1+ shareholder",
+      "Guernsey registered office",
+      "Memorandum and Articles of Incorporation",
+      "Guernsey Registry incorporation",
+      "Beneficial ownership register and Economic Substance compliance"
+    ],
+    "benefits": [
+      "0/10/20 corporate tax regime — 0% standard rate on company profits",
+      "Crown Dependency with strong rule of law",
+      "Premier funds and insurance jurisdiction (especially captives)",
+      "Modern company law (Companies (Guernsey) Law 2008)",
+      "Extensive TIEAs and limited DTAs"
+    ],
+    "taxImplications": "Standard 0% corporate income tax rate (0/10/20 regime mirroring Jersey). 10% rate applies to specified regulated banking, fiduciary, fund administration and insurance management activities. 20% rate applies to certain Guernsey-source activities (utilities, large retailers, Guernsey property income). 5% standard GST (introduced January 2025). Economic Substance Law in force since 2019.",
+    "sources": [
+      "https://www.gov.gg — States of Guernsey",
+      "https://www.gfsc.gg — Guernsey Financial Services Commission"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Isle of Man - Limited Company",
+    "entityType": "corporation",
+    "minInvestment": "£1 (no functional minimum)",
+    "annualCost": "£380 annual return + ~£1,000-3,000 administration",
+    "timeToFormation": "5-10 business days via Isle of Man Companies Registry",
+    "requirements": [
+      "1+ director (or 1 corporate director with 2018 Act companies)",
+      "1+ shareholder",
+      "Isle of Man registered office",
+      "Memorandum and Articles of Association",
+      "Companies Registry filing + UBO register"
+    ],
+    "benefits": [
+      "0% standard corporate tax rate",
+      "Crown Dependency with strong rule of law",
+      "British Citizen rights for Manx residents",
+      "Reputable e-gaming, aviation, and shipping jurisdiction",
+      "Two company-law options: 1931 Act (traditional) or 2006 Act (modernized)"
+    ],
+    "taxImplications": "0% standard corporate income tax rate. 10% rate applies to banking business and Isle of Man retail businesses with profits over £500k. 20% rate applies to income from Isle of Man land and property. 0% on most other corporate profits. 20% standard VAT (Isle of Man within UK VAT area). Economic Substance regime in force.",
+    "sources": [
+      "https://www.gov.im — Isle of Man Government",
+      "https://www.iomfsa.im — Isle of Man Financial Services Authority"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Liechtenstein - Anstalt (Establishment)",
+    "entityType": "corporation",
+    "minInvestment": "CHF 30,000 (fully paid-up)",
+    "annualCost": "CHF 1,800 minimum CIT + ~CHF 3,000-8,000 administration",
+    "timeToFormation": "2-4 weeks via Office of Justice",
+    "requirements": [
+      "Notarial deed of foundation (or via fiduciary)",
+      "Founder (no minimum number — single founder permitted)",
+      "Liechtenstein-licensed director / fiduciary representative (at least one EEA-resident)",
+      "Liechtenstein registered office",
+      "Office of Justice (Amt für Justiz) registration"
+    ],
+    "benefits": [
+      "Unique non-corporate structure with no shareholders (beneficiaries instead)",
+      "EEA member — EU single market access (non-EU)",
+      "12.5% flat CIT — among Europe's lowest",
+      "Strong asset-protection and private-banking environment",
+      "Highly flexible governance (commercial vs non-commercial activities)"
+    ],
+    "taxImplications": "12.5% flat CIT on commercial Anstalts with minimum CHF 1,800/year. Non-commercial Anstalts (private asset structures / PVS) eligible for minimum tax only (CHF 1,800). 8.1% VAT (Swiss-aligned). Wealth and gift tax abolished in 2011. EEA participation exemption rules apply. Pillar Two 15% minimum may apply to large MNE groups.",
+    "sources": [
+      "https://www.llv.li — Liechtenstein National Administration",
+      "https://www.oera.li — Office of Justice / Commercial Register"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "high"
+  },
+  {
+    "country": "Andorra - Societat Limitada (SL)",
+    "entityType": "corporation",
+    "minInvestment": "€3,000 (fully paid-up at incorporation)",
+    "annualCost": "€800-2,500 + accounting",
+    "timeToFormation": "4-8 weeks (foreign-investment authorization + notarial deed + registry)",
+    "requirements": [
+      "Foreign Investment Authorization (Govern d'Andorra) for non-Andorran investors",
+      "Notarial public deed of incorporation",
+      "1+ partner, 1+ administrator (must include an Andorran-resident director for some activities)",
+      "Andorran registered office",
+      "Companies Registry (Registre de Societats) filing"
+    ],
+    "benefits": [
+      "10% standard CIT — one of lowest in Europe",
+      "EU-cooperative jurisdiction (no longer non-cooperative since reforms)",
+      "Strategic Pyrenees location between France and Spain",
+      "Reduced 2-5% CIT for qualifying holding (régim especial) and IP-box-equivalent regimes",
+      "Customs union with EU on industrial goods"
+    ],
+    "taxImplications": "10% standard CIT. Reduced 2% for international trading companies and certain holding regimes (subject to substance). 4.5% standard IGI (VAT equivalent — among lowest in Europe). Participation exemption for qualifying holdings ≥5% held >1 year. CRS and AML standards aligned with EU.",
+    "sources": [
+      "https://www.tributs.ad — Andorran Tax Authority (Departament de Tributs i de Fronteres)",
+      "https://www.govern.ad — Government of Andorra (Foreign Investment Authorization)"
+    ],
+    "lastVerified": "2026-04-28",
+    "confidence": "medium"
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "polystate",
-  "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Instant visa checks, crypto-tax comparisons, residency programs, and jurisdiction scoring — powered by Polystate.",
-  "version": "1.0.0",
+  "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Live Polystate MCP at mcp.polystate.io plus offline fallbacks: visa checks, tax comparison, residency, jurisdiction scoring, LLC formation, and services — powered by Polystate.",
+  "version": "2.0.0",
   "author": {
     "name": "Polystate",
     "url": "https://polystate.io"
@@ -17,6 +17,9 @@
     "residency",
     "nomad",
     "jurisdiction",
-    "sovereignty"
+    "sovereignty",
+    "mcp",
+    "llc",
+    "company-formation"
   ]
 }

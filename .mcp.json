@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "polystate": {
+      "type": "http",
+      "url": "https://mcp.polystate.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${POLYSTATE_API_KEY}"
+      }
+    }
+  }
+}

@@ -6,6 +6,17 @@ description: Compare crypto-tax treatment between one or two countries. Shows ta
 
 The user provided: `$ARGUMENTS`
 
+## Live Polystate MCP (preferred)
+
+When **`polystate`** MCP is connected:
+
+- **Two countries:** call **`tax_compare`** with `{ "country1": "<ISO>", "country2": "<ISO>" }` (both required in the API).
+- **One country:** call **`get_crypto_tax_treatment`** with `{ "country": "<ISO>" }` — the `tax_compare` tool requires two countries.
+
+If MCP succeeds, format the JSON for the user. If it fails or MCP is offline, use embedded **`${CLAUDE_PLUGIN_ROOT}/data/crypto-tax.json`** below.
+
+---
+
 Parse `$ARGUMENTS` as: `[country1] [country2 optional]`
 - country1 is required. country2 is optional (if given, show side-by-side comparison).
 - Country names are case-insensitive. Match against the `name` field in `countries` array.

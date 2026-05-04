@@ -6,6 +6,20 @@ description: Look up residency program details for a country: minimum investment
 
 The user provided: `$ARGUMENTS`
 
+## Live Polystate MCP (preferred)
+
+When **`polystate`** MCP is connected, map the country to **ISO-3166** alpha-2 or alpha-3, then call **`get_residency_programs`** with:
+
+```json
+{ "country": "<ISO>", "category": "temporary" | "permanent" | "investor" | "digital_nomad" }
+```
+
+Only include `category` if the user asked for that type; otherwise omit it.
+
+If MCP returns programs, present them as the primary answer. If MCP fails or returns empty, fall back to **`${CLAUDE_PLUGIN_ROOT}/data/residency-compare.json`** below.
+
+---
+
 Parse `$ARGUMENTS` as: `[country]`
 - Country name is case-insensitive. Match against the `country` field in the data array.
 - The `country` field may include program type in the name (e.g. "Paraguay - Temporary Residency", "Paraguay - Permanent Residency") — if the user asks for "Paraguay", show ALL matching entries for that country.
