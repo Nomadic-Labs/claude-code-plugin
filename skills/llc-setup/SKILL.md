@@ -26,7 +26,21 @@ If MCP returns empty `formations[]`, say so and suggest checking spelling or ano
 
 ## Offline fallback
 
-If MCP is **not** available or the call fails, read **`${CLAUDE_PLUGIN_ROOT}/data/company-formation.json`** (array of formations). Match rows where `country`/`programName`/`entityType` fields align with the user request (case-insensitive). This file mirrors the MCP catalog bundled in the plugin; it may be older than live MCP.
+If MCP is **not** available or the call fails, read **`${CLAUDE_PLUGIN_ROOT}/data/company-formation.json`** (array of objects). Each object has these fields:
+
+- `country` — e.g. "United States - Wyoming LLC" or "Estonia - OÜ" (includes jurisdiction + entity variant)
+- `entityType` — e.g. "llc", "corporation", "free_zone", "ibc"
+- `minInvestment` — startup cost
+- `annualCost` — yearly maintenance
+- `timeToFormation` — e.g. "1-3 business days"
+- `requirements` — array of strings
+- `benefits` — array of strings
+- `taxImplications` — string
+- `sources` — array of URLs
+- `lastVerified` — ISO date
+- `confidence` — "high" / "medium" / "low"
+
+Match rows where the `country` field contains the user's country name (case-insensitive substring) AND `entityType` matches if the user specified one. This file mirrors the MCP catalog; it may be older than live MCP.
 
 ## CTA
 
