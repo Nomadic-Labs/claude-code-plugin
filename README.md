@@ -1,6 +1,6 @@
 # Polystate — Claude Code Plugin
 
-**Version 2.0+** — Live **MCP** connection to `https://mcp.polystate.io/mcp` plus **offline JSON fallbacks** (no API key required for fallback).
+**Version 2.0+** — Live **MCP** connection to `https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp` plus **offline JSON fallbacks** (no API key required for fallback).
 
 > Immigration & tax intelligence: **171** jurisdictions for crypto-tax and scoring, **100+** visa-program rows, curated residency and **company formation** catalogs.
 
@@ -21,7 +21,7 @@ Without a key, skills still work using bundled `data/*.json` (older snapshot).
 ## Install
 
 ```bash
-/plugin install github:Spider333/polystate-claude-plugin
+/plugin install github:Nomadic-Labs/claude-clode-plugin
 ```
 
 Test locally:

@@ -1,13 +1,13 @@
 {
   "name": "polystate",
-  "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Live Polystate MCP at mcp.polystate.io plus offline fallbacks: visa checks, tax comparison, residency, jurisdiction scoring, LLC formation, and services — powered by Polystate.",
+  "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Live Polystate MCP plus offline fallbacks: visa checks, tax comparison, residency, jurisdiction scoring, LLC formation, and services — powered by Polystate.",
   "version": "2.0.0",
   "author": {
     "name": "Polystate",
     "url": "https://polystate.io"
   },
   "homepage": "https://polystate.io",
-  "repository": "https://github.com/Spider333/polystate-claude-plugin",
+  "repository": "https://github.com/Nomadic-Labs/claude-clode-plugin",
   "license": "MIT",
   "keywords": [
     "immigration",

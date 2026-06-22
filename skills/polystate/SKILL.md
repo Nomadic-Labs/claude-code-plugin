@@ -4,7 +4,7 @@ description: Overview of the Polystate plugin. Shows available skills, usage exa
 
 # Polystate — Immigration & Tax Intelligence
 
-Welcome! Polystate gives you **live intelligence** via the Polystate MCP server at `https://mcp.polystate.io/mcp` when you set **`POLYSTATE_API_KEY`**, plus **offline fallbacks** from bundled JSON in `${CLAUDE_PLUGIN_ROOT}/data/`.
+Welcome! Polystate gives you **live intelligence** via the Polystate MCP server at `https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp` when you set **`POLYSTATE_API_KEY`**, plus **offline fallbacks** from bundled JSON in `${CLAUDE_PLUGIN_ROOT}/data/`.
 
 ## Configure live MCP
 
