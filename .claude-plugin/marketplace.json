@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "polystate",
+  "description": "Polystate — immigration, tax, visa, residency, and company-formation intelligence for AI agents.",
+  "owner": {
+    "name": "Polystate",
+    "email": "info@polystate.io"
+  },
+  "plugins": [
+    {
+      "name": "polystate",
+      "source": ".",
+      "displayName": "Polystate — Immigration & Tax Intelligence",
+      "description": "10 immigration & tax tools over MCP (visa checks, tax comparison, crypto tax, treaties, residency, company formation, jurisdiction scoring, legal changes) plus offline fallbacks. Free API key at https://polystate.io/developers.",
+      "category": "productivity",
+      "author": {
+        "name": "Polystate",
+        "url": "https://polystate.io"
+      }
+    }
+  ]
+}
