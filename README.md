@@ -20,15 +20,26 @@ Without a key, skills still work using bundled `data/*.json` (older snapshot).
 
 ## Install
 
+This repo is its own Claude Code marketplace. Add it, then install the plugin:
+
 ```bash
-/plugin install github:Nomadic-Labs/claude-clode-plugin
+/plugin marketplace add Nomadic-Labs/claude-code-plugin
+/plugin install polystate@polystate
 ```
 
-Test locally:
+For live MCP data, get a free API key (100 requests/month) at
+https://polystate.io/developers and export it:
 
 ```bash
-export POLYSTATE_API_KEY='…'   # optional for live MCP
-claude --plugin-dir ./polystate-claude-plugin
+export POLYSTATE_API_KEY='psk_live_…'   # optional — skills fall back to bundled data without it
+```
+
+Then `/reload-plugins` and `/mcp` to confirm the **polystate** server is connected.
+
+Test locally from a clone:
+
+```bash
+claude --plugin-dir ./claude-code-plugin
 ```
 
 ## Skills
