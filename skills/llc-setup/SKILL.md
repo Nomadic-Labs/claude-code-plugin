@@ -1,5 +1,5 @@
 ---
-description: Company formation and LLC setup by country — costs, timelines, requirements, and tax notes. Use when the user asks about forming an LLC, company incorporation, offshore company, free zone, or startup entity abroad. Arguments: country name or ISO; optional entity type (e.g. llc).
+description: "Company formation and LLC setup by country — costs, timelines, requirements, and tax notes. Use when the user asks about forming an LLC, company incorporation, offshore company, free zone, or startup entity abroad. Arguments: country name or ISO; optional entity type (e.g. llc)."
 ---
 
 # LLC / Company Formation

@@ -1,5 +1,5 @@
 ---
-description: Polystate services catalog — what Polystate can process for a country (consulting, filing, programs). Use when the user wants to apply, book services, see offerings, or compare service options. Arguments: optional country ISO or country name; optional keyword search.
+description: "Polystate services catalog — what Polystate can process for a country (consulting, filing, programs). Use when the user wants to apply, book services, see offerings, or compare service options. Arguments: optional country ISO or country name; optional keyword search."
 ---
 
 # Polystate Services & Apply
