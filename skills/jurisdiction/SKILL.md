@@ -1,5 +1,5 @@
 ---
-description: Show quality-of-life and jurisdiction scoring for a country: safety, healthcare, institutional strength, business ease, privacy, banking access, path to citizenship, and dual nationality rules. Use when the user asks about quality of life, where to live, which country scores best, citizenship options, or jurisdiction comparisons. Arguments: [country].
+description: "Show quality-of-life and jurisdiction scoring for a country: safety, healthcare, institutional strength, business ease, privacy, banking access, path to citizenship, and dual nationality rules. Use when the user asks about quality of life, where to live, which country scores best, citizenship options, or jurisdiction comparisons. Arguments: [country]."
 ---
 
 # Jurisdiction Scoring

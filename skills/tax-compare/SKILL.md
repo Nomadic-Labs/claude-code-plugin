@@ -1,5 +1,5 @@
 ---
-description: Compare crypto-tax treatment between one or two countries. Shows tax tier (Heaven/Paradise/Purgatory/Limbo/Hell), capital gains rate, income tax on crypto, corporate tax, VAT, staking/mining tax, and holding period benefits. Use when the user asks about crypto taxes, tax optimization, tax-friendly countries, or wants to compare tax regimes. Arguments: [country1] [country2 optional].
+description: "Compare crypto-tax treatment between one or two countries. Shows tax tier (Heaven/Paradise/Purgatory/Limbo/Hell), capital gains rate, income tax on crypto, corporate tax, VAT, staking/mining tax, and holding period benefits. Use when the user asks about crypto taxes, tax optimization, tax-friendly countries, or wants to compare tax regimes. Arguments: [country1] [country2 optional]."
 ---
 
 # Crypto-Tax Comparison

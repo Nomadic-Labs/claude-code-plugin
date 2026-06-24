@@ -1,5 +1,5 @@
 ---
-description: Look up residency program details for a country: minimum investment, minimum presence requirements, path to citizenship, visa-free access, and key benefits. Use when the user asks about residency, how to get residency, permanent residency, second residency, flag theory, or becoming a resident of a country. Arguments: [country].
+description: "Look up residency program details for a country: minimum investment, minimum presence requirements, path to citizenship, visa-free access, and key benefits. Use when the user asks about residency, how to get residency, permanent residency, second residency, flag theory, or becoming a resident of a country. Arguments: [country]."
 ---
 
 # Residency Programs
