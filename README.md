@@ -87,11 +87,29 @@ Uses MCP tools when connected, otherwise reads `${CLAUDE_PLUGIN_ROOT}/data/`.
 | `data/residency-compare.json` | 27 curated entries |
 | `data/company-formation.json` | Company / LLC catalog |
 
-Refresh by copying newer JSON from `polystate-mcp-server/data/` on branch **`chore/mcp-phase-2-v2`** (or current main) and bumping the plugin version.
+Refresh by copying newer JSON from `polystate-mcp-server/data/` on `main` and bumping the plugin version.
 
-## MCP server branch
+## MCP tools
 
-The canonical MCP feature branch used for this phase is **`origin/chore/mcp-phase-2-v2`** on [`polystate-mcp-server`](https://github.com/Nomadic-Labs/polystate-mcp-server) (tools include `get_company_formation`, country services resource, auth via Bearer).
+The live server exposes 13 tools:
+
+| Tool | What it does |
+|------|--------------|
+| `visa_check` | Visa requirement for one passport and one destination |
+| `get_visa_requirements` | Requirements and documents for a visa, for one passport and one destination |
+| `optimize_relocation` | Ranked jurisdictions for open-ended "where should I move" questions |
+| `compare_jurisdictions` | Ranked multi-country comparison on a weighted scoring model |
+| `tax_compare` | Tax comparison of two countries |
+| `get_tax_rates` | Income, corporate, VAT, capital gains and crypto rates for a country |
+| `get_crypto_tax_treatment` | Crypto tax treatment for a country |
+| `get_tax_treaties` | Double-tax treaty partners of a country |
+| `get_residency_programs` | Residency programs for a country |
+| `get_company_formation` | Company and LLC formation options |
+| `get_legal_changes` | Legal and regulatory changes, newest first |
+| `check_eligibility` | Free check of a nationality against a Polystate service |
+| `book_service` | Starts a paid Stripe checkout for a Polystate service |
+
+`book_service` is the only tool that leads to a charge. It returns a checkout link; nothing is billed until the user pays in the browser.
 
 ## About Polystate
 

@@ -2,6 +2,16 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.1.0] — 2026-10
+
+### Changed
+- Listing and docs now cover all 13 MCP tools. Three shipped on the server after
+  2.0.0: `optimize_relocation` (ranked jurisdictions for open-ended
+  "where should I move" questions), `check_eligibility` (free check of a nationality against a Polystate
+  service) and `book_service` (starts a paid Stripe checkout for a service; the
+  user completes payment in the browser).
+- README: removed references to the retired `chore/mcp-phase-2-v2` server branch.
+
 ## [2.0.0] — 2026-06
 
 ### Added
