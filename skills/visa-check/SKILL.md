@@ -8,7 +8,7 @@ The user provided: `$ARGUMENTS`
 
 ## Live Polystate MCP (preferred)
 
-When the **`polystate`** MCP server is connected (`/mcp`) and **`POLYSTATE_API_KEY`** is configured, resolve **ISO-3166** alpha-2 or alpha-3 codes for passport and destination countries, then call **`visa_check`** with:
+When the **`polystate`** MCP server is connected (`/mcp`) and the plugin's **Polystate API key** setting is filled in, resolve **ISO-3166** alpha-2 or alpha-3 codes for passport and destination countries, then call **`visa_check`** with:
 
 ```json
 { "passport_country": "<ISO>", "destination_country": "<ISO>" }

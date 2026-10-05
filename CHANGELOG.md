@@ -2,6 +2,17 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.2.0] — 2026-10
+
+### Changed
+- The API key is now a plugin setting (`userConfig.api_key`, stored in the system's
+  secure credential store) and no longer read from the `POLYSTATE_API_KEY`
+  environment variable. **Existing users must enter their key once in the plugin's
+  configuration.**
+- `data/crypto-tax.json` and `data/jurisdiction-scoring.json` are written one country
+  per line. Same content, under the directory's 256 KiB per-file limit.
+- Added `privacyPolicyUrl`.
+
 ## [2.1.0] — 2026-10
 
 ### Changed

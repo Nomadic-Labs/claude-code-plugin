@@ -6,15 +6,11 @@
 
 ## MCP setup (live data)
 
-1. Obtain a Polystate **API key** (same key as for the MCP product / `api_keys` in Supabase).
-2. Export it before starting Claude Code:
+1. Get a free Polystate **API key** (100 requests/month) at https://polystate.io/developers.
+2. Install the plugin (or use `--plugin-dir`). When you enable it, Claude Code asks for the **Polystate API key** and stores it in your system's secure credential store. To set or change it later, run `/plugin`, select **polystate** and open its configuration.
+3. Run `/reload-plugins`, then `/mcp` and confirm the **`polystate`** server is connected.
 
-```bash
-export POLYSTATE_API_KEY='your-key-here'
-```
-
-3. Install the plugin (or use `--plugin-dir`). The plugin ships **`.mcp.json`**: HTTP transport + `Authorization: Bearer ${POLYSTATE_API_KEY}`.
-4. Run `/reload-plugins`, then `/mcp` and confirm the **`polystate`** server is connected.
+The key is sent only to the Polystate MCP server, as a Bearer token.
 
 Without a key, skills still work using bundled `data/*.json` (older snapshot).
 
@@ -28,11 +24,8 @@ This repo is its own Claude Code marketplace. Add it, then install the plugin:
 ```
 
 For live MCP data, get a free API key (100 requests/month) at
-https://polystate.io/developers and export it:
-
-```bash
-export POLYSTATE_API_KEY='psk_live_…'   # optional — skills fall back to bundled data without it
-```
+https://polystate.io/developers and enter it when the plugin asks for the
+**Polystate API key**. The key is optional: skills fall back to bundled data without it.
 
 Then `/reload-plugins` and `/mcp` to confirm the **polystate** server is connected.
 
