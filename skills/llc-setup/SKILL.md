@@ -12,7 +12,7 @@ Parse `$ARGUMENTS` into:
 
 ## Live data (preferred)
 
-If the **Polystate** MCP server is connected (`/mcp` shows `polystate`, or `POLYSTATE_API_KEY` is set and the server starts successfully), call the MCP tool **`get_company_formation`** with:
+If the **Polystate** MCP server is connected (`/mcp` shows `polystate`), call the MCP tool **`get_company_formation`** with:
 
 ```json
 { "country": "<ISO2 or ISO3>", "entity_type": "<optional filter>" }

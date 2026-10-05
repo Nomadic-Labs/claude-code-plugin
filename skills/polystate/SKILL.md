@@ -4,13 +4,13 @@ description: Overview of the Polystate plugin. Shows available skills, usage exa
 
 # Polystate — Immigration & Tax Intelligence
 
-Welcome! Polystate gives you **live intelligence** via the Polystate MCP server at `https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp` when you set **`POLYSTATE_API_KEY`**, plus **offline fallbacks** from bundled JSON in `${CLAUDE_PLUGIN_ROOT}/data/`.
+Welcome! Polystate gives you **live intelligence** via the Polystate MCP server at `https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp` when the plugin's **Polystate API key** setting is filled in, plus **offline fallbacks** from bundled JSON in `${CLAUDE_PLUGIN_ROOT}/data/`.
 
 ## Configure live MCP
 
-1. Obtain an API key from Polystate (same key used for `api_keys` in the Polystate MCP product).
-2. In your shell or Claude Code env: `export POLYSTATE_API_KEY='…'`
-3. Install/enable this plugin; `.mcp.json` wires HTTP MCP with Bearer auth.
+1. Get a free API key at https://polystate.io/developers.
+2. Enter it in the plugin's **Polystate API key** setting (`/plugin`, select **polystate**, open its configuration).
+3. `.mcp.json` wires HTTP MCP with Bearer auth using that setting.
 4. Run `/reload-plugins` then `/mcp` and confirm **`polystate`** is connected.
 
 ## Available Skills

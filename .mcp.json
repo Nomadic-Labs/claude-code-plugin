@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp",
       "headers": {
-        "Authorization": "Bearer ${POLYSTATE_API_KEY}"
+        "Authorization": "Bearer ${user_config.api_key}"
       }
     }
   }

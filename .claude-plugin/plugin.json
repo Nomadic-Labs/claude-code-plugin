@@ -2,7 +2,7 @@
   "name": "polystate",
   "displayName": "Polystate — Immigration & Tax Intelligence",
   "description": "Immigration, tax & sovereignty intelligence for digital nomads and global citizens. Live Polystate MCP plus offline fallbacks: visa checks, tax comparison, residency, jurisdiction scoring, LLC formation, and services — powered by Polystate.",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": {
     "name": "Polystate",
     "url": "https://polystate.io"
@@ -22,5 +22,14 @@
     "mcp",
     "llc",
     "company-formation"
-  ]
+  ],
+  "privacyPolicyUrl": "https://polystate.io/privacy-policy",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Polystate API key",
+      "description": "Optional. Enables live data from the Polystate MCP server. Get a free key (100 requests/month) at https://polystate.io/developers. Without it, skills use the bundled data.",
+      "sensitive": true
+    }
+  }
 }
