@@ -2,6 +2,13 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.2.3] — 2026-10
+
+### Fixed
+- `data/residency-compare.json`, Uruguay Mercosur: the record said Uruguayan residency
+  is not cancelled by a fixed absence count. Permanent residence can be cancelled after
+  more than three years abroad (Migration Law 18.250, Art. 47).
+
 ## [2.2.2] — 2026-10
 
 ### Fixed
