@@ -2,6 +2,17 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.2.1] — 2026-10
+
+### Changed
+- `data/residency-compare.json` refreshed from the canonical dataset. Four Latin
+  America records carry the September 2026 update (Paraguay temporary and permanent
+  residency, Uruguay Mercosur, Brazil investor), and every record now has an alpha-2
+  `countryCode`.
+- Paraguay permanent residency: a diploma alone is no longer accepted as proof of
+  economic solvency (Resolution DNM 407/2026, applications filed from 6 July 2026).
+  The previous file said it was.
+
 ## [2.2.0] — 2026-10
 
 ### Changed

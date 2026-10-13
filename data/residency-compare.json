@@ -3,9 +3,12 @@
     "country": "Paraguay - Temporary Residency",
     "minInvestment": "None",
     "timeToCitizenship": "2 years temporary + 3 years permanent (Constitution requires 3 years 'radicación' in national territory — no published day-count threshold; adviser heuristic of '9 months/year' is not codified)",
-    "minimumPresence": "1 day per year",
+    "minimumPresence": "1 day per year — actively enforced by Migraciones since Jan 2026 (retroactively); absence >365 consecutive days = PR upgrade denied, 2-year temporary extension instead. Since Resolution DNM 376/2026 cancellation is also executed proactively: Migraciones sweeps the movement register twice a year and serves cancellation to the email on the application. A prórroga filed in time can strike you off the list; once cancellation is registered it is too late.",
     "requirements": [
       "Be in Paraguay to obtain residency",
+      "Mandatory visit within every 365 days of temporary residency (enforced via Constancia de Movimiento Migratorio)",
+      "Apply for permanent residency only in months 21-24 of temporary residency (hard window)",
+      "Always enter Paraguay on the passport used for the application (or the cédula) — a different passport breaks the migratory record",
       "File tax return monthly to keep tax residency",
       "Criminal record 5 years apostilled and translated to Spanish",
       "Birth certificate apostilled and translated to Spanish"
@@ -21,28 +24,35 @@
     ],
     "visaFreeAccess": "140 countries",
     "sources": [
+      "Resolución DNM N° 376/2026 (signed 2026-05-13, published 2026-08-10)",
       "https://www.migraciones.gov.py — Paraguayan Directorate General of Migration",
-      "https://www.set.gov.py — Paraguayan Tax Authority (SET)",
-      "https://www.oecd.org/en/networks/global-forum-tax-transparency/resources/aeoi-implementation-portal/crs-by-jurisdiction.html — OECD CRS implementation status"
+      "https://www.oecd.org/en/networks/global-forum-tax-transparency/resources/aeoi-implementation-portal/crs-by-jurisdiction.html — OECD CRS implementation status",
+      "https://www.set.gov.py — Paraguayan Tax Authority (SET)"
     ],
-    "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "lastVerified": "2026-09-01",
+    "confidence": "high",
+    "countryCode": "PY"
   },
   {
     "country": "Paraguay - Permanent Residency",
     "minInvestment": "None (via 2-year TR path) or PYG 300,000,000 (~USD 70,000) via SUACE investor route in real estate/business/agriculture",
-    "timeToCitizenship": "3 years of PR (Constitution requires 'radicación' — no published day-count; adviser shorthand of '9 months/year' is not in legal text)",
-    "minimumPresence": "1 day every 3 years",
+    "timeToCitizenship": "3 years of permanent residency (~5-6 years from arrival) — temporary-residency time does NOT count; clock starts at PR grant. Never quote as a bare '3 years'. Presence: the Constitution requires 'radicación' with NO published day-count threshold; the adviser shorthand of '~6-9 months/year' is a practical heuristic, not codified law — flag it as such to clients.",
+    "minimumPresence": "1 day every 3 years to KEEP residency (any single entry resets the clock; no minimum stay). ACTIVELY ENFORCED since Resolution DNM 376/2026: Migraciones sweeps the border-movement register twice a year and cancels by administrative act, served to the email given in the residency application. Absence of 3 years or more = cancellation. Prior authorization (Art. 6) buys up to +1 year but must be filed 3 months BEFORE the limit — filing late cancels the residency outright (Art. 10). NB: presence to keep residency is separate from presence for citizenship (~6 months/year during the 3 PR years).",
     "requirements": [
       "Be temporary resident for at least two years OR invest PYG 300,000,000 (~USD 70,000) via SUACE in real estate, business, or agriculture (SUACE manual — Law 6984/22)",
+      "Apply in months 21-24 of temporary residency, with no absence >365 consecutive days during the temporary phase",
+      "Proof of economic solvency (Resolution DNM 407/2026, required for every application filed from 6 July 2026): real income for your chosen category — apostilled and Spanish-translated foreign income proof, or local non-zero IVA returns (last 3 months) + Cumplimiento Tributario certificate, or Paraguay real estate with rental income. A diploma alone is no longer accepted, and zero-activity tax returns do not count",
+      "Bring both cards to the application: plastic residency card (carnet) + temporary-residency cédula",
       "A sworn statement outlining the investment plan over 10 years, showing job creation or economic benefits (if investment route)",
       "File tax return monthly to keep tax residency",
       "Criminal record 5 years apostilled and translated to Spanish",
-      "Birth certificate apostilled and translated to Spanish"
+      "Birth certificate apostilled and translated to Spanish",
+      "Keep the email address on file with Migraciones alive and monitored — cancellation notices under Resolution DNM 376/2026 are served there, with no letter sent to the home country",
+      "A Paraguayan bank account certificate counts as proof of 'arraigo' under Resolution DNM 376/2026 Art. 9 — useful if prior authorization is ever needed"
     ],
     "benefits": [
-      "Low presence needed - 1 visit in 3 years",
-      "Citizenship after 3 years of PR",
+      "Low presence needed - 1 visit in 3 years (but actively enforced since DNM 376/2026 — it no longer lapses quietly)",
+      "Citizenship after 3 years of PR (~5-6 years from arrival)",
       "Access to Driver Licence",
       "Access to local banks",
       "Non-CRS reporting country (OECD lists Paraguay for first CRS exchanges by 2027; status transitional)",
@@ -50,12 +60,14 @@
     ],
     "visaFreeAccess": "140 countries",
     "sources": [
+      "Resolución DNM N° 376/2026 (signed 2026-05-13, published 2026-08-10)",
       "https://www.migraciones.gov.py — Paraguayan Directorate General of Migration",
       "https://www.set.gov.py — Paraguayan Tax Authority (SET)",
       "https://www.suace.gov.py — SUACE (one-stop shop for business/investment registration, Law 6984/22)"
     ],
-    "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "lastVerified": "2026-09-01",
+    "confidence": "high",
+    "countryCode": "PY"
   },
   {
     "country": "Panama",
@@ -85,22 +97,26 @@
       "https://www.tribunal-electoral.gob.pa — Panama Electoral Tribunal (citizenship/nationality)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "PA"
   },
   {
     "country": "Uruguay - Mercosur",
     "minInvestment": "None",
     "timeToCitizenship": "3 years (with family in the Republic) or 5 years (without family) per Constitution — clock starts from application date, not approval. NB: 'family' is broader than 'married'; includes children.",
-    "minimumPresence": "6 months per year",
+    "minimumPresence": "~6 months per year — this is the CITIZENSHIP clock (proving 'radicación'), not a residency-upkeep rule. Uruguayan residency itself is not cancelled by a fixed absence count the way Paraguay's is.",
     "requirements": [
       "Valid passport or national ID from a Mercosur country",
       "Proof of Income (A minimum of 2k USD a month is recommended)",
       "Birth certificate",
-      "Criminal record certificate for the last 5 years apostilled and translated"
+      "Criminal record certificate for the last 5 years apostilled and translated",
+      "HIDDEN CRITICAL PATH: the Uruguayan 'partida de nacimiento' (civil-register entry) takes 1-2 YEARS and gates the definitive cédula — start it immediately, it dominates the whole timeline",
+      "Second stage after approval (definitive cédula + driving-licence homologation + optional cannabis register) fits in ~4 working days in Montevideo once the partida exists; official fees ~EUR 85-105, apostilles and sworn translations extra"
     ],
     "benefits": [
       "Tax Holiday: DGI describes regime as '10 + 1' fiscal years (year of residency change + 10 following years) — effectively 11 fiscal years of exemption on foreign dividends, interest, and capital gains",
-      "Fast track to second citizenship"
+      "Fast track to second citizenship",
+      "Uruguayan driving licence valid 10 years and covered by the 1968 Vienna Convention (Germany, Brazil, Mexico, Ukraine, Kazakhstan) — complements a Paraguayan licence, which is covered by Geneva 1949 (USA, Canada, Japan, Australia, Argentina). The two treaties do NOT overlap"
     ],
     "visaFreeAccess": "170 countries",
     "sources": [
@@ -108,8 +124,9 @@
       "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
       "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
     ],
-    "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "lastVerified": "2026-09-01",
+    "confidence": "high",
+    "countryCode": "UY"
   },
   {
     "country": "Uruguay - Investor Visa",
@@ -132,7 +149,8 @@
       "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "UY"
   },
   {
     "country": "Uruguay - Independent Means Visa",
@@ -155,7 +173,8 @@
       "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "UY"
   },
   {
     "country": "Uruguay - Retirement Visa",
@@ -178,7 +197,8 @@
       "https://www.mrree.gub.uy — Uruguayan Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "UY"
   },
   {
     "country": "Uruguay - Digital Nomad Visa",
@@ -202,7 +222,8 @@
       "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "UY"
   },
   {
     "country": "Argentina - Rentista",
@@ -227,7 +248,8 @@
       "https://www.cancilleria.gob.ar — Argentine Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "AR"
   },
   {
     "country": "Argentina - Investor",
@@ -253,7 +275,8 @@
       "https://www.cancilleria.gob.ar — Argentine Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "AR"
   },
   {
     "country": "Colombia - Business Partner",
@@ -276,7 +299,8 @@
       "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "CO"
   },
   {
     "country": "Colombia - Real Estate Investor",
@@ -300,7 +324,8 @@
       "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "CO"
   },
   {
     "country": "Colombia - Digital Nomad Visa",
@@ -326,7 +351,8 @@
       "https://colombiavisas.com — Colombia visa news and updates"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "CO"
   },
   {
     "country": "Colombia - Mercosur Residency",
@@ -349,7 +375,8 @@
       "https://www.dian.gov.co — Colombian Tax Authority (DIAN)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "CO"
   },
   {
     "country": "Chile - Retirement Visa",
@@ -373,7 +400,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "CL"
   },
   {
     "country": "Chile - Investor Visa",
@@ -396,7 +424,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "CL"
   },
   {
     "country": "Chile - Work Contract Visa",
@@ -419,7 +448,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "CL"
   },
   {
     "country": "Chile - Student Visa",
@@ -444,7 +474,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "CL"
   },
   {
     "country": "Chile - Temporary Residency Visa",
@@ -467,7 +498,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "CL"
   },
   {
     "country": "Chile - Mercosur Residency Visa",
@@ -490,7 +522,8 @@
       "https://www.bcn.cl/leychile — Chilean legal library (Law 21.325)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "CL"
   },
   {
     "country": "Brazil - Investor Visa",
@@ -503,7 +536,9 @@
       "Company incorporation papers or property deeds",
       "Proof of economic benefit (e.g., job creation, sector relevance)",
       "Criminal record certificate from your country of residence (past 5 years)",
-      "Health insurance valid in Brazil"
+      "Health insurance valid in Brazil",
+      "CPF (Brazilian tax number) is required in practice for nearly all online and many physical transactions — banking, tickets, e-commerce. Budget for obtaining one properly; it is infrastructure, not paperwork",
+      "Practical caveat: heaviest digital-compliance load of the Mercosur entry points — CPF-gated transactions plus platform blocking (X, Rumble) and the STF 2025 platform-liability decision. Factor this in if transactional privacy matters"
     ],
     "benefits": [
       "Reduced cost of living",
@@ -515,8 +550,9 @@
       "https://www.gov.br/mre/pt-br — Brazilian Ministry of Foreign Affairs (Itamaraty, consular guidance RN 13/2017)",
       "https://www.gov.br/pf/pt-br — Brazilian Federal Police (registration)"
     ],
-    "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "lastVerified": "2026-09-01",
+    "confidence": "medium",
+    "countryCode": "BR"
   },
   {
     "country": "Brazil - Digital Nomad Visa",
@@ -544,7 +580,8 @@
       "https://www.gov.br/pf/pt-br — Brazilian Federal Police (registration)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "BR"
   },
   {
     "country": "Brazil - CPLP Residency",
@@ -571,7 +608,8 @@
       "https://www.cplp.org — Community of Portuguese Language Countries"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "BR"
   },
   {
     "country": "Peru - Rentista Visa",
@@ -597,7 +635,8 @@
       "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "PE"
   },
   {
     "country": "Peru - Investor Visa",
@@ -623,7 +662,8 @@
       "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "PE"
   },
   {
     "country": "Peru - Mercosur Residency",
@@ -647,7 +687,8 @@
       "https://www.gob.pe/rree — Peruvian Ministry of Foreign Affairs"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "high"
+    "confidence": "high",
+    "countryCode": "PE"
   },
   {
     "country": "Mexico",
@@ -679,6 +720,7 @@
       "https://www.gob.mx/sre — Mexican Ministry of Foreign Affairs (consular services)"
     ],
     "lastVerified": "2026-02-19",
-    "confidence": "medium"
+    "confidence": "medium",
+    "countryCode": "MX"
   }
 ]
