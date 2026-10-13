@@ -2,6 +2,13 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.2.2] — 2026-10
+
+### Fixed
+- `data/residency-compare.json`, Uruguay Mercosur: the driving-licence line no longer
+  lists Mexico under the 1968 Vienna Convention on Road Traffic (Mexico signed and
+  never ratified) and no longer says the 1968 and 1949 conventions do not overlap.
+
 ## [2.2.1] — 2026-10
 
 ### Changed
