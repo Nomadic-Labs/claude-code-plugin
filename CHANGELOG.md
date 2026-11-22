@@ -14,13 +14,13 @@ All notable changes to the Polystate Claude Code plugin.
   `company-formation.json` and `jurisdiction-scoring.json` from
   `polystate-mcp-server/data/`.
   - `company-formation.json`: 95 entries (was 92), adding three Georgia entries
-    (Individual Entrepreneur with Small Business Status, LLC, LLC with Virtual Zone
-    Status). Every entry now carries `compiled_by: "claude-llm-assisted"`, and 72
+    ("Individual Entrepreneur (Small Business Status)", "Limited Liability Company
+    (LLC)", "LLC with Virtual Zone Status"). Every entry now carries `compiled_by: "claude-llm-assisted"`, and 72
     entries are rated `medium` confidence instead of `high`.
   - `visa-programs.json`: every row now has an alpha-2 `countryCode`.
   - `residency-compare.json`, Uruguay digital nomad permit: no fixed income figure
     is published; the USD 1,500/month requirement is replaced by a sworn statement
-    of economic means, with a Uruguay XXI source.
+    of economic means, with a Uruguay XXI source (`lastVerified` 2026-10-26).
   - `crypto-tax.json`, Honduras: crypto is not regulated or legal tender (central
     bank notice, 29 Jul 2022), replacing "exploring Bitcoin as legal tender".
   - `jurisdiction-scoring.json`: no content change.
