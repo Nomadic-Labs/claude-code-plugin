@@ -24,7 +24,8 @@
       "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United States - Delaware LLC",
@@ -50,7 +51,8 @@
       "https://revenue.delaware.gov — Delaware Division of Revenue"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United States - Delaware C-Corporation",
@@ -77,7 +79,8 @@
       "https://www.irs.gov/forms-pubs/about-form-1120"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United States - New Mexico LLC",
@@ -101,7 +104,8 @@
       "https://www.tax.newmexico.gov"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United Kingdom - Private Limited Company (Ltd)",
@@ -128,7 +132,8 @@
       "https://www.gov.uk/corporation-tax"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Ireland - Private Company Limited by Shares (LTD)",
@@ -154,7 +159,8 @@
       "https://www.revenue.ie"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Estonia - Osaühing (OÜ)",
@@ -180,7 +186,8 @@
       "https://www.emta.ee — Estonian Tax and Customs Board"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Netherlands - Besloten Vennootschap (BV)",
@@ -207,7 +214,8 @@
       "https://www.belastingdienst.nl"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Czechia - Společnost s ručením omezeným (s.r.o.)",
@@ -234,7 +242,8 @@
       "https://www.financnisprava.cz"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Germany - Gesellschaft mit beschränkter Haftung (GmbH)",
@@ -261,7 +270,8 @@
       "https://www.bzst.de"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Switzerland - Aktiengesellschaft (AG)",
@@ -288,7 +298,8 @@
       "https://www.estv.admin.ch"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Cyprus - Private Limited Company",
@@ -316,7 +327,8 @@
       "https://www.mof.gov.cy/tax"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Malta - Private Limited Liability Company",
@@ -343,7 +355,8 @@
       "https://cfr.gov.mt"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United Arab Emirates - Mainland LLC",
@@ -370,7 +383,8 @@
       "https://tax.gov.ae — UAE Federal Tax Authority"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United Arab Emirates - IFZA Free Zone Company",
@@ -397,7 +411,8 @@
       "https://tax.gov.ae"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "United Arab Emirates - DIFC Company",
@@ -423,7 +438,8 @@
       "https://www.dfsa.ae"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Singapore - Private Limited Company (Pte Ltd)",
@@ -450,7 +466,8 @@
       "https://www.iras.gov.sg"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Hong Kong - Private Limited Company",
@@ -477,7 +494,8 @@
       "https://www.ird.gov.hk"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Malaysia - Sendirian Berhad (Sdn Bhd)",
@@ -503,7 +521,8 @@
       "https://www.hasil.gov.my — Inland Revenue Board"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Malaysia - Labuan International Company",
@@ -529,7 +548,8 @@
       "https://www.labuanfsa.gov.my"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "British Virgin Islands - Business Company (BC)",
@@ -556,7 +576,8 @@
       "https://bvi.gov.vg"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Cayman Islands - Exempted Company",
@@ -583,7 +604,8 @@
       "https://www.gov.ky"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Panama - Sociedad Anónima (S.A.)",
@@ -610,7 +632,8 @@
       "https://dgi.mef.gob.pa"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Mauritius - Global Business Company (GBC)",
@@ -637,7 +660,8 @@
       "https://www.mra.mu"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Seychelles - International Business Company (IBC)",
@@ -664,7 +688,8 @@
       "https://www.src.gov.sc"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Belize - International Business Company (IBC)",
@@ -691,7 +716,8 @@
       "https://www.ifsc.gov.bz"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Bahamas - International Business Company (IBC)",
@@ -718,7 +744,8 @@
       "https://inlandrevenue.finance.gov.bs"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Gibraltar - Private Company Limited by Shares",
@@ -745,7 +772,8 @@
       "https://www.gibraltar.gov.gi/finance"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Honduras - Próspera ZEDE LLC",
@@ -771,7 +799,8 @@
       "https://prospera.hn"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Paraguay - Sociedad Anónima (S.A.)",
@@ -798,7 +827,8 @@
       "https://www.set.gov.py — Tax Authority"
     ],
     "lastVerified": "2026-04-27",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Spain - Sociedad Limitada (SL)",
@@ -825,7 +855,8 @@
       "https://www.registradores.org — Registradores de España"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "France - Société à Responsabilité Limitée (SARL)",
@@ -852,7 +883,8 @@
       "https://www.inpi.fr — Institut National de la Propriété Industrielle (Guichet Unique)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Italy - Società a Responsabilità Limitata (SRL)",
@@ -879,7 +911,8 @@
       "https://www.registroimprese.it — Italian Business Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Portugal - Sociedade por Quotas (Lda)",
@@ -906,7 +939,8 @@
       "https://www.empresanahora.justica.gov.pt — Empresa na Hora"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Poland - Spółka z ograniczoną odpowiedzialnością (Sp. z o.o.)",
@@ -933,7 +967,8 @@
       "https://ekrs.ms.gov.pl — KRS National Court Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Sweden - Aktiebolag (AB)",
@@ -961,7 +996,8 @@
       "https://www.skatteverket.se — Swedish Tax Agency"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Denmark - Anpartsselskab (ApS)",
@@ -989,7 +1025,8 @@
       "https://skat.dk — Danish Tax Agency"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Finland - Osakeyhtiö (Oy)",
@@ -1017,7 +1054,8 @@
       "https://www.vero.fi — Finnish Tax Administration"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Norway - Aksjeselskap (AS)",
@@ -1045,7 +1083,8 @@
       "https://www.skatteetaten.no — Norwegian Tax Administration"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Belgium - Société à Responsabilité Limitée / Besloten Vennootschap (SRL/BV)",
@@ -1073,7 +1112,8 @@
       "https://economie.fgov.be — Banque-Carrefour des Entreprises (BCE/KBO)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Austria - Gesellschaft mit beschränkter Haftung (GmbH)",
@@ -1101,7 +1141,8 @@
       "https://www.justiz.gv.at — Austrian Ministry of Justice (Firmenbuch)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Luxembourg - Société à Responsabilité Limitée (SARL)",
@@ -1129,7 +1170,8 @@
       "https://www.lbr.lu — Luxembourg Business Registers (RCS)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Liechtenstein - Aktiengesellschaft (AG)",
@@ -1157,7 +1199,8 @@
       "https://www.fma-li.li — Financial Market Authority Liechtenstein"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Greece - Idiotiki Kefalaiouchiki Etaireia (IKE)",
@@ -1185,7 +1228,8 @@
       "https://www.businessportal.gr — Greek Business Portal / GEMI"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Romania - Societate cu Răspundere Limitată (SRL)",
@@ -1213,7 +1257,8 @@
       "https://www.onrc.ro — Romanian National Trade Register Office"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Bulgaria - Druzhestvo s Ogranichena Otgovornost (EOOD/OOD)",
@@ -1241,7 +1286,8 @@
       "https://portal.registryagency.bg — Bulgarian Commercial Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Hungary - Korlátolt Felelősségű Társaság (Kft.)",
@@ -1269,7 +1315,8 @@
       "https://e-cegjegyzek.hu — Hungarian Company Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Slovakia - Spoločnosť s ručením obmedzeným (s.r.o.)",
@@ -1297,7 +1344,8 @@
       "https://www.orsr.sk — Slovak Commercial Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Slovenia - Družba z omejeno odgovornostjo (d.o.o.)",
@@ -1325,7 +1373,8 @@
       "https://www.ajpes.si — Slovenian Business Register (AJPES)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Croatia - Društvo s ograničenom odgovornošću (d.o.o.)",
@@ -1353,7 +1402,8 @@
       "https://sudreg.pravosudje.hr — Croatian Court Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Lithuania - Uždaroji akcinė bendrovė (UAB)",
@@ -1381,7 +1431,8 @@
       "https://www.registrucentras.lt — Centre of Registers Lithuania"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Latvia - Sabiedrība ar ierobežotu atbildību (SIA)",
@@ -1409,7 +1460,8 @@
       "https://www.ur.gov.lv — Enterprise Register of the Republic of Latvia"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Australia - Proprietary Limited Company (Pty Ltd)",
@@ -1437,7 +1489,8 @@
       "https://www.ato.gov.au — Australian Taxation Office"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "New Zealand - Limited Company (Ltd)",
@@ -1465,7 +1518,8 @@
       "https://www.ird.govt.nz — Inland Revenue New Zealand"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Canada - Federal Corporation",
@@ -1493,7 +1547,8 @@
       "https://www.canada.ca/en/revenue-agency.html — Canada Revenue Agency"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Japan - Kabushiki Kaisha (KK)",
@@ -1521,7 +1576,8 @@
       "https://houmukyoku.moj.go.jp — Legal Affairs Bureau (Ministry of Justice)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "South Korea - Yuhan Hoesa (Limited Company)",
@@ -1549,7 +1605,8 @@
       "https://www.scourt.go.kr — Supreme Court of Korea (court registration)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Taiwan - Limited Company",
@@ -1577,7 +1634,8 @@
       "https://gcis.nat.gov.tw — Ministry of Economic Affairs (Department of Commerce)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Thailand - Limited Company (Co Ltd)",
@@ -1605,7 +1663,8 @@
       "https://www.dbd.go.th — Department of Business Development"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Vietnam - Limited Liability Company (LLC)",
@@ -1633,7 +1692,8 @@
       "https://dangkykinhdoanh.gov.vn — National Business Registration Portal"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Indonesia - Perseroan Terbatas Penanaman Modal Asing (PT PMA)",
@@ -1661,7 +1721,8 @@
       "https://oss.go.id — Online Single Submission (OSS)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Philippines - Domestic Corporation",
@@ -1688,7 +1749,8 @@
       "https://www.sec.gov.ph — Philippine Securities and Exchange Commission"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "India - Private Limited Company",
@@ -1716,7 +1778,8 @@
       "https://www.mca.gov.in — Ministry of Corporate Affairs"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Israel - Limited Company (Ltd)",
@@ -1744,7 +1807,8 @@
       "https://www.gov.il/en/departments/corporations_authority — Israeli Corporations Authority"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Mexico - Sociedad de Responsabilidad Limitada (S de RL)",
@@ -1772,7 +1836,8 @@
       "https://rps.economia.gob.mx — Sistema Integral de Gestión Registral (SIGER) Public Registry"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Brazil - Sociedade Limitada (Ltda)",
@@ -1800,7 +1865,8 @@
       "https://www.gov.br/empresas-e-negocios/pt-br/redesim — REDESIM business portal"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Argentina - Sociedad de Responsabilidad Limitada (SRL)",
@@ -1828,7 +1894,8 @@
       "https://www.argentina.gob.ar/justicia/igj — Inspección General de Justicia"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Chile - Sociedad por Acciones (SpA)",
@@ -1856,7 +1923,8 @@
       "https://www.registrodeempresasysociedades.cl — Registro de Empresas y Sociedades"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Colombia - Sociedad por Acciones Simplificada (SAS)",
@@ -1884,7 +1952,8 @@
       "https://www.confecamaras.org.co — Confederación Colombiana de Cámaras de Comercio"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Peru - Sociedad Anónima Cerrada (SAC)",
@@ -1912,7 +1981,8 @@
       "https://www.sunarp.gob.pe — Superintendencia Nacional de los Registros Públicos"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Uruguay - Sociedad Anónima (SA)",
@@ -1940,7 +2010,8 @@
       "https://www.gub.uy/auditoria-interna-nacion — Auditoría Interna de la Nación"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Costa Rica - Sociedad de Responsabilidad Limitada (SRL)",
@@ -1968,7 +2039,8 @@
       "https://www.rnpdigital.com — Registro Nacional de Costa Rica"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Saudi Arabia - Limited Liability Company (LLC)",
@@ -1996,7 +2068,8 @@
       "https://misa.gov.sa — Ministry of Investment of Saudi Arabia"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Bahrain - With Limited Liability (WLL)",
@@ -2024,7 +2097,8 @@
       "https://www.sijilat.bh — Sijilat Commercial Registration Portal"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Qatar - Qatar Financial Centre (QFC) Entity",
@@ -2052,7 +2126,8 @@
       "https://dhareeba.gov.qa — Qatar General Tax Authority"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Oman - Limited Liability Company (LLC)",
@@ -2080,7 +2155,8 @@
       "https://www.business.gov.om — Invest Easy / Ministry of Commerce, Industry and Investment Promotion"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Egypt - Limited Liability Company (LLC)",
@@ -2108,7 +2184,8 @@
       "https://www.gafi.gov.eg — General Authority for Investment and Free Zones"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "South Africa - Proprietary Limited Company (Pty Ltd)",
@@ -2136,7 +2213,8 @@
       "https://www.cipc.co.za — Companies and Intellectual Property Commission"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Kenya - Limited Company",
@@ -2164,7 +2242,8 @@
       "https://brs.go.ke — Business Registration Service"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Nigeria - Limited Liability Company",
@@ -2192,7 +2271,8 @@
       "https://www.cac.gov.ng — Corporate Affairs Commission"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Turkey - Anonim Şirket (AŞ)",
@@ -2220,7 +2300,8 @@
       "https://www.ticaret.gov.tr — Ministry of Trade (Trade Registry)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Morocco - Société à Responsabilité Limitée (SARL)",
@@ -2248,7 +2329,8 @@
       "https://www.invest.gov.ma — Agence Marocaine de Développement des Investissements (AMDIE)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Anguilla - International Business Company (IBC)",
@@ -2276,7 +2358,8 @@
       "https://www.gov.ai — Government of Anguilla"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Nevis - International Business Company (IBC)",
@@ -2304,7 +2387,8 @@
       "https://www.skbfinancialservices.com — Saint Kitts and Nevis Inland Revenue / FSU"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Marshall Islands - International Business Company (IBC)",
@@ -2332,7 +2416,8 @@
       "https://www.register-iri.com — Marshall Islands Maritime and Corporate Administrators"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Samoa - International Company (IC)",
@@ -2360,7 +2445,8 @@
       "https://www.sifa.ws — Samoa International Finance Authority"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "low"
+    "confidence": "low",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Vanuatu - International Company (IC)",
@@ -2388,7 +2474,8 @@
       "https://www.customsinlandrevenue.gov.vu — Vanuatu Department of Customs and Inland Revenue"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "low"
+    "confidence": "low",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Jersey - Limited Company",
@@ -2416,7 +2503,8 @@
       "https://www.jerseyfsc.org — Jersey Financial Services Commission"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Guernsey - Limited Company",
@@ -2444,7 +2532,8 @@
       "https://www.gfsc.gg — Guernsey Financial Services Commission"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Isle of Man - Limited Company",
@@ -2472,7 +2561,8 @@
       "https://www.iomfsa.im — Isle of Man Financial Services Authority"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Liechtenstein - Anstalt (Establishment)",
@@ -2500,7 +2590,8 @@
       "https://www.oera.li — Office of Justice / Commercial Register"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "high"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   },
   {
     "country": "Andorra - Societat Limitada (SL)",
@@ -2528,6 +2619,88 @@
       "https://www.govern.ad — Government of Andorra (Foreign Investment Authorization)"
     ],
     "lastVerified": "2026-04-28",
-    "confidence": "medium"
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
+  },
+  {
+    "country": "Georgia - Individual Entrepreneur (Small Business Status)",
+    "entityType": "sole_proprietor",
+    "minInvestment": "None (no share capital)",
+    "annualCost": "Accounting and monthly filings from EUR 49/month (required to keep Small Business status). Polystate setup: EUR 1,299 one-time, including a local bank account",
+    "timeToFormation": "2-3 weeks, fully remote via notarized and apostilled Power of Attorney",
+    "requirements": [
+      "Valid passport",
+      "Power of Attorney and passport copy, notarized and apostilled, sent by courier to Tbilisi",
+      "Activity eligible for Small Business status (some activities are excluded)"
+    ],
+    "benefits": [
+      "1% tax on turnover up to 500,000 GEL (about EUR 160,000) a year; 3% above",
+      "Sole-trader registration: no company, no share capital, minimal reporting",
+      "Local Georgian bank account included",
+      "No visit to Georgia needed for setup"
+    ],
+    "taxImplications": "Small Business status: 1% on turnover up to 500,000 GEL/year, 3% above. The low rate does not by itself remove tax in the owner's home country; it mainly helps owners who become tax resident in Georgia (generally 183 days in 12 months). Polystate service: https://polystate.io/georgia",
+    "sources": [
+      "https://www.rs.ge/",
+      "https://napr.gov.ge/",
+      "https://polystate.io/georgia"
+    ],
+    "lastVerified": "2026-11-03",
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
+  },
+  {
+    "country": "Georgia - Limited Liability Company (LLC)",
+    "entityType": "llc",
+    "minInvestment": "No minimum share capital",
+    "annualCost": "Accounting, tax filings and legal address from EUR 199/month. Polystate setup: EUR 1,499 one-time, including a business bank account",
+    "timeToFormation": "3-4 weeks, fully remote via notarized and apostilled Power of Attorney",
+    "requirements": [
+      "Valid passport for each founder",
+      "Power of Attorney and passport copy, notarized and apostilled, sent by courier to Tbilisi"
+    ],
+    "benefits": [
+      "15% profit tax only when profit is distributed; reinvested profit is not taxed (Estonian-style model)",
+      "5% dividend tax",
+      "No revenue cap and no minimum capital",
+      "Business bank account included"
+    ],
+    "taxImplications": "15% corporate profit tax on distributed profit only, 5% withholding tax on dividends. Tax residence of the company can depend on where it is managed from. Polystate service: https://polystate.io/georgia",
+    "sources": [
+      "https://www.rs.ge/",
+      "https://napr.gov.ge/",
+      "https://polystate.io/georgia"
+    ],
+    "lastVerified": "2026-11-03",
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
+  },
+  {
+    "country": "Georgia - LLC with Virtual Zone Status",
+    "entityType": "llc",
+    "minInvestment": "No minimum share capital",
+    "annualCost": "From EUR 199/month (accounting and address). Polystate setup: EUR 2,499 one-time, including LLC, Virtual Zone application and business bank account",
+    "timeToFormation": "LLC in 3-4 weeks, Virtual Zone status about 10 days after the LLC",
+    "requirements": [
+      "IT or digital business exporting services to clients outside Georgia",
+      "Real activity (substance) in Georgia",
+      "Founders' agreement and a company description",
+      "Power of Attorney and passport copy, notarized and apostilled"
+    ],
+    "benefits": [
+      "0% profit tax on IT services sold abroad",
+      "0% VAT on exported IT services",
+      "5% dividend tax",
+      "Business bank account included"
+    ],
+    "taxImplications": "Virtual Zone status: 0% profit tax and 0% VAT on qualifying IT services exported outside Georgia; 5% dividend tax; employees in Georgia pay 20% personal income tax. Requires genuine IT activity in Georgia. Polystate service: https://polystate.io/georgia",
+    "sources": [
+      "https://www.rs.ge/",
+      "https://napr.gov.ge/",
+      "https://polystate.io/georgia"
+    ],
+    "lastVerified": "2026-11-03",
+    "confidence": "medium",
+    "compiled_by": "claude-llm-assisted"
   }
 ]

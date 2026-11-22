@@ -1,6 +1,6 @@
 # Polystate — Claude Code Plugin
 
-**Version 2.0+** — Live **MCP** connection to `https://polystate-mcp-server.shy-surf-2fdf.workers.dev/mcp` plus **offline JSON fallbacks** (no API key required for fallback).
+**Version 2.0+** — Live **MCP** connection to `https://mcp.polystate.io/mcp` plus **offline JSON fallbacks** (no API key required for fallback).
 
 > Immigration & tax intelligence: **171** jurisdictions for crypto-tax and scoring, **100+** visa-program rows, curated residency and **company formation** catalogs.
 
@@ -80,11 +80,11 @@ Uses MCP tools when connected, otherwise reads `${CLAUDE_PLUGIN_ROOT}/data/`.
 | `data/residency-compare.json` | 27 curated entries |
 | `data/company-formation.json` | Company / LLC catalog |
 
-Refresh by copying newer JSON from `polystate-mcp-server/data/` on `main` and bumping the plugin version.
+Refresh from `main` and bump the plugin version: `crypto-tax.json`, `visa-programs.json` and `residency-compare.json` come from `polystate-brain/data/countries/`; `company-formation.json` and `jurisdiction-scoring.json` from `polystate-mcp-server/data/`. Keep `crypto-tax.json` and `jurisdiction-scoring.json` one country per line and every file under 256 KiB.
 
 ## MCP tools
 
-The live server exposes 13 tools:
+The live server exposes 16 tools:
 
 | Tool | What it does |
 |------|--------------|
@@ -99,8 +99,11 @@ The live server exposes 13 tools:
 | `get_residency_programs` | Residency programs for a country |
 | `get_company_formation` | Company and LLC formation options |
 | `get_legal_changes` | Legal and regulatory changes, newest first |
+| `list_services` | Free list of bookable Polystate services, with the ids the booking tools take |
 | `check_eligibility` | Free check of a nationality against a Polystate service |
 | `book_service` | Starts a paid Stripe checkout for a Polystate service |
+| `check_licensed_agent` | Whether a firm is on an official citizenship / residency-by-investment licensed-agent list (8 government lists) |
+| `get_verified_facts` | Paraguay, Honduras and Próspera facts, each with its official source link, verbatim quote and check date |
 
 `book_service` is the only tool that leads to a charge. It returns a checkout link; nothing is billed until the user pays in the browser.
 

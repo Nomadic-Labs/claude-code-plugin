@@ -11,7 +11,7 @@
       "name": "polystate",
       "source": ".",
       "displayName": "Polystate — Immigration & Tax Intelligence",
-      "description": "13 immigration & tax tools over MCP (visa checks, relocation optimisation, tax comparison, crypto tax, treaties, residency, company formation, jurisdiction scoring, legal changes, service eligibility and booking) plus offline fallbacks. Free API key at https://polystate.io/developers.",
+      "description": "16 immigration & tax tools over MCP (visa checks, relocation optimisation, tax comparison, crypto tax, treaties, residency, company formation, jurisdiction scoring, legal changes, licensed-agent checks, verified facts, service listing, eligibility and booking) plus offline fallbacks. Free API key at https://polystate.io/developers.",
       "category": "productivity",
       "author": {
         "name": "Polystate",
