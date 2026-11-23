@@ -23,6 +23,9 @@ All notable changes to the Polystate Claude Code plugin.
     of economic means, with a Uruguay XXI source (`lastVerified` 2026-10-26).
   - `crypto-tax.json`, Honduras: crypto is not regulated or legal tender (central
     bank notice, 29 Jul 2022), replacing "exploring Bitcoin as legal tender".
+  - `crypto-tax.json` and `jurisdiction-scoring.json`: 172 garbled characters
+    repaired ("â¬600K" now "€600K", "Â£220k" now "£220k", dashes and accents); same fix
+    as polystate-brain#93 and polystate-mcp-server#63.
   - `jurisdiction-scoring.json`: no content change.
 
 ## [2.2.3] — 2026-10
