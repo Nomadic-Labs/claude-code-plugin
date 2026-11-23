@@ -2,6 +2,32 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.3.0] — 2026-11
+
+### Changed
+- MCP endpoint is now `https://mcp.polystate.io/mcp` (was the `workers.dev` host,
+  which still serves the same Worker).
+- Listing and README now say 16 MCP tools (13 is the ChatGPT surface) and list
+  `list_services`, `check_licensed_agent` and `get_verified_facts`.
+- Bundled data refreshed from `main`: `crypto-tax.json`, `visa-programs.json` and
+  `residency-compare.json` from `polystate-brain/data/countries/`;
+  `company-formation.json` and `jurisdiction-scoring.json` from
+  `polystate-mcp-server/data/`.
+  - `company-formation.json`: 95 entries (was 92), adding three Georgia entries
+    ("Individual Entrepreneur (Small Business Status)", "Limited Liability Company
+    (LLC)", "LLC with Virtual Zone Status"). Every entry now carries `compiled_by: "claude-llm-assisted"`, and 72
+    entries are rated `medium` confidence instead of `high`.
+  - `visa-programs.json`: every row now has an alpha-2 `countryCode`.
+  - `residency-compare.json`, Uruguay digital nomad permit: no fixed income figure
+    is published; the USD 1,500/month requirement is replaced by a sworn statement
+    of economic means, with a Uruguay XXI source (`lastVerified` 2026-10-26).
+  - `crypto-tax.json`, Honduras: crypto is not regulated or legal tender (central
+    bank notice, 29 Jul 2022), replacing "exploring Bitcoin as legal tender".
+  - `crypto-tax.json` and `jurisdiction-scoring.json`: 172 garbled characters
+    repaired ("â¬600K" now "€600K", "Â£220k" now "£220k", dashes and accents); same fix
+    as polystate-brain#93 and polystate-mcp-server#63.
+  - `jurisdiction-scoring.json`: no content change.
+
 ## [2.2.3] — 2026-10
 
 ### Fixed

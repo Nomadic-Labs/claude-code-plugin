@@ -206,7 +206,7 @@
     "timeToCitizenship": "DN visa is 6 months + 6 months renewal (Decree 238/022), then can transition to TR/PR. Citizenship: 3 years (with family) or 5 years (without family) from application date.",
     "minimumPresence": "6 months per year",
     "requirements": [
-      "Proof of steady income from abroad (minimum USD 1,500/month)",
+      "Sworn statement that you have the economic means to support yourself during the stay (no fixed income figure is published)",
       "Sworn statement confirming remote work",
       "Criminal record certificate for the last 5 years apostilled and translated"
     ],
@@ -219,9 +219,10 @@
     "sources": [
       "https://www.gub.uy/tramites — Uruguayan Government services portal",
       "https://www.liveinuruguay.uy/digitalnomadpermit — Official DN permit info (Decree 238/022)",
-      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)"
+      "https://www.dgi.gub.uy — Uruguayan Tax Authority (DGI)",
+      "https://www.uruguayxxi.gub.uy/en/news/article/digital-nomads-will-be-able-to-legally-live-and-work-in-uruguay/ — Uruguay XXI (government agency), permit terms"
     ],
-    "lastVerified": "2026-02-19",
+    "lastVerified": "2026-10-26",
     "confidence": "high",
     "countryCode": "UY"
   },
