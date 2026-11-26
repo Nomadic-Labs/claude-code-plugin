@@ -44,7 +44,7 @@ Each skill accepts arguments after the command name:
   LLC and company-formation options from `company-formation.json` / MCP `get_company_formation`.
 
 - `/polystate:polystate-apply [country or topic optional]`
-  Points to Polystate services; uses MCP resource `polystate://services/{ISO}` when available, else **https://polystate.io**
+  Polystate services: finds the service, checks eligibility and starts a booking with MCP `list_services`, `check_eligibility` and `book_service` when connected, else **https://polystate.io**
 
 ## Need Help Choosing?
 

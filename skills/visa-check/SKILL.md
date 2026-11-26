@@ -8,13 +8,23 @@ The user provided: `$ARGUMENTS`
 
 ## Live Polystate MCP (preferred)
 
-When the **`polystate`** MCP server is connected (`/mcp`) and the plugin's **Polystate API key** setting is filled in, resolve **ISO-3166** alpha-2 or alpha-3 codes for passport and destination countries, then call **`visa_check`** with:
+When the **`polystate`** MCP server is connected (`/mcp`) and the plugin's **Polystate API key** setting is filled in, call **`visa_check`** with:
 
 ```json
-{ "passport_country": "<ISO>", "destination_country": "<ISO>" }
+{ "passport_country": "<code or English name>", "destination_country": "<code or English name>" }
 ```
 
-Use the tool result as the primary answer (it includes recommendations and alternatives from the live stack). If the tool errors or MCP is offline, fall through to embedded data below.
+- Each country is an ISO-3166 alpha-2 or alpha-3 code or an English country name (`SK`, `SVK` or `Slovakia`).
+- Add `"visa_type"` when the user named a kind, for example `"digital nomad"`, `"work"` or `"tourist"`. If that call returns `"found": false`, call again without `visa_type` before telling the user there is no data.
+- When the user picks an option or asks what they need, call **`get_visa_requirements`** with the same two countries and that `visa_type`. If it returns no results, call it again without `visa_type`.
+
+Use the tool result as the primary answer (it includes recommendations and alternatives from the live stack):
+
+- Say whether the answer is specific to their passport or general data for the destination. The result flags this.
+- Give `official_link` for each option. `data_as_of` is the date the row was last loaded, not a check of the rule: quote it, and say so when it is null or more than a year old.
+- Never guarantee approval. The government decides each application.
+
+If the tool errors or MCP is offline, fall through to embedded data below.
 
 ---
 

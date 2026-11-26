@@ -42,12 +42,12 @@ All skills are namespaced under `/polystate:`.
 | Skill | Command | Notes |
 |-------|---------|--------|
 | Overview | `/polystate:polystate` | Setup, list commands |
-| Visa | `/polystate:visa-check [passport] [dest]` | MCP: `visa_check` (ISO) |
-| Tax | `/polystate:tax-compare [c1] [c2?]` | MCP: `tax_compare` (2 ISOs) or `get_crypto_tax_treatment` (1) |
+| Visa | `/polystate:visa-check [passport] [dest]` | MCP: `visa_check`, then `get_visa_requirements` (code or country name) |
+| Tax | `/polystate:tax-compare [c1] [c2?]` | MCP: `tax_compare` (2 countries) or `get_crypto_tax_treatment` (1) |
 | Jurisdiction | `/polystate:jurisdiction [country]` | MCP: `compare_jurisdictions`, `get_crypto_tax_treatment`, … |
 | Residency | `/polystate:residency [country]` | MCP: `get_residency_programs` |
 | LLC / formation | `/polystate:llc-setup [country] [type?]` | MCP: `get_company_formation` |
-| Services / apply | `/polystate:polystate-apply [country?]` | MCP resource `polystate://services/{ISO}` when available; else **https://polystate.io** |
+| Services / apply | `/polystate:polystate-apply [country?]` | MCP: `list_services`, `check_eligibility`, `book_service`; else **https://polystate.io** |
 
 Examples:
 

@@ -2,6 +2,24 @@
 
 All notable changes to the Polystate Claude Code plugin.
 
+## [2.3.1] — 2026-11
+
+### Changed
+- The live-MCP part of every skill now matches the current server. The bundled
+  data and the offline-fallback steps are unchanged.
+  - Country inputs: an ISO-3166 code or an English country name. The skills no
+    longer tell Claude to convert names to codes first.
+  - `polystate-apply`: uses `list_services`, then `check_eligibility`, then
+    `book_service`. It no longer says that booking has no MCP tool.
+  - `visa-check`: follows up with `get_visa_requirements`.
+  - `tax-compare` and `residency`: call `get_verified_facts` first for Paraguay,
+    Honduras and Próspera.
+  - `jurisdiction`: uses `optimize_relocation` for open-ended "where should I
+    move" questions.
+  - Each skill carries the server's presentation rules: quote the source's
+    wording for a conditional rate, a null value is not zero, no guarantees.
+- README skills table updated to match.
+
 ## [2.3.0] — 2026-11
 
 ### Changed

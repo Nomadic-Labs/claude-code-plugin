@@ -10,9 +10,18 @@ The user provided: `$ARGUMENTS`
 
 When **`polystate`** MCP is connected:
 
-- **Two countries:** call **`compare_jurisdictions`** with `{ "countries": ["<ISO1>", "<ISO2>"] }`.
-- **One country:** call **`get_crypto_tax_treatment`** and **`get_residency_programs`** with `{ "country": "<ISO>" }` and merge a narrative profile; optionally **`get_tax_rates`** / **`get_tax_treaties`** for the same ISO for depth.
+- **Two or more countries:** call **`compare_jurisdictions`** with `{ "countries": ["<country 1>", "<country 2>"] }` (2 to 50 countries).
+- **One country:** call **`get_crypto_tax_treatment`** and **`get_residency_programs`** with `{ "country": "<country>" }` and merge a narrative profile; optionally **`get_tax_rates`** / **`get_tax_treaties`** for the same country for depth.
 - **Global ranking:** `compare_jurisdictions` with `{ "limit": 20 }` (omit `countries`) only when the user asks for “top” jurisdictions.
+- **Open-ended "where should I move":** call **`optimize_relocation`** with `weights` (0 to 100 per dimension) that match the user's priorities, and `passport_country` when known.
+
+Each country is an ISO-3166 alpha-2 or alpha-3 code or an English country name. Pass `weights` to `compare_jurisdictions` too when the user stated priorities.
+
+When presenting a live result:
+
+- The `tax` score reflects how an individual's crypto is taxed, not salary income tax.
+- A 0% estimate is `firm` or `conditional`. The field is `zero_tax_rate` on a `compare_jurisdictions` row and `crypto_tax.zero_rate` on an `optimize_relocation` result. Check `get_crypto_tax_treatment` before quoting a conditional zero.
+- These tools return program terms and eligibility only, no prices.
 
 If MCP fails, use embedded **`${CLAUDE_PLUGIN_ROOT}/data/jurisdiction-scoring.json`** below.
 
