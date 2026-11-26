@@ -10,10 +10,21 @@ The user provided: `$ARGUMENTS`
 
 When **`polystate`** MCP is connected:
 
-- **Two countries:** call **`tax_compare`** with `{ "country1": "<ISO>", "country2": "<ISO>" }` (both required in the API).
-- **One country:** call **`get_crypto_tax_treatment`** with `{ "country": "<ISO>" }` — the `tax_compare` tool requires two countries.
+- **Two countries:** call **`tax_compare`** with `{ "country1": "<code or English name>", "country2": "<code or English name>" }` (both required in the API).
+- **One country:** call **`get_crypto_tax_treatment`** with `{ "country": "<code or English name>" }` — the `tax_compare` tool requires two countries. For each rate in the source's own wording, plus special regimes, call **`get_tax_rates`**.
+- **Paraguay, Honduras or Próspera:** call **`get_verified_facts`** first. Where it differs from another tool, state the verified fact.
 
-If MCP succeeds, format the JSON for the user. If it fails or MCP is offline, use embedded **`${CLAUDE_PLUGIN_ROOT}/data/crypto-tax.json`** below.
+Each country is an ISO-3166 alpha-2 or alpha-3 code or an English country name.
+
+If MCP succeeds, format the JSON for the user:
+
+- The income and capital-gains figures describe how crypto is taxed, and `corporate` is the headline company rate. Salary income tax brackets and consumer VAT are not covered: say so, never quote these figures as such.
+- When a rate has `conditional: true`, quote its `as_reported` wording, not the bare number.
+- A 0% is `firm` or `conditional` (`zero_tax_rate`). A conditional zero holds only under conditions such as a holding period: state the condition.
+- When `tax_compare` answers `depends_on_conditions`, explain the conditions instead of naming a winner.
+- A null value means no figure on file, never zero.
+
+If it fails or MCP is offline, use embedded **`${CLAUDE_PLUGIN_ROOT}/data/crypto-tax.json`** below.
 
 ---
 

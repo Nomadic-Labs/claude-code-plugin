@@ -8,15 +8,23 @@ The user provided: `$ARGUMENTS`
 
 ## Live Polystate MCP (preferred)
 
-When **`polystate`** MCP is connected, map the country to **ISO-3166** alpha-2 or alpha-3, then call **`get_residency_programs`** with:
+When **`polystate`** MCP is connected, call **`get_residency_programs`** with:
 
 ```json
-{ "country": "<ISO>", "category": "temporary" | "permanent" | "investor" | "digital_nomad" }
+{ "country": "<code or English name>", "category": "temporary" | "permanent" | "investor" | "digital_nomad" }
 ```
 
-Only include `category` if the user asked for that type; otherwise omit it.
+The country is an ISO-3166 alpha-2 or alpha-3 code or an English country name. Only include `category` if the user asked for that type; otherwise omit it.
 
-If MCP returns programs, present them as the primary answer. If MCP fails or returns empty, fall back to **`${CLAUDE_PLUGIN_ROOT}/data/residency-compare.json`** below.
+For Paraguay, Honduras or Próspera, also call **`get_verified_facts`**. Where it differs, state the verified fact.
+
+If MCP returns programs, present them as the primary answer:
+
+- Quote `minimum_investment` and `annual_cost` in the source's own wording. They are thresholds, often in local currency, not fees. `fees.setup` and `fees.recurring` are null for most programs, and null is not zero.
+- Give each program's `sources`, `last_verified` and confidence level.
+- Never present an announced, paused or closed program as open, and never guarantee approval. The government decides each application.
+
+If MCP fails or returns empty, fall back to **`${CLAUDE_PLUGIN_ROOT}/data/residency-compare.json`** below.
 
 ---
 

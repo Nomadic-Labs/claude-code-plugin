@@ -15,11 +15,12 @@ Parse `$ARGUMENTS` into:
 If the **Polystate** MCP server is connected (`/mcp` shows `polystate`), call the MCP tool **`get_company_formation`** with:
 
 ```json
-{ "country": "<ISO2 or ISO3>", "entity_type": "<optional filter>" }
+{ "country": "<code or English name>", "entity_type": "<optional filter>" }
 ```
 
-- Use **ISO codes** as returned from your geography knowledge or by mapping from the country name.
+- The country is an ISO-3166 alpha-2 or alpha-3 code or an English country name. A US state resolves to the US.
 - If the user asked specifically for LLCs, set `"entity_type": "llc"`.
+- If the user wants Polystate to set the company up, call **`list_services`** for that country and follow the `/polystate:polystate-apply` skill.
 - Present the JSON result in clear Markdown: program name, entity type, min investment, annual cost, time to formation, requirements, benefits, tax implications, sources, confidence.
 
 If MCP returns empty `formations[]`, say so and suggest checking spelling or another entity type.
