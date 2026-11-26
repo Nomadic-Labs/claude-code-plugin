@@ -16,7 +16,7 @@ When the **`polystate`** MCP server is connected (`/mcp`) and the plugin's **Pol
 
 - Each country is an ISO-3166 alpha-2 or alpha-3 code or an English country name (`SK`, `SVK` or `Slovakia`).
 - Add `"visa_type"` when the user named a kind, for example `"digital nomad"`, `"work"` or `"tourist"`. If that call returns `"found": false`, call again without `visa_type` before telling the user there is no data.
-- When the user picks an option or asks what they need, call **`get_visa_requirements`** with the same two countries and that `visa_type`.
+- When the user picks an option or asks what they need, call **`get_visa_requirements`** with the same two countries and that `visa_type`. If it returns no results, call it again without `visa_type`.
 
 Use the tool result as the primary answer (it includes recommendations and alternatives from the live stack):
 

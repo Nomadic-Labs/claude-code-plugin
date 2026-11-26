@@ -16,7 +16,7 @@ When the **`polystate`** MCP server is connected (`/mcp`), do these three steps 
 
 1. **Find the service.** Call **`list_services`** with an optional `country` and an optional `search` keyword. Omit both to list the whole catalog. Each service comes with its id, exact name, description, list price and processing time.
 2. **Check eligibility.** Call **`check_eligibility`** with the user's `nationality` and the `service` id or name from step 1. It returns the formal requirements and any nationality restriction. If it returns candidates, ask the user which one they mean. Do not guess.
-3. **Book.** Only after the user confirms, call **`book_service`** with the service id or exact name. It returns a checkout link. Nothing is billed until the user pays in the browser.
+3. **Book.** Only after the user confirms, call **`book_service`** with the service id or exact name. It returns a checkout link, or for some services a link and a note on the next step: pass on exactly what it returns. Nothing is billed until the user pays in the browser.
 
 When presenting:
 
